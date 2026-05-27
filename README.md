@@ -1,4 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:0891b2&height=140&section=header&text=Matheus%20Rodrigues%20Satriano&fontSize=32&fontColor=ffffff&animation=twinkling" width="100%" alt="" />
+<a href="https://github.com/SrSatriano">
+  <img src="./assets/banner-profile.svg" width="100%" alt="Matheus Rodrigues Satriano — Back-end, HFT, IA, Web3" />
+</a>
 
 <div align="center">
 
@@ -16,18 +18,60 @@
   </a>
 </p>
 
+<p>
+  <img src="https://img.shields.io/badge/Repos_públicos-43-0ea5e9?style=flat-square" alt="" />
+  <img src="https://img.shields.io/badge/LHN-V90-principal-22c55e?style=flat-square" alt="" />
+  <img src="https://img.shields.io/badge/Módulos_OSS-30-blue?style=flat-square" alt="" />
+  <img src="https://img.shields.io/badge/MQL5-Desenvolvimento-6b7280?style=flat-square" alt="" />
+</p>
+
 </div>
 
 ---
 
 ## Quem sou
 
-Sou **Matheus Rodrigues Satriano**, graduando em **Ciência da Computação**. Programo principalmente **back-end** e passo a maior parte do tempo em coisas que têm a ver com **mercado financeiro**, **baixa latência** e **IA rodando na minha máquina** — sem depender de API na nuvem quando dá para evitar.
+Sou **Matheus Rodrigues Satriano**, graduando em **Ciência da Computação**. Programo **back-end** e passo boa parte do tempo em **mercado**, **latência** e **IA local** — o que não precisa ir pra nuvem, eu prefiro rodar na minha máquina.
 
-Este perfil é basicamente minha forma de pensar, o **LHN** (meu terminal de trading) e **alguns repositórios** que fui abrindo por tema: HFT, IA, Web3, fiscal brasileiro, infra. 
+Este perfil é o que eu deixo público: o **LHN** (meu terminal de trading), **trinta repositórios** por tema (HFT, IA, Web3, fiscal BR, infra), **MQL5** no [Desenvolvimento](https://github.com/SrSatriano/Desenvolvimento) e projetos mais antigos (Senac, primeiras IAs). Documento em português porque é assim que eu reviso o código.
 
-Se quiser ver tudo organizado com filtros, entra no meu site:  
-**→ [srsatriano.github.io/portfolio-matheus-satriano](https://srsatriano.github.io/portfolio-matheus-satriano/)**
+**→ [srsatriano.github.io/portfolio-matheus-satriano](https://srsatriano.github.io/portfolio-matheus-satriano/)** · [mapa GitHub com gráficos](https://srsatriano.github.io/portfolio-matheus-satriano/#github)
+
+---
+
+## Panorama do perfil
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=SrSatriano&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=22c55e&include_all_commits=true&count_private=false" alt="Estatísticas" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SrSatriano&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&langs_count=10" alt="Linguagens" />
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=SrSatriano&theme=tokyonight&hide_border=true&background=0f172a&ring=22c55e&fire=38bdf8&currStreakLabel=38bdf8" alt="Streak" />
+
+</div>
+
+### Contribuições
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/SrSatriano" alt="Gráfico de contribuições" width="100%" />
+</p>
+
+### Como meus repos se dividem
+
+```mermaid
+pie showData
+    title Repositórios públicos por área
+    "Módulos OSS (30)" : 30
+    "LHN (principal + coleção)" : 3
+    "MetaTrader / MQL5" : 1
+    "Arquivo & estudos" : 6
+    "Site & perfil" : 2
+```
+
+| Bloco | Qtd | Exemplos |
+|-------|:---:|----------|
+| **LHN & trading** | 4 | [LHN-V90-IA](https://github.com/SrSatriano/LHN-V90-IA), [LHN_Sovereign_Collection](https://github.com/SrSatriano/LHN_Sovereign_Collection), [Desenvolvimento](https://github.com/SrSatriano/Desenvolvimento) (MQL5) |
+| **Módulos OSS** | 30 | order book, RAG, fiscal BR, Web3… |
+| **Trajetória** | 6 | [IA-Financeira](https://github.com/SrSatriano/IA-Financeira), [PersonalAI](https://github.com/SrSatriano/PersonalAI), [Python_Senac_RIo_On](https://github.com/SrSatriano/Python_Senac_RIo_On) |
 
 ---
 
@@ -39,160 +83,165 @@ Se quiser ver tudo organizado com filtros, entra no meu site:
 
 ### [LHN Sovereign V90](https://github.com/SrSatriano/LHN-V90-IA)
 
-É o projeto que eu mais cuido. Montei uma estação local para **estudar, simular e operar** perpétuos na **Bybit (V5)** — painel em Next.js, API em FastAPI, camadas de risco e modelos em Keras onde faz sentido.
+O projeto que eu mais cuido: **Bybit V5**, painel Next.js (`9090`), API FastAPI (`9002`), risco e IA onde encaixa.
 
-**Portas que uso no dia a dia:** painel `9090` · API `9002`
-
-Licença **PolyForm Noncommercial** (não é MIT — leia o repo antes de usar em produção comercial).
+Licença **PolyForm Noncommercial** — não é MIT.
 
 </td>
 <td width="50%" valign="top">
 
-### Meu site + os 30 repos
+### [Desenvolvimento](https://github.com/SrSatriano/Desenvolvimento) (MQL5)
 
-No site eu separo **LHN** dos outros projetos e deixo claro o que já roda de verdade e o que ainda é esqueleto com roadmap.
-
-Os trinta repos abaixo são **MIT**, cada um num repositório. Alguns já têm teste e binário; outros estão na fila — o README de cada um diz a verdade.
-
-**Site:** [portfolio-matheus-satriano](https://github.com/SrSatriano/portfolio-matheus-satriano)
+Onde guardo **Experts, indicadores e scripts MetaTrader** — outra frente do mesmo universo de mercado.
 
 </td>
 </tr>
 </table>
 
+<div align="center">
+
 <a href="https://github.com/SrSatriano/LHN-V90-IA">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=SrSatriano&repo=LHN-V90-IA&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=22c55e" alt="LHN-V90-IA" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=SrSatriano&repo=LHN-V90-IA&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=22c55e" alt="LHN" />
+</a>
+<a href="https://github.com/SrSatriano/Desenvolvimento">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=SrSatriano&repo=Desenvolvimento&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=f97316" alt="MQL5" />
+</a>
+<a href="https://github.com/SrSatriano/ultra-low-latency-order-book-engine">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=SrSatriano&repo=ultra-low-latency-order-book-engine&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=67e8f9" alt="Order book" />
 </a>
 
+</div>
+
 ```
-Next.js (9090) ── REST / WebSocket ──► FastAPI (9002) ──► Bybit · IA · workspace local
+Next.js (9090) ── REST / WS ──► FastAPI (9002) ──► Bybit · IA · workspace
 ```
 
 ---
 
-## Onde eu mais mexo no código
+## Destaques que eu mostro primeiro
 
-| Área | O que tem aqui |
-|------|----------------|
-| **Trading** | [LHN-V90-IA](https://github.com/SrSatriano/LHN-V90-IA), [order book C++](https://github.com/SrSatriano/ultra-low-latency-order-book-engine), [terminal Rust](https://github.com/SrSatriano/unified-trading-super-terminal), [pricing AVX-512](https://github.com/SrSatriano/avx512-options-pricing-engine) |
-| **IA local** | [RAG com Ollama](https://github.com/SrSatriano/local-rag-second-mind-vault), cluster de inferência, pipelines de vídeo/áudio |
-| **Brasil** | [OCR fiscal](https://github.com/SrSatriano/fiscal-data-ocr-engine), [tax-loss](https://github.com/SrSatriano/tax-loss-harvesting-engine), SaaS B2B |
-| **Web3** | contratos, ZK, análise de token — sempre com README explicando o risco |
+| Projeto | Por quê |
+|---------|---------|
+| [Order Book Engine](https://github.com/SrSatriano/ultra-low-latency-order-book-engine) | C++ · matching · já com testes |
+| [Second Mind Vault](https://github.com/SrSatriano/local-rag-second-mind-vault) | RAG offline, Ollama |
+| [AVX-512 Pricing](https://github.com/SrSatriano/avx512-options-pricing-engine) | precificação na CPU |
+| [Fiscal OCR](https://github.com/SrSatriano/fiscal-data-ocr-engine) · [Tax Harvest](https://github.com/SrSatriano/tax-loss-harvesting-engine) | Brasil |
+| [Analytics Dashboard](https://github.com/SrSatriano/multi-channel-analytics-dashboard) | Next.js + gráficos |
+| [Log Router](https://github.com/SrSatriano/high-compression-log-router) | Rust · Zstd |
 
-Alguns que eu gosto de mostrar primeiro:
-
-| | |
-|---|---|
-| [Order Book Engine](https://github.com/SrSatriano/ultra-low-latency-order-book-engine) | matching em C++, gRPC, ZeroMQ |
-| [Second Mind Vault](https://github.com/SrSatriano/local-rag-second-mind-vault) | documentos locais + Ollama, sem mandar nada pra nuvem |
-| [Analytics Dashboard](https://github.com/SrSatriano/multi-channel-analytics-dashboard) | métricas de canal em Next.js |
-| [Log Router](https://github.com/SrSatriano/high-compression-log-router) | ingestão de log com Zstd em Rust |
-
-Lista completa com filtro: **[meu site → projetos](https://srsatriano.github.io/portfolio-matheus-satriano/#projetos)**
+**Lista filtrada no site:** [portfolio → projetos](https://srsatriano.github.io/portfolio-matheus-satriano/#projetos)
 
 ---
 
-## Todos os repositórios (30 + LHN)
+## Todos os 30 módulos + LHN
 
 <details>
-<summary><b>Trading & quant</b> — clique para abrir</summary>
+<summary><b>Trading & quant (10)</b></summary>
 
-| Repositório | Em uma linha |
-|-------------|----------------|
-| [LHN-V90-IA](https://github.com/SrSatriano/LHN-V90-IA) | meu terminal Bybit + IA |
-| [ultra-low-latency-order-book-engine](https://github.com/SrSatriano/ultra-low-latency-order-book-engine) | order book C++ |
-| [smc-liquidity-scanner](https://github.com/SrSatriano/smc-liquidity-scanner) | SMC, FVG, estrutura |
-| [unified-trading-super-terminal](https://github.com/SrSatriano/unified-trading-super-terminal) | TUI Ratatui |
-| [avx512-options-pricing-engine](https://github.com/SrSatriano/avx512-options-pricing-engine) | Black-Scholes / MC na CPU |
-| [mempool-arbitrage-mev-bot](https://github.com/SrSatriano/mempool-arbitrage-mev-bot) | MEV só educacional / testnet |
-| [chaos-engineering-trading-toolkit](https://github.com/SrSatriano/chaos-engineering-trading-toolkit) | quebrar bot em homologação |
-| [dark-pool-market-impact-simulator](https://github.com/SrSatriano/dark-pool-market-impact-simulator) | impacto e slippage |
-| [tax-loss-harvesting-engine](https://github.com/SrSatriano/tax-loss-harvesting-engine) | harvest fiscal BR |
+| Repositório | Nota |
+|-------------|------|
+| [LHN-V90-IA](https://github.com/SrSatriano/LHN-V90-IA) | sistema principal |
+| [ultra-low-latency-order-book-engine](https://github.com/SrSatriano/ultra-low-latency-order-book-engine) | order book |
+| [smc-liquidity-scanner](https://github.com/SrSatriano/smc-liquidity-scanner) | SMC |
+| [unified-trading-super-terminal](https://github.com/SrSatriano/unified-trading-super-terminal) | TUI Rust |
+| [avx512-options-pricing-engine](https://github.com/SrSatriano/avx512-options-pricing-engine) | SIMD |
+| [mempool-arbitrage-mev-bot](https://github.com/SrSatriano/mempool-arbitrage-mev-bot) | educacional |
+| [chaos-engineering-trading-toolkit](https://github.com/SrSatriano/chaos-engineering-trading-toolkit) | chaos |
+| [dark-pool-market-impact-simulator](https://github.com/SrSatriano/dark-pool-market-impact-simulator) | simulador |
+| [tax-loss-harvesting-engine](https://github.com/SrSatriano/tax-loss-harvesting-engine) | fiscal BR |
 
 </details>
 
 <details>
-<summary><b>IA, produto, Web3, infra</b></summary>
+<summary><b>IA & mídia (8)</b></summary>
 
-| Repositório | Em uma linha |
-|-------------|----------------|
-| [local-rag-second-mind-vault](https://github.com/SrSatriano/local-rag-second-mind-vault) | RAG offline |
-| [distributed-ai-inference-cluster](https://github.com/SrSatriano/distributed-ai-inference-cluster) | gateway LLM |
-| [voice-cloning-tts-api-gateway](https://github.com/SrSatriano/voice-cloning-tts-api-gateway) | TTS self-hosted |
-| [autonomous-short-form-video-pipeline](https://github.com/SrSatriano/autonomous-short-form-video-pipeline) | Shorts automatizado |
-| [viral-trend-sentiment-predictor](https://github.com/SrSatriano/viral-trend-sentiment-predictor) | tendência + ML |
+| Repositório | Nota |
+|-------------|------|
+| [local-rag-second-mind-vault](https://github.com/SrSatriano/local-rag-second-mind-vault) | RAG |
+| [distributed-ai-inference-cluster](https://github.com/SrSatriano/distributed-ai-inference-cluster) | LLM gateway |
+| [voice-cloning-tts-api-gateway](https://github.com/SrSatriano/voice-cloning-tts-api-gateway) | TTS |
+| [autonomous-short-form-video-pipeline](https://github.com/SrSatriano/autonomous-short-form-video-pipeline) | vídeo |
+| [viral-trend-sentiment-predictor](https://github.com/SrSatriano/viral-trend-sentiment-predictor) | trends |
+| [realtime-deepfake-streaming-bridge](https://github.com/SrSatriano/realtime-deepfake-streaming-bridge) | CUDA |
+| [cognitive-bias-hallucination-trap](https://github.com/SrSatriano/cognitive-bias-hallucination-trap) | QA LLM |
+| [algorithmic-lofi-audio-generator](https://github.com/SrSatriano/algorithmic-lofi-audio-generator) | áudio |
+
+</details>
+
+<details>
+<summary><b>Produto · Web3 · Infra (13)</b></summary>
+
+| Repositório | Nota |
+|-------------|------|
 | [multi-channel-analytics-dashboard](https://github.com/SrSatriano/multi-channel-analytics-dashboard) | dashboard |
-| [fiscal-data-ocr-engine](https://github.com/SrSatriano/fiscal-data-ocr-engine) | NF-e / NFS-e |
-| [enterprise-b2b-saas-boilerplate](https://github.com/SrSatriano/enterprise-b2b-saas-boilerplate) | SaaS B2B |
-| [family-treasury-dao-tracker](https://github.com/SrSatriano/family-treasury-dao-tracker) | cofre familiar |
-| [zero-to-hero-workstation-provisioner](https://github.com/SrSatriano/zero-to-hero-workstation-provisioner) | Ansible dev machine |
-| [tokenomics-staking-protocol](https://github.com/SrSatriano/tokenomics-staking-protocol) | ERC-20 + staking |
+| [fiscal-data-ocr-engine](https://github.com/SrSatriano/fiscal-data-ocr-engine) | OCR |
+| [enterprise-b2b-saas-boilerplate](https://github.com/SrSatriano/enterprise-b2b-saas-boilerplate) | SaaS |
+| [family-treasury-dao-tracker](https://github.com/SrSatriano/family-treasury-dao-tracker) | tesouraria |
+| [tokenomics-staking-protocol](https://github.com/SrSatriano/tokenomics-staking-protocol) | staking |
 | [identity-vault-zk-proofs](https://github.com/SrSatriano/identity-vault-zk-proofs) | ZK |
-| [p2p-orderbook-gossip](https://github.com/SrSatriano/p2p-orderbook-gossip) | order book P2P |
-| [honeypot-rugpull-analyzer](https://github.com/SrSatriano/honeypot-rugpull-analyzer) | token antes do trade |
-| [cross-border-ledger-fabric](https://github.com/SrSatriano/cross-border-ledger-fabric) | Fabric B2B |
-| [ebpf-latency-tracer-financial](https://github.com/SrSatriano/ebpf-latency-tracer-financial) | latência no kernel |
-| [hypervisor-ai-isolation](https://github.com/SrSatriano/hypervisor-ai-isolation) | isolamento IA |
-| [gitops-infra-state-reconciler](https://github.com/SrSatriano/gitops-infra-state-reconciler) | drift infra |
-| [high-compression-log-router](https://github.com/SrSatriano/high-compression-log-router) | logs Zstd |
-| [realtime-deepfake-streaming-bridge](https://github.com/SrSatriano/realtime-deepfake-streaming-bridge) | pesquisa CUDA |
-| [cognitive-bias-hallucination-trap](https://github.com/SrSatriano/cognitive-bias-hallucination-trap) | testar LLM antes de subir |
-| [algorithmic-lofi-audio-generator](https://github.com/SrSatriano/algorithmic-lofi-audio-generator) | trilha para vídeo |
+| [p2p-orderbook-gossip](https://github.com/SrSatriano/p2p-orderbook-gossip) | libp2p |
+| [honeypot-rugpull-analyzer](https://github.com/SrSatriano/honeypot-rugpull-analyzer) | tokens |
+| [cross-border-ledger-fabric](https://github.com/SrSatriano/cross-border-ledger-fabric) | Fabric |
+| [zero-to-hero-workstation-provisioner](https://github.com/SrSatriano/zero-to-hero-workstation-provisioner) | Ansible |
+| [ebpf-latency-tracer-financial](https://github.com/SrSatriano/ebpf-latency-tracer-financial) | eBPF |
+| [hypervisor-ai-isolation](https://github.com/SrSatriano/hypervisor-ai-isolation) | hypervisor |
+| [gitops-infra-state-reconciler](https://github.com/SrSatriano/gitops-infra-state-reconciler) | GitOps |
+| [high-compression-log-router](https://github.com/SrSatriano/high-compression-log-router) | logs |
 
 </details>
 
 ---
 
-## Ferramentas que uso
+## Também público (fora dos 30)
+
+Repos que não entram no lote numerado, mas fazem parte do meu histórico:
+
+| Repositório | Linguagem | O que é |
+|-------------|-----------|---------|
+| [Desenvolvimento](https://github.com/SrSatriano/Desenvolvimento) | MQL5 | Experts e indicadores MT |
+| [LHN_Sovereign_Collection](https://github.com/SrSatriano/LHN_Sovereign_Collection) | Python | utilitários LHN |
+| [IA-Financeira](https://github.com/SrSatriano/IA-Financeira) | Python | primeiros testes IA + finanças ★1 |
+| [PersonalAI](https://github.com/SrSatriano/PersonalAI) | Python | assistente pessoal ★1 |
+| [calculadora-de-notas](https://github.com/SrSatriano/calculadora-de-notas) | Java | faculdade ★1 |
+| [Python_Senac_RIo_On](https://github.com/SrSatriano/Python_Senac_RIo_On) | Python | Senac |
+| [Projetos_Python](https://github.com/SrSatriano/Projetos_Python) | Python | estudos |
+| [portfolio-matheus-satriano](https://github.com/SrSatriano/portfolio-matheus-satriano) | TypeScript | este site |
+
+---
+
+## Stack
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" alt="Solidity" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="" />
+  <img src="https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust&logoColor=white" alt="" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="" />
+  <img src="https://img.shields.io/badge/MQL5-0ea5e9?style=flat-square" alt="" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="" />
+  <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" alt="" />
 </p>
 
 ---
 
-## Falar comigo
+## Contato
 
 | | |
 |---|---|
 | **Site** | [srsatriano.github.io/portfolio-matheus-satriano](https://srsatriano.github.io/portfolio-matheus-satriano/) |
-| **Google Developers** | [g.dev/satriano](https://g.dev/satriano) |
+| **g.dev** | [g.dev/satriano](https://g.dev/satriano) |
 | **E-mail** | matheussatriano@hotmail.com |
 
-Pode me chamar para conversar sobre back-end, trading, IA local ou produto fiscal no Brasil. Se o assunto for o LHN em ambiente comercial, combina comigo antes — a licença do repo é clara nesse ponto.
-
 <a href="https://www.buymeacoffee.com/matheussatriano">
-  <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy me a coffee" />
+  <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="" />
 </a>
 
 ---
 
-## GitHub
-
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=SrSatriano&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=22c55e" alt="Stats" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=SrSatriano&theme=tokyonight&hide_border=true&background=0f172a" alt="Streak" />
+**[LHN Sovereign V90](https://github.com/SrSatriano/LHN-V90-IA)** · **[Meu portfólio](https://srsatriano.github.io/portfolio-matheus-satriano/)** · **[@SrSatriano](https://github.com/SrSatriano?tab=repositories)**
 
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,100:0f172a&height=64&section=footer" width="100%" alt="" />
-
-**[LHN Sovereign V90](https://github.com/SrSatriano/LHN-V90-IA)** · **[Meu portfólio](https://srsatriano.github.io/portfolio-matheus-satriano/)**
-
-*Aberto a oportunidades e parcerias técnicas.*
+*Aberto a oportunidades e conversas técnicas.*
 
 </div>
