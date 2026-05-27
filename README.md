@@ -24,9 +24,9 @@
 
 Sou **Matheus Rodrigues Satriano**, graduando em **Ciência da Computação**. Programo principalmente **back-end** e passo a maior parte do tempo em coisas que têm a ver com **mercado financeiro**, **baixa latência** e **IA rodando na minha máquina** — sem depender de API na nuvem quando dá para evitar.
 
-Este perfil é o mapa do que eu mantenho público no GitHub: o **LHN** (meu terminal de trading) e **trinta repositórios** que fui abrindo por tema — HFT, IA, Web3, fiscal brasileiro, infra. Escrevo a documentação em **português** porque é assim que eu penso e reviso o código.
+Este perfil é basicamente minha forma de pensar, o **LHN** (meu terminal de trading) e **alguns repositórios** que fui abrindo por tema: HFT, IA, Web3, fiscal brasileiro, infra. 
 
-Se quiser ver tudo organizado com vídeo e filtros, entra no meu site:  
+Se quiser ver tudo organizado com filtros, entra no meu site:  
 **→ [srsatriano.github.io/portfolio-matheus-satriano](https://srsatriano.github.io/portfolio-matheus-satriano/)**
 
 ---
