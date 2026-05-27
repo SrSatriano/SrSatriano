@@ -187,18 +187,9 @@ Next.js (9090) ──► FastAPI (9002) ──► Bybit · IA · workspace
 
 <br/>
 
-<img src="https://ghchart.rshah.org/SrSatriano" alt="Contribuições" width="92%" />
+<img src="assets/repos-breakdown.svg" alt="37 repositórios públicos por categoria" width="96%" />
 
 </div>
-
-```mermaid
-pie showData
-    title 37 repos públicos
-    "Módulos OSS" : 30
-    "LHN" : 1
-    "Arquivo" : 4
-    "Site & perfil" : 2
-```
 
 ---
 
