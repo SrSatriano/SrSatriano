@@ -20,10 +20,10 @@
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Repos_públicos-37-0ea5e9?style=flat-square" alt="" />
-<img src="https://img.shields.io/badge/LHN-V90-principal-22c55e?style=flat-square" alt="" />
-<img src="https://img.shields.io/badge/OSS-30_módulos-1d4ed8?style=flat-square" alt="" />
-<img src="https://img.shields.io/badge/Docs-pt--BR-64748b?style=flat-square" alt="" />
+<img src="https://img.shields.io/badge/Repos%20p%C3%BAblicos-37-0ea5e9?style=flat-square" alt="37 repos públicos" />
+<img src="https://img.shields.io/static/v1?style=flat-square&label=LHN%20V90&message=principal&color=22c55e" alt="LHN principal" />
+<img src="https://img.shields.io/badge/OSS-30%20m%C3%B3dulos-1d4ed8?style=flat-square" alt="30 módulos OSS" />
+<img src="https://img.shields.io/badge/Docs-pt--BR-64748b?style=flat-square" alt="Docs pt-BR" />
 
 </div>
 
@@ -34,7 +34,7 @@
 | | Ir para |
 |:---:|---|
 | ★ | [**LHN Sovereign V90**](#lhn) |
-| → | [Sobre](#sobre) · [Destaques](#destaques) · [GitHub](#github) · [Todos os repos](#repos) · [Contato](#contato) |
+| → | [Sobre](#sobre) · [Destaques](#destaques) · [Tecnologias](#stack) · [GitHub](#github) · [Repos](#repos) · [Contato](#contato) |
 
 ---
 
@@ -46,7 +46,7 @@ Sou **Matheus Rodrigues Satriano**, graduando em **Ciência da Computação**. T
 
 No GitHub deixo **público** o [LHN](https://github.com/SrSatriano/LHN-V90-IA), **30 módulos** por tema, o [site de portfólio](https://github.com/SrSatriano/portfolio-matheus-satriano) e quatro projetos de estudo. Tudo documentado em **português**.
 
-**Site completo:** [srsatriano.github.io/portfolio-matheus-satriano](https://srsatriano.github.io/portfolio-matheus-satriano/) · **Mapa com gráficos:** [#github no site](https://srsatriano.github.io/portfolio-matheus-satriano/#github)
+**Site:** [srsatriano.github.io/portfolio-matheus-satriano](https://srsatriano.github.io/portfolio-matheus-satriano/) · **Mapa:** [#github no site](https://srsatriano.github.io/portfolio-matheus-satriano/#github)
 
 ---
 
@@ -56,7 +56,7 @@ No GitHub deixo **público** o [LHN](https://github.com/SrSatriano/LHN-V90-IA), 
 
 <table>
 <tr>
-<td width="55%" valign="top">
+<td width="52%" valign="top">
 
 **Terminal quant** que eu mais desenvolvo: **Bybit V5**, painel **Next.js** (`9090`), API **FastAPI** (`9002`), risco e IA onde faz sentido.
 
@@ -67,10 +67,10 @@ Next.js (9090) ──► FastAPI (9002) ──► Bybit · IA · workspace
 ```
 
 </td>
-<td width="45%" valign="top" align="center">
+<td width="48%" valign="top" align="center">
 
 <a href="https://github.com/SrSatriano/LHN-V90-IA">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=SrSatriano&repo=LHN-V90-IA&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=22c55e" alt="LHN-V90-IA" />
+<img src="https://gh-card.dev/repos/SrSatriano/LHN-V90-IA.svg?fullname=&lang=Python" alt="LHN-V90-IA" width="100%" />
 </a>
 
 </td>
@@ -86,13 +86,13 @@ Next.js (9090) ──► FastAPI (9002) ──► Bybit · IA · workspace
 <div align="center">
 
 <a href="https://github.com/SrSatriano/portfolio-matheus-satriano">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=SrSatriano&repo=portfolio-matheus-satriano&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=22d3ee" alt="Portfólio" />
+<img src="https://gh-card.dev/repos/SrSatriano/portfolio-matheus-satriano.svg?lang=TypeScript" alt="Portfólio" width="32%" />
 </a>
 <a href="https://github.com/SrSatriano/ultra-low-latency-order-book-engine">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=SrSatriano&repo=ultra-low-latency-order-book-engine&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=67e8f9" alt="Order book" />
+<img src="https://gh-card.dev/repos/SrSatriano/ultra-low-latency-order-book-engine.svg?lang=C%2B%2B" alt="Order book" width="32%" />
 </a>
 <a href="https://github.com/SrSatriano/local-rag-second-mind-vault">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=SrSatriano&repo=local-rag-second-mind-vault&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=a78bfa" alt="RAG" />
+<img src="https://gh-card.dev/repos/SrSatriano/local-rag-second-mind-vault.svg?lang=Python" alt="RAG" width="32%" />
 </a>
 
 </div>
@@ -107,15 +107,83 @@ Next.js (9090) ──► FastAPI (9002) ──► Bybit · IA · workspace
 
 ---
 
+<a id="stack"></a>
+
+## Tecnologias
+
+### Linguagens
+
+<img src="https://skillicons.dev/icons?i=python,rust,cpp,typescript,go,java,javascript,solidity,bash&perline=9" alt="Linguagens" />
+
+<img src="https://img.shields.io/badge/MQL5-0ea5e9?style=flat-square" alt="MQL5" />
+
+### Frameworks & bibliotecas
+
+<img src="https://skillicons.dev/icons?i=fastapi,nextjs,react,tailwind,nodejs&perline=8" alt="Frameworks web" />
+
+<p>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras" />
+  <img src="https://img.shields.io/badge/Ollama-000?style=flat-square" alt="Ollama" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square" alt="LangChain" />
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/Uvicorn-4051B5?style=flat-square" alt="Uvicorn" />
+  <img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square" alt="WebSocket" />
+</p>
+
+### Infra, dados & DevOps
+
+<img src="https://skillicons.dev/icons?i=docker,ansible,linux,git,postgres,redis,nginx,kubernetes&perline=8" alt="Infra" />
+
+<p>
+  <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Compose" />
+  <img src="https://img.shields.io/badge/GitOps-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="GitOps" />
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="Ansible" />
+  <img src="https://img.shields.io/badge/eBPF-000?style=flat-square" alt="eBPF" />
+  <img src="https://img.shields.io/badge/Zstd-5A5A5A?style=flat-square" alt="Zstd" />
+  <img src="https://img.shields.io/badge/Hyperledger_Fabric-2F2F72?style=flat-square" alt="Fabric" />
+  <img src="https://img.shields.io/badge/libp2p-000?style=flat-square" alt="libp2p" />
+</p>
+
+### Mercado, performance & Web3
+
+<p>
+  <img src="https://img.shields.io/badge/Bybit_V5-F7A600?style=flat-square" alt="Bybit V5" />
+  <img src="https://img.shields.io/badge/MetaTrader_5-0B6BB4?style=flat-square" alt="MetaTrader 5" />
+  <img src="https://img.shields.io/badge/AVX--512-512BD4?style=flat-square&logo=intel&logoColor=white" alt="AVX-512" />
+  <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+  <img src="https://img.shields.io/badge/SIMD-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="SIMD" />
+  <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" alt="Solidity" />
+  <img src="https://img.shields.io/badge/Hardhat-FFF100?style=flat-square" alt="Hardhat" />
+  <img src="https://img.shields.io/badge/Foundry-000?style=flat-square" alt="Foundry" />
+  <img src="https://img.shields.io/badge/MEV-educacional-64748b?style=flat-square" alt="MEV" />
+</p>
+
+### Ferramentas
+
+<img src="https://skillicons.dev/icons?i=vscode,github,md&perline=6" alt="Ferramentas" />
+
+<p>
+  <img src="https://img.shields.io/badge/REST_API-22c55e?style=flat-square" alt="REST" />
+  <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="Pytest" />
+  <img src="https://img.shields.io/badge/Cargo-000?style=flat-square&logo=rust&logoColor=white" alt="Cargo" />
+  <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" alt="CMake" />
+</p>
+
+---
+
 <a id="github"></a>
 
 ## Atividade no GitHub
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=SrSatriano&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=22c55e&include_all_commits=true&count_private=false" alt="Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SrSatriano&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&langs_count=8" alt="Linguagens" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=SrSatriano&theme=tokyonight&hide_border=true&background=0f172a&ring=22c55e&fire=38bdf8&currStreakLabel=38bdf8" alt="Streak" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrSatriano&theme=github_dark" alt="Estatísticas do perfil" />
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SrSatriano&theme=github_dark" alt="Linguagens por repositório" />
+<img height="180" src="https://streak-stats.demolab.com/?user=SrSatriano&theme=tokyonight&hide_border=true&background=0f172a&ring=22c55e&fire=38bdf8&currStreakLabel=38bdf8" alt="Streak de contribuições" />
 
 <br/>
 
@@ -209,19 +277,9 @@ pie showData
 
 <a id="contato"></a>
 
-## Stack & contato
+## Contato
 
 <div align="center">
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="" />
-<img src="https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust&logoColor=white" alt="" />
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="" />
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="" />
-<img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" alt="" />
-
-<br/><br/>
 
 | | |
 |---|---|
