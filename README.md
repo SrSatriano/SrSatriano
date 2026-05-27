@@ -24,6 +24,7 @@
 
 | | |
 |:---:|---|
+| **0** | [LHN Sovereign V90](#sistema-principal--lhn-sovereign-v90) |
 | **1** | [Sobre mim](#-sobre-mim) |
 | **2** | [Em números](#-em-números) |
 | **3** | [Pilares de atuação](#-pilares-de-atuação) |
@@ -47,7 +48,7 @@ Minha trajetória une três mundos que raramente aparecem juntos no mesmo perfil
 2. **Inteligência artificial aplicada** — RAG 100% local, clusters de inferência, TTS, pipelines de vídeo e frameworks de QA para LLMs.  
 3. **Web3 e compliance** — contratos inteligentes, provas zero-knowledge, análise de honeypots e ferramentas fiscais para o **Brasil**.
 
-Não busco apenas “ter repositórios no GitHub”: cada projeto do portfólio inclui **README detalhado em português**, guias de **arquitetura**, **deploy**, **operação**, **testes** e **CI** — documentação que eu gostaria de encontrar ao abrir um projeto sério pela primeira vez.
+Meu sistema de trading **[LHN Sovereign V90](https://github.com/SrSatriano/LHN-V90-IA)** está publicado em source-available (FastAPI + Next.js, Bybit V5, IA e risco). Além dele, mantenho **30 repositórios** no portfólio — cada um com **README detalhado em português**, guias de **arquitetura**, **deploy**, **operação**, **testes** e **CI** — documentação que eu gostaria de encontrar ao abrir um projeto sério pela primeira vez.
 
 > **Missão:** entregar software **rápido**, **observável** e **honesto** sobre o que já está implementado — com caminho claro do clone local ao deploy.
 
@@ -103,7 +104,7 @@ mindmap
 
 | Domínio | Quantidade | Exemplos |
 |---------|:----------:|----------|
-| **HFT / Quant** | 8 | Order book, AVX-512, SMC scanner, terminal, dark pool, chaos, tax harvest, MEV educacional |
+| **HFT / Quant** | 9+ | **LHN Sovereign V90**, order book, AVX-512, SMC, terminal, dark pool, chaos, tax harvest |
 | **IA / ML** | 7 | RAG vault, cluster inferência, TTS, vídeo autônomo, trends, deepfake bridge, lo-fi |
 | **Web3** | 5 | Staking, ZK identity, P2P order book, honeypot analyzer, Fabric ledger |
 | **Produto / SaaS** | 4 | Dashboard analytics, B2B boilerplate, family treasury, fiscal OCR |
@@ -119,11 +120,10 @@ mindmap
 
 ### Mercados e performance
 
+- **[LHN Sovereign V90](https://github.com/SrSatriano/LHN-V90-IA)** — terminal quant Bybit + IA  
 - Matching e livro de ofertas em **C++**  
 - Precificação **AVX-512** sem GPU  
-- Feeds WebSocket e features **SMC**  
-- Terminais **Rust** para risco e carteira  
-- Simulação de **impacto de mercado**  
+- Feeds WebSocket, SMC e terminais **Rust**  
 
 </td>
 <td width="50%" valign="top">
@@ -169,6 +169,30 @@ mindmap
 ## Projetos em destaque
 
 Os repositórios abaixo são a **vitrine técnica** do perfil — cada um com código do núcleo, testes e documentação completa.
+
+---
+
+## Sistema principal — LHN Sovereign V90
+
+<a href="https://github.com/SrSatriano/LHN-V90-IA">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=SrSatriano&repo=LHN-V90-IA&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=22c55e" alt="LHN Sovereign V90" />
+</a>
+
+| | |
+|---|---|
+| **O quê** | Estação de **trading quantitativo em cripto** — pesquisa, simulação e execução controlada em perpétuos **Bybit V5** (linear USDT) |
+| **Stack** | `Python` · `FastAPI` · `Next.js` · `Bybit V5` · `Keras/TensorFlow` · `WebSocket` |
+| **Painel** | Next.js na porta **9090** — trading, orderflow, heatmap, sinais, settings |
+| **Backend** | FastAPI **9002** — motor assíncrono, orquestrador, RiskManager, guardian shadow |
+| **IA** | Forja neural, experience replay, governança de drawdown, pipeline Keras |
+| **Extras** | Telegram, Nexus (LLM sidecar), oracle Binance (somente leitura), escudo C++ opcional |
+| **Licença** | Source-available · **PolyForm Noncommercial** (estudo e experimentação; uso comercial requer acordo) |
+
+```text
+Next.js (9090) ──REST/WS──► FastAPI (9002) ──► Bybit V5 + IA + SQLite/workspace
+```
+
+Documentação completa no repositório: [github.com/SrSatriano/LHN-V90-IA](https://github.com/SrSatriano/LHN-V90-IA)
 
 ---
 
@@ -273,12 +297,13 @@ Extração de CNPJ, totais e categorização de notas (combustível, software, e
 ## Portfólio completo por área
 
 <details open>
-<summary><strong>HFT, quant e trading (01–03, 11, 16, 19–21)</strong></summary>
+<summary><strong>HFT, quant e trading (LHN V90 + 01–03, 11, 16, 19–21)</strong></summary>
 
 <br>
 
 | Repo | Descrição curta |
 |------|-----------------|
+| [**LHN-V90-IA**](https://github.com/SrSatriano/LHN-V90-IA) | **Sistema principal** · terminal Bybit + IA |
 | [ultra-low-latency-order-book-engine](https://github.com/SrSatriano/ultra-low-latency-order-book-engine) | Matching C++ · microssegundos |
 | [smc-liquidity-scanner](https://github.com/SrSatriano/smc-liquidity-scanner) | SMC · FVG · ML em tempo real |
 | [unified-trading-super-terminal](https://github.com/SrSatriano/unified-trading-super-terminal) | TUI Rust · risco e carteira |
@@ -480,7 +505,7 @@ flowchart TD
 
 **Obrigado pela visita.**
 
-*Se chegou até aqui, explore um repositório — comece pelo* [order book](https://github.com/SrSatriano/ultra-low-latency-order-book-engine) *ou pelo* [RAG local](https://github.com/SrSatriano/local-rag-second-mind-vault)*.*
+*Se chegou até aqui, comece pelo* [**LHN Sovereign V90**](https://github.com/SrSatriano/LHN-V90-IA)*, pelo* [order book](https://github.com/SrSatriano/ultra-low-latency-order-book-engine) *ou pelo* [RAG local](https://github.com/SrSatriano/local-rag-second-mind-vault)*.*
 
 <br/>
 
