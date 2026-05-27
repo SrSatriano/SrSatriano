@@ -19,10 +19,9 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Repos_públicos-43-0ea5e9?style=flat-square" alt="" />
+  <img src="https://img.shields.io/badge/Repos_públicos-37-0ea5e9?style=flat-square" alt="" />
   <img src="https://img.shields.io/badge/LHN-V90-principal-22c55e?style=flat-square" alt="" />
   <img src="https://img.shields.io/badge/Módulos_OSS-30-blue?style=flat-square" alt="" />
-  <img src="https://img.shields.io/badge/MQL5-Desenvolvimento-6b7280?style=flat-square" alt="" />
 </p>
 
 </div>
@@ -33,7 +32,7 @@
 
 Sou **Matheus Rodrigues Satriano**, graduando em **Ciência da Computação**. Programo **back-end** e passo boa parte do tempo em **mercado**, **latência** e **IA local** — o que não precisa ir pra nuvem, eu prefiro rodar na minha máquina.
 
-Este perfil é o que eu deixo público: o **LHN** (meu terminal de trading), **trinta repositórios** por tema (HFT, IA, Web3, fiscal BR, infra), **MQL5** no [Desenvolvimento](https://github.com/SrSatriano/Desenvolvimento) e projetos mais antigos (Senac, primeiras IAs). Documento em português porque é assim que eu reviso o código.
+Este perfil é o que eu deixo **público** no GitHub: o **LHN** (meu terminal de trading), **trinta módulos** por tema (HFT, IA, Web3, fiscal BR, infra), o **site de portfólio** e quatro projetos mais antigos (Senac, primeiras IAs). Documento em português porque é assim que eu reviso o código.
 
 **→ [srsatriano.github.io/portfolio-matheus-satriano](https://srsatriano.github.io/portfolio-matheus-satriano/)** · [mapa GitHub com gráficos](https://srsatriano.github.io/portfolio-matheus-satriano/#github)
 
@@ -59,19 +58,19 @@ Este perfil é o que eu deixo público: o **LHN** (meu terminal de trading), **t
 
 ```mermaid
 pie showData
-    title Repositórios públicos por área
+    title Repositórios públicos por área (37)
     "Módulos OSS (30)" : 30
-    "LHN (principal + coleção)" : 3
-    "MetaTrader / MQL5" : 1
-    "Arquivo & estudos" : 6
+    "LHN (principal)" : 1
+    "Arquivo & estudos" : 4
     "Site & perfil" : 2
 ```
 
 | Bloco | Qtd | Exemplos |
 |-------|:---:|----------|
-| **LHN & trading** | 4 | [LHN-V90-IA](https://github.com/SrSatriano/LHN-V90-IA), [LHN_Sovereign_Collection](https://github.com/SrSatriano/LHN_Sovereign_Collection), [Desenvolvimento](https://github.com/SrSatriano/Desenvolvimento) (MQL5) |
+| **LHN** | 1 | [LHN-V90-IA](https://github.com/SrSatriano/LHN-V90-IA) |
 | **Módulos OSS** | 30 | order book, RAG, fiscal BR, Web3… |
-| **Trajetória** | 6 | [IA-Financeira](https://github.com/SrSatriano/IA-Financeira), [PersonalAI](https://github.com/SrSatriano/PersonalAI), [Python_Senac_RIo_On](https://github.com/SrSatriano/Python_Senac_RIo_On) |
+| **Arquivo** | 4 | [IA-Financeira](https://github.com/SrSatriano/IA-Financeira), [PersonalAI](https://github.com/SrSatriano/PersonalAI), [calculadora-de-notas](https://github.com/SrSatriano/calculadora-de-notas), [Python_Senac_RIo_On](https://github.com/SrSatriano/Python_Senac_RIo_On) |
+| **Site & perfil** | 2 | [portfolio-matheus-satriano](https://github.com/SrSatriano/portfolio-matheus-satriano), este README |
 
 ---
 
@@ -90,9 +89,9 @@ Licença **PolyForm Noncommercial** — não é MIT.
 </td>
 <td width="50%" valign="top">
 
-### [Desenvolvimento](https://github.com/SrSatriano/Desenvolvimento) (MQL5)
+### [Order Book Engine](https://github.com/SrSatriano/ultra-low-latency-order-book-engine)
 
-Onde guardo **Experts, indicadores e scripts MetaTrader** — outra frente do mesmo universo de mercado.
+**C++** · matching em memória — um dos módulos que eu priorizo com testes e docs em pt-BR.
 
 </td>
 </tr>
@@ -103,8 +102,8 @@ Onde guardo **Experts, indicadores e scripts MetaTrader** — outra frente do me
 <a href="https://github.com/SrSatriano/LHN-V90-IA">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=SrSatriano&repo=LHN-V90-IA&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=22c55e" alt="LHN" />
 </a>
-<a href="https://github.com/SrSatriano/Desenvolvimento">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=SrSatriano&repo=Desenvolvimento&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=f97316" alt="MQL5" />
+<a href="https://github.com/SrSatriano/portfolio-matheus-satriano">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=SrSatriano&repo=portfolio-matheus-satriano&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=22d3ee" alt="Portfólio" />
 </a>
 <a href="https://github.com/SrSatriano/ultra-low-latency-order-book-engine">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=SrSatriano&repo=ultra-low-latency-order-book-engine&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=67e8f9" alt="Order book" />
@@ -192,20 +191,17 @@ Next.js (9090) ── REST / WS ──► FastAPI (9002) ──► Bybit · IA �
 
 ---
 
-## Também público (fora dos 30)
+## Também público (fora dos 30 + LHN)
 
-Repos que não entram no lote numerado, mas fazem parte do meu histórico:
+Repos abertos que não entram no lote numerado:
 
 | Repositório | Linguagem | O que é |
 |-------------|-----------|---------|
-| [Desenvolvimento](https://github.com/SrSatriano/Desenvolvimento) | MQL5 | Experts e indicadores MT |
-| [LHN_Sovereign_Collection](https://github.com/SrSatriano/LHN_Sovereign_Collection) | Python | utilitários LHN |
+| [portfolio-matheus-satriano](https://github.com/SrSatriano/portfolio-matheus-satriano) | TypeScript | meu site |
 | [IA-Financeira](https://github.com/SrSatriano/IA-Financeira) | Python | primeiros testes IA + finanças ★1 |
 | [PersonalAI](https://github.com/SrSatriano/PersonalAI) | Python | assistente pessoal ★1 |
 | [calculadora-de-notas](https://github.com/SrSatriano/calculadora-de-notas) | Java | faculdade ★1 |
 | [Python_Senac_RIo_On](https://github.com/SrSatriano/Python_Senac_RIo_On) | Python | Senac |
-| [Projetos_Python](https://github.com/SrSatriano/Projetos_Python) | Python | estudos |
-| [portfolio-matheus-satriano](https://github.com/SrSatriano/portfolio-matheus-satriano) | TypeScript | este site |
 
 ---
 
@@ -215,7 +211,6 @@ Repos que não entram no lote numerado, mas fazem parte do meu histórico:
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="" />
   <img src="https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust&logoColor=white" alt="" />
   <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="" />
-  <img src="https://img.shields.io/badge/MQL5-0ea5e9?style=flat-square" alt="" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="" />
