@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="504" viewBox="0 0 1000 504" role="img" aria-label="Linguagem principal: Python 21, Rust 5, C++ 3, Go 3, TypeScript 3, JavaScript 2, Solidity 2, Kotlin 1, HTML 1, Shell 1, Java 1"><defs><linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f4f7fb"/></linearGradient></defs><rect x="0.5" y="0.5" width="999" height="503" rx="16" fill="url(#pbg)" stroke="#d0d7de"/><rect x="24" y="22" width="38" height="38" rx="10" fill="#0284c7" fill-opacity="0.12" stroke="#0284c7" stroke-opacity="0.4"/><g transform="translate(33.0 31.0) scale(0.833)" fill="none" stroke="#0284c7" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="2"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"/></g><text x="76" y="40" fill="#0f172a" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700">Linguagem principal</text><text x="76" y="60" fill="#64748b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5">Linguagem predominante de cada repositório, segundo o GitHub</text><text x="28" y="111" fill="#1e293b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">Python</text>
+<rect x="150" y="96" width="770" height="20" rx="10" fill="#eef2f7"/>
+<rect x="150" y="96" width="770.0" height="20" rx="10" fill="#3572A5"/>
+<text x="930.0" y="111" fill="#0f172a" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">21</text>
+<text x="28" y="147" fill="#1e293b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">Rust</text>
+<rect x="150" y="132" width="770" height="20" rx="10" fill="#eef2f7"/>
+<rect x="150" y="132" width="183.3" height="20" rx="10" fill="#dea584"/>
+<text x="343.3" y="147" fill="#0f172a" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">5</text>
+<text x="28" y="183" fill="#1e293b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">C++</text>
+<rect x="150" y="168" width="770" height="20" rx="10" fill="#eef2f7"/>
+<rect x="150" y="168" width="110.0" height="20" rx="10" fill="#f34b7d"/>
+<text x="270.0" y="183" fill="#0f172a" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">3</text>
+<text x="28" y="219" fill="#1e293b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">Go</text>
+<rect x="150" y="204" width="770" height="20" rx="10" fill="#eef2f7"/>
+<rect x="150" y="204" width="110.0" height="20" rx="10" fill="#00ADD8"/>
+<text x="270.0" y="219" fill="#0f172a" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">3</text>
+<text x="28" y="255" fill="#1e293b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">TypeScript</text>
+<rect x="150" y="240" width="770" height="20" rx="10" fill="#eef2f7"/>
+<rect x="150" y="240" width="110.0" height="20" rx="10" fill="#3178c6"/>
+<text x="270.0" y="255" fill="#0f172a" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">3</text>
+<text x="28" y="291" fill="#1e293b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">JavaScript</text>
+<rect x="150" y="276" width="770" height="20" rx="10" fill="#eef2f7"/>
+<rect x="150" y="276" width="73.3" height="20" rx="10" fill="#e3c81b"/>
+<text x="233.3" y="291" fill="#0f172a" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">2</text>
+<text x="28" y="327" fill="#1e293b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">Solidity</text>
+<rect x="150" y="312" width="770" height="20" rx="10" fill="#eef2f7"/>
+<rect x="150" y="312" width="73.3" height="20" rx="10" fill="#AA6746"/>
+<text x="233.3" y="327" fill="#0f172a" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">2</text>
+<text x="28" y="363" fill="#1e293b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">Kotlin</text>
+<rect x="150" y="348" width="770" height="20" rx="10" fill="#eef2f7"/>
+<rect x="150" y="348" width="36.7" height="20" rx="10" fill="#A97BFF"/>
+<text x="196.7" y="363" fill="#0f172a" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">1</text>
+<text x="28" y="399" fill="#1e293b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">HTML</text>
+<rect x="150" y="384" width="770" height="20" rx="10" fill="#eef2f7"/>
+<rect x="150" y="384" width="36.7" height="20" rx="10" fill="#e34c26"/>
+<text x="196.7" y="399" fill="#0f172a" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">1</text>
+<text x="28" y="435" fill="#1e293b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">Shell</text>
+<rect x="150" y="420" width="770" height="20" rx="10" fill="#eef2f7"/>
+<rect x="150" y="420" width="36.7" height="20" rx="10" fill="#5fb829"/>
+<text x="196.7" y="435" fill="#0f172a" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">1</text>
+<text x="28" y="471" fill="#1e293b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">Java</text>
+<rect x="150" y="456" width="770" height="20" rx="10" fill="#eef2f7"/>
+<rect x="150" y="456" width="36.7" height="20" rx="10" fill="#b07219"/>
+<text x="196.7" y="471" fill="#0f172a" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">1</text></svg>

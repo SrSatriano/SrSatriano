@@ -8,7 +8,9 @@
       "short": "Quant & trading",
       "color": "#38bdf8",
       "emoji": "📈",
-      "intro": "Microestrutura, pricing, risco e execução. O núcleo é o LHN Sovereign V90; os outros módulos isolam um problema de cada vez para medir e testar."
+      "intro": "Microestrutura, pricing, risco e execução. O núcleo é o LHN Sovereign V90; os outros módulos isolam um problema de cada vez para medir e testar.",
+      "color_light": "#0284c7",
+      "icon": "chart"
     },
     {
       "id": "ai",
@@ -16,7 +18,9 @@
       "short": "IA local",
       "color": "#a78bfa",
       "emoji": "🧠",
-      "intro": "Modelos rodando perto dos dados: RAG offline, gateway de inferência, voz, avaliação de alucinação e modelos experimentais com validação honesta."
+      "intro": "Modelos rodando perto dos dados: RAG offline, gateway de inferência, voz, avaliação de alucinação e modelos experimentais com validação honesta.",
+      "color_light": "#7c3aed",
+      "icon": "chip"
     },
     {
       "id": "media",
@@ -24,7 +28,9 @@
       "short": "Vídeo & criadores",
       "color": "#f472b6",
       "emoji": "🎬",
-      "intro": "Ferramentas para produzir, editar e medir conteúdo: edição em massa, pipelines de Shorts, trilhas procedurais, analytics de canais e produção editorial."
+      "intro": "Ferramentas para produzir, editar e medir conteúdo: edição em massa, pipelines de Shorts, trilhas procedurais, analytics de canais e produção editorial.",
+      "color_light": "#db2777",
+      "icon": "play"
     },
     {
       "id": "product",
@@ -32,7 +38,9 @@
       "short": "Produto & Brasil",
       "color": "#f59e0b",
       "emoji": "🇧🇷",
-      "intro": "Problemas do dia a dia brasileiro: notas fiscais, imposto na B3, metas financeiras em família, busca de vagas e base SaaS B2B."
+      "intro": "Problemas do dia a dia brasileiro: notas fiscais, imposto na B3, metas financeiras em família, busca de vagas e base SaaS B2B.",
+      "color_light": "#d97706",
+      "icon": "briefcase"
     },
     {
       "id": "web3",
@@ -40,7 +48,9 @@
       "short": "Web3",
       "color": "#22c55e",
       "emoji": "⛓️",
-      "intro": "Contratos, provas de conhecimento zero, redes P2P e análise de risco on-chain. Tudo em testnet ou ambiente local, com limitações documentadas."
+      "intro": "Contratos, provas de conhecimento zero, redes P2P e análise de risco on-chain. Tudo em testnet ou ambiente local, com limitações documentadas.",
+      "color_light": "#16a34a",
+      "icon": "cube"
     },
     {
       "id": "infra",
@@ -48,7 +58,9 @@
       "short": "Infra",
       "color": "#2dd4bf",
       "emoji": "🛠️",
-      "intro": "A base que deixa o resto operável: logs comprimidos, tracing no kernel, GitOps, isolamento por hypervisor e provisionamento reproduzível."
+      "intro": "A base que deixa o resto operável: logs comprimidos, tracing no kernel, GitOps, isolamento por hypervisor e provisionamento reproduzível.",
+      "color_light": "#0d9488",
+      "icon": "server"
     },
     {
       "id": "origins",
@@ -56,7 +68,9 @@
       "short": "Origens",
       "color": "#94a3b8",
       "emoji": "🌱",
-      "intro": "De onde eu vim: primeiros experimentos com IA e finanças, exercícios de curso e os sites públicos que apresentam o trabalho."
+      "intro": "De onde eu vim: primeiros experimentos com IA e finanças, exercícios de curso e os sites públicos que apresentam o trabalho.",
+      "color_light": "#64748b",
+      "icon": "sprout"
     }
   ],
   "projects": [

@@ -1,58 +1,61 @@
+<!-- Gerado por scripts/build_profile.py a partir de templates/README.md e data/projects.json. Não edite à mão. -->
 <a id="topo"></a>
 
 <div align="center">
 
-<img src="assets/banner.svg" alt="Matheus Rodrigues Satriano: back-end, sistemas quant, IA local e infraestrutura soberana" width="100%" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/banner.svg" /><img src="assets/dark/banner.svg" alt="Matheus Rodrigues Satriano: back-end, sistemas quant, IA local e infraestrutura soberana" width="100%" /></picture>
 
-<br/>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1200&color=38BDF8&center=true&width=780&lines=LHN+Sovereign+V90+%C2%B7+terminal+quant+local;C%2B%2B+%C2%B7+Rust+%C2%B7+Python+%C2%B7+TypeScript+%C2%B7+Go+%C2%B7+Kotlin;Baixa+lat%C3%AAncia+%C2%B7+RAG+offline+%C2%B7+Fiscal+BR+%C2%B7+Web3;Se+n%C3%A3o+precisa+sair+da+m%C3%A1quina%2C+roda+local." alt="LHN Sovereign V90; C++, Rust, Python, TypeScript, Go, Kotlin; baixa latência, RAG offline, fiscal BR, Web3" />
-
-<br/>
+<br/><br/>
 
 <a href="https://srsatriano.github.io/portfolio-matheus-satriano/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-online-0891b2?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfólio online" /></a>
-<a href="https://github.com/SrSatriano?tab=repositories"><img src="https://img.shields.io/badge/Reposit%C3%B3rios-GitHub-181717?style=for-the-badge&logo=github" alt="Repositórios no GitHub" /></a>
+<a href="https://github.com/SrSatriano?tab=repositories"><img src="https://img.shields.io/badge/Reposit%C3%B3rios-43_p%C3%BAblicos-181717?style=for-the-badge&logo=github" alt="Repositórios no GitHub" /></a>
 <a href="https://www.linkedin.com/in/matheus-rodrigues-satriano"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:matheussatriano@hotmail.com"><img src="https://img.shields.io/badge/E--mail-contato-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a>
 
 <br/><br/>
 
-<!-- STATS:START -->
 <img src="https://img.shields.io/badge/repos%20p%C3%BAblicos-43-22c55e?style=flat-square" alt="repos públicos: 43" />
 <img src="https://img.shields.io/badge/frentes-7-38bdf8?style=flat-square" alt="frentes: 7" />
 <img src="https://img.shields.io/badge/linguagens-11-a78bfa?style=flat-square" alt="linguagens: 11" />
 <img src="https://img.shields.io/badge/CI%20no%20GitHub%20Actions-16-2dd4bf?style=flat-square" alt="CI no GitHub Actions: 16" />
 <img src="https://img.shields.io/badge/licen%C3%A7a%20MIT-31-f59e0b?style=flat-square" alt="licença MIT: 31" />
 <img src="https://img.shields.io/badge/docs-pt--BR-64748b?style=flat-square" alt="docs: pt-BR" />
-<!-- STATS:END -->
+
+<br/><br/>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/terminal.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/terminal.svg" /><img src="assets/dark/terminal.svg" alt="Terminal: LHN Sovereign V90; C++, Rust, Python, TypeScript, Go, Kotlin; se o problema não precisa sair da máquina, ele roda local" width="100%" /></picture>
 
 </div>
 
----
-
-## 🧭 Navegação
+<br/>
 
 <div align="center">
 
-| | | | |
-|:---:|:---:|:---:|:---:|
-| [👋 Quem sou](#quem-sou) | [📊 Em números](#em-numeros) | [🛰️ LHN Sovereign V90](#lhn-sovereign-v90) | [⭐ Destaques](#destaques) |
-| [🗂️ Catálogo completo](#catalogo) | [🔗 Ecossistema](#ecossistema) | [🧑‍💻 Por onde começar](#por-onde-comecar) | [📇 Índice A–Z](#indice) |
-| [🧰 Stack](#stack) | [🧪 Como eu construo](#como-eu-construo) | [📈 Atividade](#atividade) | [📬 Contato](#contato) |
+### 🧭 Navegue pelas frentes
+
+<a href="#frente-quant"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/quant.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/quant.svg" /><img src="assets/dark/nav/quant.svg" alt="Quant, trading e mercado: 8 projetos" width="24%" /></picture></a>
+<a href="#frente-ai"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/ai.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/ai.svg" /><img src="assets/dark/nav/ai.svg" alt="IA local, LLMs e avaliação: 6 projetos" width="24%" /></picture></a>
+<a href="#frente-media"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/media.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/media.svg" /><img src="assets/dark/nav/media.svg" alt="Vídeo, áudio e criadores: 7 projetos" width="24%" /></picture></a>
+<a href="#frente-product"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/product.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/product.svg" /><img src="assets/dark/nav/product.svg" alt="Produto, finanças BR e carreira: 6 projetos" width="24%" /></picture></a>
+<a href="#frente-web3"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/web3.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/web3.svg" /><img src="assets/dark/nav/web3.svg" alt="Web3, identidade e segurança on-chain: 6 projetos" width="24%" /></picture></a>
+<a href="#frente-infra"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/infra.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/infra.svg" /><img src="assets/dark/nav/infra.svg" alt="Infraestrutura, sistemas e observabilidade: 5 projetos" width="24%" /></picture></a>
+<a href="#frente-origins"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/origins.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/origins.svg" /><img src="assets/dark/nav/origins.svg" alt="Origens, estudos e sites: 5 projetos" width="24%" /></picture></a>
+<a href="#indice"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/indice.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/indice.svg" /><img src="assets/dark/nav/indice.svg" alt="Índice A–Z: 43 projetos" width="24%" /></picture></a>
 
 <br/>
 
-**Ir direto para uma frente:**
-
-<!-- NAV:START -->
-<a href="#frente-quant"><img src="https://img.shields.io/badge/%F0%9F%93%88%20Quant%20%26%20trading-8-38bdf8?style=for-the-badge" alt="Quant, trading e mercado: 8 projetos" /></a>
-<a href="#frente-ai"><img src="https://img.shields.io/badge/%F0%9F%A7%A0%20IA%20local-6-a78bfa?style=for-the-badge" alt="IA local, LLMs e avaliação: 6 projetos" /></a>
-<a href="#frente-media"><img src="https://img.shields.io/badge/%F0%9F%8E%AC%20V%C3%ADdeo%20%26%20criadores-7-f472b6?style=for-the-badge" alt="Vídeo, áudio e criadores: 7 projetos" /></a>
-<a href="#frente-product"><img src="https://img.shields.io/badge/%F0%9F%87%A7%F0%9F%87%B7%20Produto%20%26%20Brasil-6-f59e0b?style=for-the-badge" alt="Produto, finanças BR e carreira: 6 projetos" /></a>
-<a href="#frente-web3"><img src="https://img.shields.io/badge/%E2%9B%93%EF%B8%8F%20Web3-6-22c55e?style=for-the-badge" alt="Web3, identidade e segurança on-chain: 6 projetos" /></a>
-<a href="#frente-infra"><img src="https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F%20Infra-5-2dd4bf?style=for-the-badge" alt="Infraestrutura, sistemas e observabilidade: 5 projetos" /></a>
-<a href="#frente-origins"><img src="https://img.shields.io/badge/%F0%9F%8C%B1%20Origens-5-94a3b8?style=for-the-badge" alt="Origens, estudos e sites: 5 projetos" /></a>
-<!-- NAV:END -->
+<sub>
+<a href="#quem-sou">👋 Quem sou</a> ·
+<a href="#em-numeros">📊 Em números</a> ·
+<a href="#lhn-sovereign-v90">🛰️ LHN V90</a> ·
+<a href="#destaques">⭐ Destaques</a> ·
+<a href="#catalogo">🗂️ Catálogo</a> ·
+<a href="#ecossistema">🔗 Ecossistema</a> ·
+<a href="#por-onde-comecar">🧑‍💻 Por onde começar</a> ·
+<a href="#stack">🧰 Stack</a> ·
+<a href="#atividade">📈 Atividade</a> ·
+<a href="#contato">📬 Contato</a>
+</sub>
 
 </div>
 
@@ -74,6 +77,7 @@ Meu centro de gravidade é back-end, mas eu atravesso a stack quando isso melhor
 | 🛠️ **Infra soberana** | Docker, Ansible, eBPF, GitOps e logs comprimidos, sem depender de nuvem | [logroute](https://github.com/SrSatriano/high-compression-log-router) · [eBPF Tracer](https://github.com/SrSatriano/ebpf-latency-tracer-financial) |
 | 🇧🇷 **Produto real** | NF-e, IR na B3, vagas, finanças pessoais, com README e testes | [Fiscal OCR](https://github.com/SrSatriano/fiscal-data-ocr-engine) · [Vagas Alerta](https://github.com/SrSatriano/vagas-alerta) |
 
+> [!TIP]
 > **Princípio pessoal:** se o problema não precisa sair da máquina, ele deve conseguir rodar local. A nuvem entra por necessidade técnica, não por reflexo.
 
 ---
@@ -84,14 +88,14 @@ Meu centro de gravidade é back-end, mas eu atravesso a stack quando isso melhor
 
 <div align="center">
 
-<img src="assets/overview.svg" alt="Resumo dos repositórios públicos" width="100%" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/overview.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/overview.svg" /><img src="assets/dark/overview.svg" alt="Resumo dos repositórios públicos" width="100%" /></picture>
 
-<img src="assets/categories.svg" alt="Projetos por frente de trabalho" width="100%" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/categories.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/categories.svg" /><img src="assets/dark/categories.svg" alt="Projetos por frente de trabalho" width="100%" /></picture>
 
 <table>
 <tr>
-<td width="50%"><img src="assets/languages.svg" alt="Projetos por linguagem principal" width="100%" /></td>
-<td width="50%"><img src="assets/timeline.svg" alt="Linha do tempo dos repositórios" width="100%" /></td>
+<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/languages.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/languages.svg" /><img src="assets/dark/languages.svg" alt="Projetos por linguagem principal" width="100%" /></picture></td>
+<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/timeline.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/timeline.svg" /><img src="assets/dark/timeline.svg" alt="Linha do tempo dos repositórios" width="100%" /></picture></td>
 </tr>
 </table>
 
@@ -113,21 +117,21 @@ Ele combina **FastAPI**, **Next.js**, integração com **Bybit V5** (REST + WebS
 
 | Camada | Papel |
 |---|---|
-| 🖥️ **Painel** | leitura de estado, parâmetros e operação (Next.js, `:9090`) |
-| 🔌 **API** | orquestração, configuração, risco, execução e integração (FastAPI, `:9002`) |
+| 🖥️ **Painel** | leitura de estado, parâmetros e operação |
+| 🔌 **API** | orquestração, configuração, risco, execução e integração |
 | ⚙️ **Core** | decisão, replay, backfill, radar, labeler e ciclo de treino |
 | 🧠 **IA local** | inferência e análise perto dos dados |
 | 🗄️ **Workspace** | persistência, auditoria, logs e artefatos |
 | 📱 **Mirror** | painel remoto no Android ([lhn-android-apps](https://github.com/SrSatriano/lhn-android-apps)) |
 
-**Licença:** PolyForm Noncommercial. O código é público para estudo, mas não é MIT.
+> **Licença:** PolyForm Noncommercial. O código é público para estudo, mas não é MIT.
 
 </td>
 <td width="48%" valign="top" align="center">
 
-<a href="https://github.com/SrSatriano/LHN-V90-IA"><img src="assets/cards/LHN-V90-IA.svg" alt="LHN Sovereign V90" width="100%" /></a>
+<a href="https://github.com/SrSatriano/LHN-V90-IA"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/LHN-V90-IA.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/LHN-V90-IA.svg" /><img src="assets/dark/cards/LHN-V90-IA.svg" alt="LHN Sovereign V90" width="100%" /></picture></a>
 
-<br/>
+<br/><br/>
 
 <a href="https://github.com/SrSatriano/LHN-V90-IA"><img src="https://img.shields.io/badge/Abrir_o_reposit%C3%B3rio-LHN--V90--IA-0891b2?style=for-the-badge&logo=github" alt="Abrir o repositório LHN-V90-IA" /></a>
 
@@ -140,16 +144,11 @@ Ele combina **FastAPI**, **Next.js**, integração com **Bybit V5** (REST + WebS
 </tr>
 </table>
 
-```mermaid
-flowchart LR
-    UI["🖥️ Painel Next.js :9090"] --> API["🔌 FastAPI :9002"]
-    MOB["📱 LHN Mirror (Android)"] -->|rede local| API
-    API --> EX["Bybit V5<br/>REST + WebSocket"]
-    API --> RISK["🛡️ Motor de risco"]
-    API --> AI["🧠 IA local<br/>Keras/TensorFlow"]
-    API --> WS["🗄️ Workspace local"]
-    WS --> OBS["Logs, replay e auditoria"]
-```
+<div align="center">
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/lhn-architecture.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/lhn-architecture.svg" /><img src="assets/dark/lhn-architecture.svg" alt="Arquitetura do LHN Sovereign V90" width="100%" /></picture>
+
+</div>
 
 ---
 
@@ -161,15 +160,13 @@ Os projetos que eu mostraria primeiro. Cada card abre o repositório.
 
 <div align="center">
 
-<!-- FEATURED:START -->
 <table>
-<tr><td width="50%"><a href="https://github.com/SrSatriano/lhn-android-apps"><img src="assets/cards/lhn-android-apps.svg" alt="LHN Android Apps: Dois apps Android nativos do ecossistema LHN: LHN Finanças (carteira offline-first com simuladores) e LHN Mirror (painel remoto do terminal LHN na rede local)." width="100%" /></a></td><td width="50%"><a href="https://github.com/SrSatriano/ultra-low-latency-order-book-engine"><img src="assets/cards/ultra-low-latency-order-book-engine.svg" alt="Order Book Engine: Motor de matching em C++20 com prioridade preço-tempo, cinco tipos de ordem, replay de sessões em CSV e benchmark de latência por operação. Só usa a biblioteca padrão." width="100%" /></a></td></tr>
-<tr><td width="50%"><a href="https://github.com/SrSatriano/avx512-options-pricing-engine"><img src="assets/cards/avx512-options-pricing-engine.svg" alt="AVX-512 Options Pricing: Precificação de opções europeias em C++20: Black-Scholes-Merton com gregas e volatilidade implícita, kernel AVX-512 que precifica 8 opções por instrução e Monte Carlo multi-thread." width="100%" /></a></td><td width="50%"><a href="https://github.com/SrSatriano/local-rag-second-mind-vault"><img src="assets/cards/local-rag-second-mind-vault.svg" alt="Second Mind Vault: Pergunte aos seus documentos sem mandar nada para a nuvem. Indexa Markdown, texto, HTML e PDF num único SQLite, busca com BM25 + vetores e responde citando os trechos usados." width="100%" /></a></td></tr>
-<tr><td width="50%"><a href="https://github.com/SrSatriano/distributed-ai-inference-cluster"><img src="assets/cards/distributed-ai-inference-cluster.svg" alt="infergw: Inference Gateway: Junta várias máquinas com LLMs (PC com GPU, notebook, servidor vLLM) atrás de um único endereço compatível com a API da OpenAI e manda cada pedido para o worker certo." width="100%" /></a></td><td width="50%"><a href="https://github.com/SrSatriano/videoos"><img src="assets/cards/videoos.svg" alt="VideoOS: Editor local-first de vídeos curtos verticais: importa, aplica templates em lote, revisa renders FFmpeg e gera pacotes de publicação para Reels, TikTok e Shorts." width="100%" /></a></td></tr>
-<tr><td width="50%"><a href="https://github.com/SrSatriano/fiscal-data-ocr-engine"><img src="assets/cards/fiscal-data-ocr-engine.svg" alt="Fiscal Data OCR: Extrai, valida e categoriza notas fiscais brasileiras: XML da NF-e/NFC-e, DANFE em PDF, nota de serviço em texto e fotos de cupom. Processa uma pasta e gera planilha por categoria." width="100%" /></a></td><td width="50%"><a href="https://github.com/SrSatriano/vagas-alerta"><img src="assets/cards/vagas-alerta.svg" alt="Vagas Alerta: Agregador local-first de vagas: coleta LinkedIn, Indeed, Glassdoor, Gupy, Vagas.com e páginas de companhias aéreas, remove duplicatas e avisa no Telegram só o que bate com seus filtros." width="100%" /></a></td></tr>
-<tr><td width="50%"><a href="https://github.com/SrSatriano/high-compression-log-router"><img src="assets/cards/high-compression-log-router.svg" alt="logroute: Recebe logs JSON por TCP, HTTP, arquivo ou stdin, separa por regras e grava cada destino em segmentos Zstd com rotação. Depois você consulta os segmentos pela linha de comando." width="100%" /></a></td></tr>
+<tr><td width="50%"><a href="https://github.com/SrSatriano/lhn-android-apps"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/lhn-android-apps.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/lhn-android-apps.svg" /><img src="assets/dark/cards/lhn-android-apps.svg" alt="LHN Android Apps: Dois apps Android nativos do ecossistema LHN: LHN Finanças (carteira offline-first com simuladores) e LHN Mirror (painel remoto do terminal LHN na rede local)." width="100%" /></picture></a></td><td width="50%"><a href="https://github.com/SrSatriano/ultra-low-latency-order-book-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/ultra-low-latency-order-book-engine.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/ultra-low-latency-order-book-engine.svg" /><img src="assets/dark/cards/ultra-low-latency-order-book-engine.svg" alt="Order Book Engine: Motor de matching em C++20 com prioridade preço-tempo, cinco tipos de ordem, replay de sessões em CSV e benchmark de latência por operação. Só usa a biblioteca padrão." width="100%" /></picture></a></td></tr>
+<tr><td width="50%"><a href="https://github.com/SrSatriano/avx512-options-pricing-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/avx512-options-pricing-engine.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/avx512-options-pricing-engine.svg" /><img src="assets/dark/cards/avx512-options-pricing-engine.svg" alt="AVX-512 Options Pricing: Precificação de opções europeias em C++20: Black-Scholes-Merton com gregas e volatilidade implícita, kernel AVX-512 que precifica 8 opções por instrução e Monte Carlo multi-thread." width="100%" /></picture></a></td><td width="50%"><a href="https://github.com/SrSatriano/local-rag-second-mind-vault"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/local-rag-second-mind-vault.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/local-rag-second-mind-vault.svg" /><img src="assets/dark/cards/local-rag-second-mind-vault.svg" alt="Second Mind Vault: Pergunte aos seus documentos sem mandar nada para a nuvem. Indexa Markdown, texto, HTML e PDF num único SQLite, busca com BM25 + vetores e responde citando os trechos usados." width="100%" /></picture></a></td></tr>
+<tr><td width="50%"><a href="https://github.com/SrSatriano/distributed-ai-inference-cluster"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/distributed-ai-inference-cluster.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/distributed-ai-inference-cluster.svg" /><img src="assets/dark/cards/distributed-ai-inference-cluster.svg" alt="infergw: Inference Gateway: Junta várias máquinas com LLMs (PC com GPU, notebook, servidor vLLM) atrás de um único endereço compatível com a API da OpenAI e manda cada pedido para o worker certo." width="100%" /></picture></a></td><td width="50%"><a href="https://github.com/SrSatriano/videoos"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/videoos.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/videoos.svg" /><img src="assets/dark/cards/videoos.svg" alt="VideoOS: Editor local-first de vídeos curtos verticais: importa, aplica templates em lote, revisa renders FFmpeg e gera pacotes de publicação para Reels, TikTok e Shorts." width="100%" /></picture></a></td></tr>
+<tr><td width="50%"><a href="https://github.com/SrSatriano/fiscal-data-ocr-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/fiscal-data-ocr-engine.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/fiscal-data-ocr-engine.svg" /><img src="assets/dark/cards/fiscal-data-ocr-engine.svg" alt="Fiscal Data OCR: Extrai, valida e categoriza notas fiscais brasileiras: XML da NF-e/NFC-e, DANFE em PDF, nota de serviço em texto e fotos de cupom. Processa uma pasta e gera planilha por categoria." width="100%" /></picture></a></td><td width="50%"><a href="https://github.com/SrSatriano/vagas-alerta"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/vagas-alerta.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/vagas-alerta.svg" /><img src="assets/dark/cards/vagas-alerta.svg" alt="Vagas Alerta: Agregador local-first de vagas: coleta LinkedIn, Indeed, Glassdoor, Gupy, Vagas.com e páginas de companhias aéreas, remove duplicatas e avisa no Telegram só o que bate com seus filtros." width="100%" /></picture></a></td></tr>
+<tr><td width="50%"><a href="https://github.com/SrSatriano/high-compression-log-router"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/high-compression-log-router.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/high-compression-log-router.svg" /><img src="assets/dark/cards/high-compression-log-router.svg" alt="logroute: Recebe logs JSON por TCP, HTTP, arquivo ou stdin, separa por regras e grava cada destino em segmentos Zstd com rotação. Depois você consulta os segmentos pela linha de comando." width="100%" /></picture></a></td></tr>
 </table>
-<!-- FEATURED:END -->
 
 </div>
 
@@ -179,28 +176,26 @@ Os projetos que eu mostraria primeiro. Cada card abre o repositório.
 
 ## 🗂️ Catálogo completo
 
-Todos os repositórios públicos, agrupados por frente. À esquerda, o card (clique para abrir); à direita, os destaques técnicos, a stack, o status do CI e os links úteis.
+Todos os 43 repositórios públicos, agrupados por frente. À esquerda, o card (clique para abrir); à direita, os destaques técnicos, a stack, o status do CI e os links úteis.
 
-**Legenda dos selos nos cards:** `DESTAQUE` projeto que eu recomendo começar · `CI` testes rodando no GitHub Actions · `ONLINE` tem site publicado · `MIT` / `POLYFORM NC` licença.
+> [!NOTE]
+> **Selos nos cards:** `★ DESTAQUE` bom ponto de partida · `CI` testes no GitHub Actions · `ONLINE` tem site publicado · `MIT` / `POLYFORM NC` licença.
 
-<!-- CATALOG:START -->
 <a id="frente-quant"></a>
 
-<img src="assets/sections/quant.svg" alt="Quant, trading e mercado: 8 projetos" width="100%" />
-
-> Microestrutura, pricing, risco e execução. O núcleo é o LHN Sovereign V90; os outros módulos isolam um problema de cada vez para medir e testar.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/sections/quant.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/sections/quant.svg" /><img src="assets/dark/sections/quant.svg" alt="Quant, trading e mercado: 8 projetos" width="100%" /></picture>
 
 <details open>
-<summary><b>📈 Ver os 8 projetos de Quant &amp; trading</b></summary>
+<summary><b>📈 Quant, trading e mercado: ver os 8 projetos</b></summary>
 <br/>
 
 <table>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/LHN-V90-IA"><img src="assets/cards/LHN-V90-IA.svg" alt="LHN Sovereign V90: Meu terminal quantitativo local para cripto: backend FastAPI, painel Next.js, integração Bybit V5 (REST + WebSocket), camadas de risco, telemetria e módulos de IA em Keras/TensorFlow." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/LHN-V90-IA"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/LHN-V90-IA.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/LHN-V90-IA.svg" /><img src="assets/dark/cards/LHN-V90-IA.svg" alt="LHN Sovereign V90: Meu terminal quantitativo local para cripto: backend FastAPI, painel Next.js, integração Bybit V5 (REST + WebSocket), camadas de risco, telemetria e módulos de IA em Keras/TensorFlow." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/LHN-V90-IA">LHN Sovereign V90</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-PolyForm%20NC-334155?style=flat-square" alt="Licença PolyForm NC" /> 
+<h4><a href="https://github.com/SrSatriano/LHN-V90-IA">LHN Sovereign V90</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-PolyForm%20NC-475569?style=flat-square" alt="Licença PolyForm NC" /> 
 <ul>
 <li>Operador no controle: risco, execução e auditoria visíveis no painel</li>
 <li>Replay, backfill, radar, labeler e ciclo de treino no core</li>
@@ -212,10 +207,10 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/lhn-android-apps"><img src="assets/cards/lhn-android-apps.svg" alt="LHN Android Apps: Dois apps Android nativos do ecossistema LHN: LHN Finanças (carteira offline-first com simuladores) e LHN Mirror (painel remoto do terminal LHN na rede local)." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/lhn-android-apps"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/lhn-android-apps.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/lhn-android-apps.svg" /><img src="assets/dark/cards/lhn-android-apps.svg" alt="LHN Android Apps: Dois apps Android nativos do ecossistema LHN: LHN Finanças (carteira offline-first com simuladores) e LHN Mirror (painel remoto do terminal LHN na rede local)." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/lhn-android-apps">LHN Android Apps</a></b><br/>
+<h4><a href="https://github.com/SrSatriano/lhn-android-apps">LHN Android Apps</a></h4>
 <a href="https://github.com/SrSatriano/lhn-android-apps/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/lhn-android-apps/actions/workflows/ci.yml/badge.svg" alt="CI de lhn-android-apps" /></a> 
 <ul>
 <li>Carteira com B3, exterior, FIIs, Tesouro Direto e cripto</li>
@@ -228,11 +223,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/ultra-low-latency-order-book-engine"><img src="assets/cards/ultra-low-latency-order-book-engine.svg" alt="Order Book Engine: Motor de matching em C++20 com prioridade preço-tempo, cinco tipos de ordem, replay de sessões em CSV e benchmark de latência por operação. Só usa a biblioteca padrão." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/ultra-low-latency-order-book-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/ultra-low-latency-order-book-engine.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/ultra-low-latency-order-book-engine.svg" /><img src="assets/dark/cards/ultra-low-latency-order-book-engine.svg" alt="Order Book Engine: Motor de matching em C++20 com prioridade preço-tempo, cinco tipos de ordem, replay de sessões em CSV e benchmark de latência por operação. Só usa a biblioteca padrão." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/ultra-low-latency-order-book-engine">Order Book Engine</a></b><br/>
-<a href="https://github.com/SrSatriano/ultra-low-latency-order-book-engine/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/ultra-low-latency-order-book-engine/actions/workflows/ci.yml/badge.svg" alt="CI de ultra-low-latency-order-book-engine" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/ultra-low-latency-order-book-engine">Order Book Engine</a></h4>
+<a href="https://github.com/SrSatriano/ultra-low-latency-order-book-engine/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/ultra-low-latency-order-book-engine/actions/workflows/ci.yml/badge.svg" alt="CI de ultra-low-latency-order-book-engine" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Prioridade preço-tempo; o agressor executa ao preço do maker</li>
 <li>Replay determinístico de sessões em CSV</li>
@@ -244,11 +239,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/avx512-options-pricing-engine"><img src="assets/cards/avx512-options-pricing-engine.svg" alt="AVX-512 Options Pricing: Precificação de opções europeias em C++20: Black-Scholes-Merton com gregas e volatilidade implícita, kernel AVX-512 que precifica 8 opções por instrução e Monte Carlo multi-thread." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/avx512-options-pricing-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/avx512-options-pricing-engine.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/avx512-options-pricing-engine.svg" /><img src="assets/dark/cards/avx512-options-pricing-engine.svg" alt="AVX-512 Options Pricing: Precificação de opções europeias em C++20: Black-Scholes-Merton com gregas e volatilidade implícita, kernel AVX-512 que precifica 8 opções por instrução e Monte Carlo multi-thread." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/avx512-options-pricing-engine">AVX-512 Options Pricing</a></b><br/>
-<a href="https://github.com/SrSatriano/avx512-options-pricing-engine/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/avx512-options-pricing-engine/actions/workflows/ci.yml/badge.svg" alt="CI de avx512-options-pricing-engine" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/avx512-options-pricing-engine">AVX-512 Options Pricing</a></h4>
+<a href="https://github.com/SrSatriano/avx512-options-pricing-engine/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/avx512-options-pricing-engine/actions/workflows/ci.yml/badge.svg" alt="CI de avx512-options-pricing-engine" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>exp, log e erfc vetoriais próprios, sem SVML</li>
 <li>Monte Carlo com variáveis antitéticas</li>
@@ -260,11 +255,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/smc-liquidity-scanner"><img src="assets/cards/smc-liquidity-scanner.svg" alt="SMC Liquidity Scanner: Lê velas OHLC (CSV ou API pública da Bybit) e marca os conceitos de Smart Money: BOS, CHoCH, fair value gaps, order blocks, pools de liquidez e zona premium/discount." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/smc-liquidity-scanner"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/smc-liquidity-scanner.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/smc-liquidity-scanner.svg" /><img src="assets/dark/cards/smc-liquidity-scanner.svg" alt="SMC Liquidity Scanner: Lê velas OHLC (CSV ou API pública da Bybit) e marca os conceitos de Smart Money: BOS, CHoCH, fair value gaps, order blocks, pools de liquidez e zona premium/discount." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/smc-liquidity-scanner">SMC Liquidity Scanner</a></b><br/>
-<a href="https://github.com/SrSatriano/smc-liquidity-scanner/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/smc-liquidity-scanner/actions/workflows/ci.yml/badge.svg" alt="CI de smc-liquidity-scanner" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/smc-liquidity-scanner">SMC Liquidity Scanner</a></h4>
+<a href="https://github.com/SrSatriano/smc-liquidity-scanner/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/smc-liquidity-scanner/actions/workflows/ci.yml/badge.svg" alt="CI de smc-liquidity-scanner" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>FVG com acompanhamento de mitigação e preenchimento</li>
 <li>Detecção de varreduras de liquidez</li>
@@ -276,11 +271,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/unified-trading-super-terminal"><img src="assets/cards/unified-trading-super-terminal.svg" alt="Unified Trading Terminal: Terminal de trading no console (TUI) com cotações ao vivo, gráfico, carteira com P&amp;L, painel de risco com VaR histórico, limites, kill switch e paper trading." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/unified-trading-super-terminal"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/unified-trading-super-terminal.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/unified-trading-super-terminal.svg" /><img src="assets/dark/cards/unified-trading-super-terminal.svg" alt="Unified Trading Terminal: Terminal de trading no console (TUI) com cotações ao vivo, gráfico, carteira com P&amp;L, painel de risco com VaR histórico, limites, kill switch e paper trading." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/unified-trading-super-terminal">Unified Trading Terminal</a></b><br/>
-<a href="https://github.com/SrSatriano/unified-trading-super-terminal/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/unified-trading-super-terminal/actions/workflows/ci.yml/badge.svg" alt="CI de unified-trading-super-terminal" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/unified-trading-super-terminal">Unified Trading Terminal</a></h4>
+<a href="https://github.com/SrSatriano/unified-trading-super-terminal/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/unified-trading-super-terminal/actions/workflows/ci.yml/badge.svg" alt="CI de unified-trading-super-terminal" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Dados públicos da Binance, sem chave de API</li>
 <li>Simulador determinístico para testes</li>
@@ -292,11 +287,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/dark-pool-market-impact-simulator"><img src="assets/cards/dark-pool-market-impact-simulator.svg" alt="Dark Pool Impact Simulator: Simula o custo de executar um bloco grande com o modelo Almgren-Chriss, compara TWAP, VWAP e execução em bloco e traça a fronteira eficiente." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/dark-pool-market-impact-simulator"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/dark-pool-market-impact-simulator.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/dark-pool-market-impact-simulator.svg" /><img src="assets/dark/cards/dark-pool-market-impact-simulator.svg" alt="Dark Pool Impact Simulator: Simula o custo de executar um bloco grande com o modelo Almgren-Chriss, compara TWAP, VWAP e execução em bloco e traça a fronteira eficiente." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/dark-pool-market-impact-simulator">Dark Pool Impact Simulator</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/dark-pool-market-impact-simulator">Dark Pool Impact Simulator</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Modelo Almgren-Chriss calibrado com histórico</li>
 <li>Comparativo TWAP / VWAP / block</li>
@@ -308,11 +303,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/chaos-engineering-trading-toolkit"><img src="assets/cards/chaos-engineering-trading-toolkit.svg" alt="Chaos Trading Toolkit: Chaos engineering para bots de trading: injeta latência, queda de banco e indisponibilidade de corretora para ver como o sistema se recupera." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/chaos-engineering-trading-toolkit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/chaos-engineering-trading-toolkit.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/chaos-engineering-trading-toolkit.svg" /><img src="assets/dark/cards/chaos-engineering-trading-toolkit.svg" alt="Chaos Trading Toolkit: Chaos engineering para bots de trading: injeta latência, queda de banco e indisponibilidade de corretora para ver como o sistema se recupera." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/chaos-engineering-trading-toolkit">Chaos Trading Toolkit</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/chaos-engineering-trading-toolkit">Chaos Trading Toolkit</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>CLI chaosd com experimentos documentados</li>
 <li>Relatórios de recuperação e MTTR</li>
@@ -331,21 +326,19 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 
 <a id="frente-ai"></a>
 
-<img src="assets/sections/ai.svg" alt="IA local, LLMs e avaliação: 6 projetos" width="100%" />
-
-> Modelos rodando perto dos dados: RAG offline, gateway de inferência, voz, avaliação de alucinação e modelos experimentais com validação honesta.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/sections/ai.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/sections/ai.svg" /><img src="assets/dark/sections/ai.svg" alt="IA local, LLMs e avaliação: 6 projetos" width="100%" /></picture>
 
 <details open>
-<summary><b>🧠 Ver os 6 projetos de IA local</b></summary>
+<summary><b>🧠 IA local, LLMs e avaliação: ver os 6 projetos</b></summary>
 <br/>
 
 <table>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/local-rag-second-mind-vault"><img src="assets/cards/local-rag-second-mind-vault.svg" alt="Second Mind Vault: Pergunte aos seus documentos sem mandar nada para a nuvem. Indexa Markdown, texto, HTML e PDF num único SQLite, busca com BM25 + vetores e responde citando os trechos usados." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/local-rag-second-mind-vault"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/local-rag-second-mind-vault.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/local-rag-second-mind-vault.svg" /><img src="assets/dark/cards/local-rag-second-mind-vault.svg" alt="Second Mind Vault: Pergunte aos seus documentos sem mandar nada para a nuvem. Indexa Markdown, texto, HTML e PDF num único SQLite, busca com BM25 + vetores e responde citando os trechos usados." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/local-rag-second-mind-vault">Second Mind Vault</a></b><br/>
-<a href="https://github.com/SrSatriano/local-rag-second-mind-vault/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/local-rag-second-mind-vault/actions/workflows/ci.yml/badge.svg" alt="CI de local-rag-second-mind-vault" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/local-rag-second-mind-vault">Second Mind Vault</a></h4>
+<a href="https://github.com/SrSatriano/local-rag-second-mind-vault/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/local-rag-second-mind-vault/actions/workflows/ci.yml/badge.svg" alt="CI de local-rag-second-mind-vault" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Fusão BM25 + vetores por Reciprocal Rank Fusion</li>
 <li>Resposta gerada pelo Ollama local, com citações</li>
@@ -357,11 +350,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/distributed-ai-inference-cluster"><img src="assets/cards/distributed-ai-inference-cluster.svg" alt="infergw: Inference Gateway: Junta várias máquinas com LLMs (PC com GPU, notebook, servidor vLLM) atrás de um único endereço compatível com a API da OpenAI e manda cada pedido para o worker certo." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/distributed-ai-inference-cluster"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/distributed-ai-inference-cluster.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/distributed-ai-inference-cluster.svg" /><img src="assets/dark/cards/distributed-ai-inference-cluster.svg" alt="infergw: Inference Gateway: Junta várias máquinas com LLMs (PC com GPU, notebook, servidor vLLM) atrás de um único endereço compatível com a API da OpenAI e manda cada pedido para o worker certo." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/distributed-ai-inference-cluster">infergw: Inference Gateway</a></b><br/>
-<a href="https://github.com/SrSatriano/distributed-ai-inference-cluster/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/distributed-ai-inference-cluster/actions/workflows/ci.yml/badge.svg" alt="CI de distributed-ai-inference-cluster" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/distributed-ai-inference-cluster">infergw: Inference Gateway</a></h4>
+<a href="https://github.com/SrSatriano/distributed-ai-inference-cluster/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/distributed-ai-inference-cluster/actions/workflows/ci.yml/badge.svg" alt="CI de distributed-ai-inference-cluster" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Roteamento por modelo anunciado em /v1/models</li>
 <li>Balanceamento por ocupação, fila e tolerância a falhas</li>
@@ -373,10 +366,10 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/loteria-ia"><img src="assets/cards/loteria-ia.svg" alt="Loteria IA: Explorador local das nove loterias numéricas da CAIXA: histórico oficial, estatísticas, modelos experimentais em TensorFlow e explicações em português por LLM local. Sem promessa de previsão." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/loteria-ia"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/loteria-ia.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/loteria-ia.svg" /><img src="assets/dark/cards/loteria-ia.svg" alt="Loteria IA: Explorador local das nove loterias numéricas da CAIXA: histórico oficial, estatísticas, modelos experimentais em TensorFlow e explicações em português por LLM local. Sem promessa de previsão." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/loteria-ia">Loteria IA</a></b><br/>
+<h4><a href="https://github.com/SrSatriano/loteria-ia">Loteria IA</a></h4>
 <a href="https://github.com/SrSatriano/loteria-ia/actions/workflows/quality.yml"><img src="https://github.com/SrSatriano/loteria-ia/actions/workflows/quality.yml/badge.svg" alt="CI de loteria-ia" /></a> 
 <ul>
 <li>Modelo só é promovido se não piorar contra a baseline</li>
@@ -389,11 +382,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/cognitive-bias-hallucination-trap"><img src="assets/cards/cognitive-bias-hallucination-trap.svg" alt="Hallucination Trap: Suíte de testes adversariais para LLMs: 48 cenários de viés e alucinação, com matriz de confusão por categoria e resultados exportáveis." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/cognitive-bias-hallucination-trap"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/cognitive-bias-hallucination-trap.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/cognitive-bias-hallucination-trap.svg" /><img src="assets/dark/cards/cognitive-bias-hallucination-trap.svg" alt="Hallucination Trap: Suíte de testes adversariais para LLMs: 48 cenários de viés e alucinação, com matriz de confusão por categoria e resultados exportáveis." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/cognitive-bias-hallucination-trap">Hallucination Trap</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/cognitive-bias-hallucination-trap">Hallucination Trap</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>48 traps categorizados</li>
 <li>Integração com vLLM OpenAI-compatible</li>
@@ -405,11 +398,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/voice-cloning-tts-api-gateway"><img src="assets/cards/voice-cloning-tts-api-gateway.svg" alt="Voice Cloning TTS Gateway: API self-hosted de síntese e clonagem de voz: registro de vozes por WAV de referência, síntese síncrona ou em lote e workers horizontais." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/voice-cloning-tts-api-gateway"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/voice-cloning-tts-api-gateway.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/voice-cloning-tts-api-gateway.svg" /><img src="assets/dark/cards/voice-cloning-tts-api-gateway.svg" alt="Voice Cloning TTS Gateway: API self-hosted de síntese e clonagem de voz: registro de vozes por WAV de referência, síntese síncrona ou em lote e workers horizontais." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/voice-cloning-tts-api-gateway">Voice Cloning TTS Gateway</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/voice-cloning-tts-api-gateway">Voice Cloning TTS Gateway</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Swagger UI interativo</li>
 <li>Workers escaláveis com Celery + Redis</li>
@@ -421,11 +414,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/viral-trend-sentiment-predictor"><img src="assets/cards/viral-trend-sentiment-predictor.svg" alt="Viral Trend Predictor: Cruza volume, sentimento e histórico para achar tendências cedo: coleta em Go, features em PostgreSQL e Gradient Boosting com validação temporal." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/viral-trend-sentiment-predictor"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/viral-trend-sentiment-predictor.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/viral-trend-sentiment-predictor.svg" /><img src="assets/dark/cards/viral-trend-sentiment-predictor.svg" alt="Viral Trend Predictor: Cruza volume, sentimento e histórico para achar tendências cedo: coleta em Go, features em PostgreSQL e Gradient Boosting com validação temporal." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/viral-trend-sentiment-predictor">Viral Trend Predictor</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/viral-trend-sentiment-predictor">Viral Trend Predictor</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Séries temporais de views e sentimento</li>
 <li>Split temporal, sem vazamento de futuro</li>
@@ -444,20 +437,18 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 
 <a id="frente-media"></a>
 
-<img src="assets/sections/media.svg" alt="Vídeo, áudio e criadores: 7 projetos" width="100%" />
-
-> Ferramentas para produzir, editar e medir conteúdo: edição em massa, pipelines de Shorts, trilhas procedurais, analytics de canais e produção editorial.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/sections/media.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/sections/media.svg" /><img src="assets/dark/sections/media.svg" alt="Vídeo, áudio e criadores: 7 projetos" width="100%" /></picture>
 
 <details open>
-<summary><b>🎬 Ver os 7 projetos de Vídeo &amp; criadores</b></summary>
+<summary><b>🎬 Vídeo, áudio e criadores: ver os 7 projetos</b></summary>
 <br/>
 
 <table>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/videoos"><img src="assets/cards/videoos.svg" alt="VideoOS: Editor local-first de vídeos curtos verticais: importa, aplica templates em lote, revisa renders FFmpeg e gera pacotes de publicação para Reels, TikTok e Shorts." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/videoos"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/videoos.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/videoos.svg" /><img src="assets/dark/cards/videoos.svg" alt="VideoOS: Editor local-first de vídeos curtos verticais: importa, aplica templates em lote, revisa renders FFmpeg e gera pacotes de publicação para Reels, TikTok e Shorts." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/videoos">VideoOS</a></b><br/>
+<h4><a href="https://github.com/SrSatriano/videoos">VideoOS</a></h4>
 <a href="https://github.com/SrSatriano/videoos/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/videoos/actions/workflows/ci.yml/badge.svg" alt="CI de videoos" /></a> 
 <ul>
 <li>Worker Python + FFmpeg/FFprobe</li>
@@ -470,11 +461,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/multi-channel-analytics-dashboard"><img src="assets/cards/multi-channel-analytics-dashboard.svg" alt="Multi-Channel Analytics: Painel para quem tem mais de um canal no YouTube: importa o CSV do YouTube Studio e compara RPM, receita, CTR, retenção e ranking de vídeos lado a lado." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/multi-channel-analytics-dashboard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/multi-channel-analytics-dashboard.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/multi-channel-analytics-dashboard.svg" /><img src="assets/dark/cards/multi-channel-analytics-dashboard.svg" alt="Multi-Channel Analytics: Painel para quem tem mais de um canal no YouTube: importa o CSV do YouTube Studio e compara RPM, receita, CTR, retenção e ranking de vídeos lado a lado." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/multi-channel-analytics-dashboard">Multi-Channel Analytics</a></b><br/>
-<a href="https://github.com/SrSatriano/multi-channel-analytics-dashboard/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/multi-channel-analytics-dashboard/actions/workflows/ci.yml/badge.svg" alt="CI de multi-channel-analytics-dashboard" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/multi-channel-analytics-dashboard">Multi-Channel Analytics</a></h4>
+<a href="https://github.com/SrSatriano/multi-channel-analytics-dashboard/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/multi-channel-analytics-dashboard/actions/workflows/ci.yml/badge.svg" alt="CI de multi-channel-analytics-dashboard" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Dados ficam só no navegador</li>
 <li>Site estático, sem servidor e sem chave de API</li>
@@ -486,10 +477,10 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/omniforge-studio"><img src="assets/cards/omniforge-studio.svg" alt="OmniForge Studio: Estúdio desktop para Windows que produz livros para Amazon KDP (PDF de impressão, capa, lombada, royalties), com TTS e provedores de IA plugáveis." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/omniforge-studio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/omniforge-studio.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/omniforge-studio.svg" /><img src="assets/dark/cards/omniforge-studio.svg" alt="OmniForge Studio: Estúdio desktop para Windows que produz livros para Amazon KDP (PDF de impressão, capa, lombada, royalties), com TTS e provedores de IA plugáveis." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/omniforge-studio">OmniForge Studio</a></b><br/>
+<h4><a href="https://github.com/SrSatriano/omniforge-studio">OmniForge Studio</a></h4>
 <a href="https://github.com/SrSatriano/omniforge-studio/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/omniforge-studio/actions/workflows/ci.yml/badge.svg" alt="CI de omniforge-studio" /></a> 
 <ul>
 <li>UI PySide6 que não trava: QThreadPool + ProcessPool</li>
@@ -502,11 +493,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/autonomous-short-form-video-pipeline"><img src="assets/cards/autonomous-short-form-video-pipeline.svg" alt="Short-Form Video Pipeline: Pipeline configurável em YAML que gera vídeos 9:16 prontos para publicar: roteiro, áudio, legendas com tempo por palavra e render acelerado por hardware." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/autonomous-short-form-video-pipeline"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/autonomous-short-form-video-pipeline.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/autonomous-short-form-video-pipeline.svg" /><img src="assets/dark/cards/autonomous-short-form-video-pipeline.svg" alt="Short-Form Video Pipeline: Pipeline configurável em YAML que gera vídeos 9:16 prontos para publicar: roteiro, áudio, legendas com tempo por palavra e render acelerado por hardware." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/autonomous-short-form-video-pipeline">Short-Form Video Pipeline</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/autonomous-short-form-video-pipeline">Short-Form Video Pipeline</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Legendas ASS com word timing (Whisper)</li>
 <li>NVENC, VideoToolbox e AMF</li>
@@ -518,11 +509,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/algorithmic-lofi-audio-generator"><img src="assets/cards/algorithmic-lofi-audio-generator.svg" alt="Lo-fi Audio Generator: Gera trilhas lo-fi alinhadas aos cortes do vídeo: detecta cenas, gera música por segmento com BPM coerente e mixa o resultado." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/algorithmic-lofi-audio-generator"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/algorithmic-lofi-audio-generator.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/algorithmic-lofi-audio-generator.svg" /><img src="assets/dark/cards/algorithmic-lofi-audio-generator.svg" alt="Lo-fi Audio Generator: Gera trilhas lo-fi alinhadas aos cortes do vídeo: detecta cenas, gera música por segmento com BPM coerente e mixa o resultado." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/algorithmic-lofi-audio-generator">Lo-fi Audio Generator</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/algorithmic-lofi-audio-generator">Lo-fi Audio Generator</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Detecção de cenas</li>
 <li>Geração por segmento com MusicGen</li>
@@ -534,11 +525,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/realtime-deepfake-streaming-bridge"><img src="assets/cards/realtime-deepfake-streaming-bridge.svg" alt="Realtime Face FX Bridge: Pipeline CUDA FP16 para efeitos de face em tempo real, com saída para câmera virtual e OBS. Também serve como base para pesquisa de detecção de deepfake." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/realtime-deepfake-streaming-bridge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/realtime-deepfake-streaming-bridge.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/realtime-deepfake-streaming-bridge.svg" /><img src="assets/dark/cards/realtime-deepfake-streaming-bridge.svg" alt="Realtime Face FX Bridge: Pipeline CUDA FP16 para efeitos de face em tempo real, com saída para câmera virtual e OBS. Também serve como base para pesquisa de detecção de deepfake." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/realtime-deepfake-streaming-bridge">Realtime Face FX Bridge</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/realtime-deepfake-streaming-bridge">Realtime Face FX Bridge</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Pré-processamento em CUDA</li>
 <li>Inferência FP16</li>
@@ -550,10 +541,10 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/satriano-studio"><img src="assets/cards/satriano-studio.svg" alt="Satriano Studio: Site público da minha ferramenta pessoal de publicação de vídeos (YouTube Data API), com política de privacidade e termos de uso." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/satriano-studio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/satriano-studio.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/satriano-studio.svg" /><img src="assets/dark/cards/satriano-studio.svg" alt="Satriano Studio: Site público da minha ferramenta pessoal de publicação de vídeos (YouTube Data API), com política de privacidade e termos de uso." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/satriano-studio">Satriano Studio</a></b><br/>
+<h4><a href="https://github.com/SrSatriano/satriano-studio">Satriano Studio</a></h4>
 
 <ul>
 <li>Site estático no GitHub Pages</li>
@@ -573,21 +564,19 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 
 <a id="frente-product"></a>
 
-<img src="assets/sections/product.svg" alt="Produto, finanças BR e carreira: 6 projetos" width="100%" />
-
-> Problemas do dia a dia brasileiro: notas fiscais, imposto na B3, metas financeiras em família, busca de vagas e base SaaS B2B.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/sections/product.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/sections/product.svg" /><img src="assets/dark/sections/product.svg" alt="Produto, finanças BR e carreira: 6 projetos" width="100%" /></picture>
 
 <details open>
-<summary><b>🇧🇷 Ver os 6 projetos de Produto &amp; Brasil</b></summary>
+<summary><b>🇧🇷 Produto, finanças BR e carreira: ver os 6 projetos</b></summary>
 <br/>
 
 <table>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/fiscal-data-ocr-engine"><img src="assets/cards/fiscal-data-ocr-engine.svg" alt="Fiscal Data OCR: Extrai, valida e categoriza notas fiscais brasileiras: XML da NF-e/NFC-e, DANFE em PDF, nota de serviço em texto e fotos de cupom. Processa uma pasta e gera planilha por categoria." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/fiscal-data-ocr-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/fiscal-data-ocr-engine.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/fiscal-data-ocr-engine.svg" /><img src="assets/dark/cards/fiscal-data-ocr-engine.svg" alt="Fiscal Data OCR: Extrai, valida e categoriza notas fiscais brasileiras: XML da NF-e/NFC-e, DANFE em PDF, nota de serviço em texto e fotos de cupom. Processa uma pasta e gera planilha por categoria." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/fiscal-data-ocr-engine">Fiscal Data OCR</a></b><br/>
-<a href="https://github.com/SrSatriano/fiscal-data-ocr-engine/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/fiscal-data-ocr-engine/actions/workflows/ci.yml/badge.svg" alt="CI de fiscal-data-ocr-engine" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/fiscal-data-ocr-engine">Fiscal Data OCR</a></h4>
+<a href="https://github.com/SrSatriano/fiscal-data-ocr-engine/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/fiscal-data-ocr-engine/actions/workflows/ci.yml/badge.svg" alt="CI de fiscal-data-ocr-engine" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Leitura completa da NF-e 4.00 (NCM, CFOP, itens)</li>
 <li>OCR opcional para cupons fotografados</li>
@@ -599,11 +588,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/tax-loss-harvesting-engine"><img src="assets/cards/tax-loss-harvesting-engine.svg" alt="Tax-Loss Harvesting B3: Calcula o IR mensal de operações na B3 (ações, ETFs, FIIs e day trade) a partir das notas e simula quais posições com prejuízo vale vender para pagar menos imposto." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/tax-loss-harvesting-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/tax-loss-harvesting-engine.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/tax-loss-harvesting-engine.svg" /><img src="assets/dark/cards/tax-loss-harvesting-engine.svg" alt="Tax-Loss Harvesting B3: Calcula o IR mensal de operações na B3 (ações, ETFs, FIIs e day trade) a partir das notas e simula quais posições com prejuízo vale vender para pagar menos imposto." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/tax-loss-harvesting-engine">Tax-Loss Harvesting B3</a></b><br/>
-<a href="https://github.com/SrSatriano/tax-loss-harvesting-engine/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/tax-loss-harvesting-engine/actions/workflows/ci.yml/badge.svg" alt="CI de tax-loss-harvesting-engine" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/tax-loss-harvesting-engine">Tax-Loss Harvesting B3</a></h4>
+<a href="https://github.com/SrSatriano/tax-loss-harvesting-engine/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/tax-loss-harvesting-engine/actions/workflows/ci.yml/badge.svg" alt="CI de tax-loss-harvesting-engine" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Regras da Lei 11.033/2004 e IN RFB 1.585/2015</li>
 <li>Isenção de R$ 20 mil e compensação de prejuízo</li>
@@ -615,10 +604,10 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/vagas-alerta"><img src="assets/cards/vagas-alerta.svg" alt="Vagas Alerta: Agregador local-first de vagas: coleta LinkedIn, Indeed, Glassdoor, Gupy, Vagas.com e páginas de companhias aéreas, remove duplicatas e avisa no Telegram só o que bate com seus filtros." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/vagas-alerta"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/vagas-alerta.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/vagas-alerta.svg" /><img src="assets/dark/cards/vagas-alerta.svg" alt="Vagas Alerta: Agregador local-first de vagas: coleta LinkedIn, Indeed, Glassdoor, Gupy, Vagas.com e páginas de companhias aéreas, remove duplicatas e avisa no Telegram só o que bate com seus filtros." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/vagas-alerta">Vagas Alerta</a></b><br/>
+<h4><a href="https://github.com/SrSatriano/vagas-alerta">Vagas Alerta</a></h4>
 <a href="https://github.com/SrSatriano/vagas-alerta/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/vagas-alerta/actions/workflows/ci.yml/badge.svg" alt="CI de vagas-alerta" /></a> 
 <ul>
 <li>Deduplicação difusa com RapidFuzz</li>
@@ -631,10 +620,10 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/rotanorte"><img src="assets/cards/rotanorte.svg" alt="RotaNorte: Busca vagas com visto para EUA e Canadá em fontes oficiais (DOL, Job Bank, LMIA), dá nota de 0 a 100 para o seu perfil, gera currículo em inglês e detecta golpes." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/rotanorte"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/rotanorte.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/rotanorte.svg" /><img src="assets/dark/cards/rotanorte.svg" alt="RotaNorte: Busca vagas com visto para EUA e Canadá em fontes oficiais (DOL, Job Bank, LMIA), dá nota de 0 a 100 para o seu perfil, gera currículo em inglês e detecta golpes." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/rotanorte">RotaNorte</a></b><br/>
+<h4><a href="https://github.com/SrSatriano/rotanorte">RotaNorte</a></h4>
 <a href="https://github.com/SrSatriano/rotanorte/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/rotanorte/actions/workflows/ci.yml/badge.svg" alt="CI de rotanorte" /></a> 
 <ul>
 <li>Listas LMIA, AIP e green card (PERM)</li>
@@ -647,11 +636,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/family-treasury-dao-tracker"><img src="assets/cards/family-treasury-dao-tracker.svg" alt="Family Treasury: Tesouraria familiar: cofres com metas, aportes e projeção com juros compostos, para dar visibilidade conjunta a objetivos de longo prazo." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/family-treasury-dao-tracker"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/family-treasury-dao-tracker.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/family-treasury-dao-tracker.svg" /><img src="assets/dark/cards/family-treasury-dao-tracker.svg" alt="Family Treasury: Tesouraria familiar: cofres com metas, aportes e projeção com juros compostos, para dar visibilidade conjunta a objetivos de longo prazo." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/family-treasury-dao-tracker">Family Treasury</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/family-treasury-dao-tracker">Family Treasury</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>API REST de cofres e aportes</li>
 <li>Projeção de valor futuro documentada</li>
@@ -663,11 +652,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/enterprise-b2b-saas-boilerplate"><img src="assets/cards/enterprise-b2b-saas-boilerplate.svg" alt="B2B SaaS Boilerplate: Base para SaaS B2B com o que todo projeto repete: autenticação, isolamento multi-tenant com RLS, rotas protegidas e cobrança via webhooks Stripe." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/enterprise-b2b-saas-boilerplate"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/enterprise-b2b-saas-boilerplate.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/enterprise-b2b-saas-boilerplate.svg" /><img src="assets/dark/cards/enterprise-b2b-saas-boilerplate.svg" alt="B2B SaaS Boilerplate: Base para SaaS B2B com o que todo projeto repete: autenticação, isolamento multi-tenant com RLS, rotas protegidas e cobrança via webhooks Stripe." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/enterprise-b2b-saas-boilerplate">B2B SaaS Boilerplate</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/enterprise-b2b-saas-boilerplate">B2B SaaS Boilerplate</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>RLS multi-tenant no Supabase</li>
 <li>Middleware Next.js para rotas protegidas</li>
@@ -686,21 +675,19 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 
 <a id="frente-web3"></a>
 
-<img src="assets/sections/web3.svg" alt="Web3, identidade e segurança on-chain: 6 projetos" width="100%" />
-
-> Contratos, provas de conhecimento zero, redes P2P e análise de risco on-chain. Tudo em testnet ou ambiente local, com limitações documentadas.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/sections/web3.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/sections/web3.svg" /><img src="assets/dark/sections/web3.svg" alt="Web3, identidade e segurança on-chain: 6 projetos" width="100%" /></picture>
 
 <details open>
-<summary><b>⛓️ Ver os 6 projetos de Web3</b></summary>
+<summary><b>⛓️ Web3, identidade e segurança on-chain: ver os 6 projetos</b></summary>
 <br/>
 
 <table>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/tokenomics-staking-protocol"><img src="assets/cards/tokenomics-staking-protocol.svg" alt="Tokenomics &amp; Staking: Token ERC-20 com cap e burn e um StakingPool protegido contra reentrância, com testes Hardhat e deploy em testnet." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/tokenomics-staking-protocol"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/tokenomics-staking-protocol.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/tokenomics-staking-protocol.svg" /><img src="assets/dark/cards/tokenomics-staking-protocol.svg" alt="Tokenomics &amp; Staking: Token ERC-20 com cap e burn e um StakingPool protegido contra reentrância, com testes Hardhat e deploy em testnet." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/tokenomics-staking-protocol">Tokenomics &amp; Staking</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/tokenomics-staking-protocol">Tokenomics &amp; Staking</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Cobertura de testes acima de 90%</li>
 <li>Deploy em Polygon Amoy</li>
@@ -712,11 +699,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/identity-vault-zk-proofs"><img src="assets/cards/identity-vault-zk-proofs.svg" alt="Identity Vault ZK: Prova de saldo mínimo e KYC seletivo sem expor dados: circuitos Groth16 em Circom, verificador em contrato e CLI de prova e verificação." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/identity-vault-zk-proofs"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/identity-vault-zk-proofs.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/identity-vault-zk-proofs.svg" /><img src="assets/dark/cards/identity-vault-zk-proofs.svg" alt="Identity Vault ZK: Prova de saldo mínimo e KYC seletivo sem expor dados: circuitos Groth16 em Circom, verificador em contrato e CLI de prova e verificação." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/identity-vault-zk-proofs">Identity Vault ZK</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/identity-vault-zk-proofs">Identity Vault ZK</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Circuito balance.circom</li>
 <li>Contrato verificador on-chain</li>
@@ -728,11 +715,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/p2p-orderbook-gossip"><img src="assets/cards/p2p-orderbook-gossip.svg" alt="P2P Order Book Gossip: Order book descentralizado: réplicas eventualmente consistentes que trocam ordens por GossipSub e resolvem conflitos por nonce." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/p2p-orderbook-gossip"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/p2p-orderbook-gossip.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/p2p-orderbook-gossip.svg" /><img src="assets/dark/cards/p2p-orderbook-gossip.svg" alt="P2P Order Book Gossip: Order book descentralizado: réplicas eventualmente consistentes que trocam ordens por GossipSub e resolvem conflitos por nonce." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/p2p-orderbook-gossip">P2P Order Book Gossip</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/p2p-orderbook-gossip">P2P Order Book Gossip</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>GossipSub sobre libp2p</li>
 <li>Rate limit contra DDoS</li>
@@ -744,11 +731,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/honeypot-rugpull-analyzer"><img src="assets/cards/honeypot-rugpull-analyzer.svg" alt="Honeypot &amp; Rug Pull Analyzer: Análise estática de contratos de token antes do swap: heurísticas próprias + Slither, com relatório Markdown e tabela de severidade." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/honeypot-rugpull-analyzer"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/honeypot-rugpull-analyzer.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/honeypot-rugpull-analyzer.svg" /><img src="assets/dark/cards/honeypot-rugpull-analyzer.svg" alt="Honeypot &amp; Rug Pull Analyzer: Análise estática de contratos de token antes do swap: heurísticas próprias + Slither, com relatório Markdown e tabela de severidade." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/honeypot-rugpull-analyzer">Honeypot &amp; Rug Pull Analyzer</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/honeypot-rugpull-analyzer">Honeypot &amp; Rug Pull Analyzer</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Mais de 10 detectores</li>
 <li>CLI por endereço de contrato</li>
@@ -760,11 +747,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/mempool-arbitrage-mev-bot"><img src="assets/cards/mempool-arbitrage-mev-bot.svg" alt="Mempool MEV Lab: Laboratório educacional de MEV: escuta transações pendentes, avalia lucro teórico de arbitragem e roda em testnet ou simulador local." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/mempool-arbitrage-mev-bot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/mempool-arbitrage-mev-bot.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/mempool-arbitrage-mev-bot.svg" /><img src="assets/dark/cards/mempool-arbitrage-mev-bot.svg" alt="Mempool MEV Lab: Laboratório educacional de MEV: escuta transações pendentes, avalia lucro teórico de arbitragem e roda em testnet ou simulador local." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/mempool-arbitrage-mev-bot">Mempool MEV Lab</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/mempool-arbitrage-mev-bot">Mempool MEV Lab</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Listener de transações pendentes</li>
 <li>Simulador local de mempool</li>
@@ -776,11 +763,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/cross-border-ledger-fabric"><img src="assets/cards/cross-border-ledger-fabric.svg" alt="Cross-Border Ledger: Ledger permissionado para faturas internacionais: canais privados, chaincode de registro e políticas de endosso entre organizações." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/cross-border-ledger-fabric"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/cross-border-ledger-fabric.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/cross-border-ledger-fabric.svg" /><img src="assets/dark/cards/cross-border-ledger-fabric.svg" alt="Cross-Border Ledger: Ledger permissionado para faturas internacionais: canais privados, chaincode de registro e políticas de endosso entre organizações." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/cross-border-ledger-fabric">Cross-Border Ledger</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/cross-border-ledger-fabric">Cross-Border Ledger</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Chaincode de invoice em Go</li>
 <li>Canais privados multi-org</li>
@@ -799,21 +786,19 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 
 <a id="frente-infra"></a>
 
-<img src="assets/sections/infra.svg" alt="Infraestrutura, sistemas e observabilidade: 5 projetos" width="100%" />
-
-> A base que deixa o resto operável: logs comprimidos, tracing no kernel, GitOps, isolamento por hypervisor e provisionamento reproduzível.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/sections/infra.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/sections/infra.svg" /><img src="assets/dark/sections/infra.svg" alt="Infraestrutura, sistemas e observabilidade: 5 projetos" width="100%" /></picture>
 
 <details open>
-<summary><b>🛠️ Ver os 5 projetos de Infra</b></summary>
+<summary><b>🛠️ Infraestrutura, sistemas e observabilidade: ver os 5 projetos</b></summary>
 <br/>
 
 <table>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/high-compression-log-router"><img src="assets/cards/high-compression-log-router.svg" alt="logroute: Recebe logs JSON por TCP, HTTP, arquivo ou stdin, separa por regras e grava cada destino em segmentos Zstd com rotação. Depois você consulta os segmentos pela linha de comando." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/high-compression-log-router"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/high-compression-log-router.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/high-compression-log-router.svg" /><img src="assets/dark/cards/high-compression-log-router.svg" alt="logroute: Recebe logs JSON por TCP, HTTP, arquivo ou stdin, separa por regras e grava cada destino em segmentos Zstd com rotação. Depois você consulta os segmentos pela linha de comando." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/high-compression-log-router">logroute</a></b><br/>
-<a href="https://github.com/SrSatriano/high-compression-log-router/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/high-compression-log-router/actions/workflows/ci.yml/badge.svg" alt="CI de high-compression-log-router" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/high-compression-log-router">logroute</a></h4>
+<a href="https://github.com/SrSatriano/high-compression-log-router/actions/workflows/ci.yml"><img src="https://github.com/SrSatriano/high-compression-log-router/actions/workflows/ci.yml/badge.svg" alt="CI de high-compression-log-router" /></a> <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Regras por nível, campo, texto ou regex</li>
 <li>Segmentos Zstd com rotação por tamanho e idade</li>
@@ -825,11 +810,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/ebpf-latency-tracer-financial"><img src="assets/cards/ebpf-latency-tracer-financial.svg" alt="eBPF Latency Tracer: Mede latência de rede no kernel sem o custo do tcpdump: histogramas em maps BPF exportados para Prometheus e Grafana." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/ebpf-latency-tracer-financial"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/ebpf-latency-tracer-financial.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/ebpf-latency-tracer-financial.svg" /><img src="assets/dark/cards/ebpf-latency-tracer-financial.svg" alt="eBPF Latency Tracer: Mede latência de rede no kernel sem o custo do tcpdump: histogramas em maps BPF exportados para Prometheus e Grafana." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/ebpf-latency-tracer-financial">eBPF Latency Tracer</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/ebpf-latency-tracer-financial">eBPF Latency Tracer</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Histogramas agregados no kernel</li>
 <li>Loader em Python</li>
@@ -841,11 +826,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/gitops-infra-state-reconciler"><img src="assets/cards/gitops-infra-state-reconciler.svg" alt="GitOps Reconciler: Detecta quando um servidor diverge do Git: webhook no push e loop de reconciliação comparando hash de estado, com hooks Ansible." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/gitops-infra-state-reconciler"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/gitops-infra-state-reconciler.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/gitops-infra-state-reconciler.svg" /><img src="assets/dark/cards/gitops-infra-state-reconciler.svg" alt="GitOps Reconciler: Detecta quando um servidor diverge do Git: webhook no push e loop de reconciliação comparando hash de estado, com hooks Ansible." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/gitops-infra-state-reconciler">GitOps Reconciler</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/gitops-infra-state-reconciler">GitOps Reconciler</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Detector de divergência por hash</li>
 <li>Webhook Git + loop configurável</li>
@@ -857,11 +842,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/hypervisor-ai-isolation"><img src="assets/cards/hypervisor-ai-isolation.svg" alt="Hypervisor AI Isolation: Isola agentes de IA em máquinas virtuais sem rede por padrão, para que tool-calling não exfiltre dados do host. Modelo de ameaças documentado." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/hypervisor-ai-isolation"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/hypervisor-ai-isolation.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/hypervisor-ai-isolation.svg" /><img src="assets/dark/cards/hypervisor-ai-isolation.svg" alt="Hypervisor AI Isolation: Isola agentes de IA em máquinas virtuais sem rede por padrão, para que tool-calling não exfiltre dados do host. Modelo de ameaças documentado." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/hypervisor-ai-isolation">Hypervisor AI Isolation</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/hypervisor-ai-isolation">Hypervisor AI Isolation</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Scaffold VMX/EPT</li>
 <li>Scripts QEMU/KVM</li>
@@ -873,11 +858,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/zero-to-hero-workstation-provisioner"><img src="assets/cards/zero-to-hero-workstation-provisioner.svg" alt="Workstation Provisioner: Playbook Ansible idempotente que transforma uma máquina nova em estação de HFT/ML: NVIDIA, Docker, C++, Python e Node, também em WSL2." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/zero-to-hero-workstation-provisioner"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/zero-to-hero-workstation-provisioner.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/zero-to-hero-workstation-provisioner.svg" /><img src="assets/dark/cards/zero-to-hero-workstation-provisioner.svg" alt="Workstation Provisioner: Playbook Ansible idempotente que transforma uma máquina nova em estação de HFT/ML: NVIDIA, Docker, C++, Python e Node, também em WSL2." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/zero-to-hero-workstation-provisioner">Workstation Provisioner</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/zero-to-hero-workstation-provisioner">Workstation Provisioner</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Roles modulares</li>
 <li>group_vars customizável</li>
@@ -896,20 +881,18 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 
 <a id="frente-origins"></a>
 
-<img src="assets/sections/origins.svg" alt="Origens, estudos e sites: 5 projetos" width="100%" />
-
-> De onde eu vim: primeiros experimentos com IA e finanças, exercícios de curso e os sites públicos que apresentam o trabalho.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/sections/origins.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/sections/origins.svg" /><img src="assets/dark/sections/origins.svg" alt="Origens, estudos e sites: 5 projetos" width="100%" /></picture>
 
 <details open>
-<summary><b>🌱 Ver os 5 projetos de Origens</b></summary>
+<summary><b>🌱 Origens, estudos e sites: ver os 5 projetos</b></summary>
 <br/>
 
 <table>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/portfolio-matheus-satriano"><img src="assets/cards/portfolio-matheus-satriano.svg" alt="Portfólio: Site em Next.js que reúne o LHN e os módulos públicos, com estética de dossiê técnico, painéis de arquitetura e capítulos interativos." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/portfolio-matheus-satriano"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/portfolio-matheus-satriano.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/portfolio-matheus-satriano.svg" /><img src="assets/dark/cards/portfolio-matheus-satriano.svg" alt="Portfólio: Site em Next.js que reúne o LHN e os módulos públicos, com estética de dossiê técnico, painéis de arquitetura e capítulos interativos." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/portfolio-matheus-satriano">Portfólio</a></b><br/>
+<h4><a href="https://github.com/SrSatriano/portfolio-matheus-satriano">Portfólio</a></h4>
 
 <ul>
 <li>Campos visuais gerados em código</li>
@@ -922,10 +905,10 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/IA-Financeira"><img src="assets/cards/IA-Financeira.svg" alt="IA Financeira: Um dos meus primeiros projetos: análise de dados históricos, modelos de previsão e gráficos de velas numa interface desktop." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/IA-Financeira"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/IA-Financeira.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/IA-Financeira.svg" /><img src="assets/dark/cards/IA-Financeira.svg" alt="IA Financeira: Um dos meus primeiros projetos: análise de dados históricos, modelos de previsão e gráficos de velas numa interface desktop." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/IA-Financeira">IA Financeira</a></b><br/>
+<h4><a href="https://github.com/SrSatriano/IA-Financeira">IA Financeira</a></h4>
 
 <ul>
 <li>Dados via yfinance</li>
@@ -938,11 +921,11 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/PersonalAI"><img src="assets/cards/PersonalAI.svg" alt="PersonalAI: Chatbot pessoal com GPT-2: guarda perguntas e respostas em SQLite e pesquisa na web quando não sabe responder." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/PersonalAI"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/PersonalAI.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/PersonalAI.svg" /><img src="assets/dark/cards/PersonalAI.svg" alt="PersonalAI: Chatbot pessoal com GPT-2: guarda perguntas e respostas em SQLite e pesquisa na web quando não sabe responder." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/PersonalAI">PersonalAI</a></b><br/>
-<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-334155?style=flat-square" alt="Licença MIT" /> 
+<h4><a href="https://github.com/SrSatriano/PersonalAI">PersonalAI</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
 <ul>
 <li>Respostas com GPT-2 (transformers)</li>
 <li>Memória em SQLite</li>
@@ -954,10 +937,10 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/calculadora-de-notas"><img src="assets/cards/calculadora-de-notas.svg" alt="Calculadora de Notas: Calculadora de média ponderada para o semestre, com até seis notas e pesos, em duas versões: Java desktop e Python com tkinter." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/calculadora-de-notas"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/calculadora-de-notas.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/calculadora-de-notas.svg" /><img src="assets/dark/cards/calculadora-de-notas.svg" alt="Calculadora de Notas: Calculadora de média ponderada para o semestre, com até seis notas e pesos, em duas versões: Java desktop e Python com tkinter." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/calculadora-de-notas">Calculadora de Notas</a></b><br/>
+<h4><a href="https://github.com/SrSatriano/calculadora-de-notas">Calculadora de Notas</a></h4>
 
 <ul>
 <li>Até 6 notas com pesos</li>
@@ -970,10 +953,10 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/Python_Senac_RIo_On"><img src="assets/cards/Python_Senac_RIo_On.svg" alt="Python Senac Rio On: Exercícios e códigos das aulas do curso de Python do Senac Rio, organizados por aula." width="100%" /></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/Python_Senac_RIo_On"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/Python_Senac_RIo_On.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/Python_Senac_RIo_On.svg" /><img src="assets/dark/cards/Python_Senac_RIo_On.svg" alt="Python Senac Rio On: Exercícios e códigos das aulas do curso de Python do Senac Rio, organizados por aula." width="100%" /></picture></a></td>
 <td valign="top">
 
-<b><a href="https://github.com/SrSatriano/Python_Senac_RIo_On">Python Senac Rio On</a></b><br/>
+<h4><a href="https://github.com/SrSatriano/Python_Senac_RIo_On">Python Senac Rio On</a></h4>
 
 <ul>
 <li>Pastas por aula</li>
@@ -991,7 +974,6 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 
 <p align="right"><a href="#topo">⬆ voltar ao topo</a></p>
 
-<!-- CATALOG:END -->
 
 ---
 
@@ -999,64 +981,13 @@ Todos os repositórios públicos, agrupados por frente. À esquerda, o card (cli
 
 ## 🔗 Ecossistema
 
-Como os projetos se relacionam. Linha cheia é integração real; linha tracejada é o mesmo domínio técnico, estudado em um módulo separado.
+Cada frente orbita o LHN: os módulos isolam um problema (latência, risco, inferência, logs) para estudar e medir separado, e o que amadurece volta para o sistema principal.
 
-```mermaid
-flowchart TB
-    subgraph QUANT["📈 Quant & trading"]
-        LHN["LHN Sovereign V90"]
-        OB["Order Book C++"]
-        AVX["AVX-512 Pricing"]
-        SMC["SMC Scanner"]
-        TUI["Terminal Rust"]
-        DP["Dark Pool Sim"]
-        CH["Chaos Toolkit"]
-    end
-    subgraph AI["🧠 IA local"]
-        RAG["Second Mind Vault"]
-        GW["infergw"]
-        TRAP["Hallucination Trap"]
-        TTS["Voice TTS"]
-    end
-    subgraph INFRA["🛠️ Infra"]
-        LOG["logroute"]
-        EBPF["eBPF Tracer"]
-        GIT["GitOps"]
-        HV["Hypervisor AI"]
-        WP["Provisioner"]
-    end
-    subgraph BR["🇧🇷 Produto & Brasil"]
-        FIS["Fiscal OCR"]
-        TAX["Tax-Loss B3"]
-        VAG["Vagas Alerta"]
-        RN["RotaNorte"]
-    end
-    subgraph MEDIA["🎬 Vídeo & criadores"]
-        VOS["VideoOS"]
-        PIPE["Shorts Pipeline"]
-        LOFI["Lo-fi Generator"]
-        MCA["Channel Analytics"]
-    end
-    APP["📱 LHN Android"] --> LHN
-    OB -.-> LHN
-    AVX -.-> LHN
-    SMC -.-> LHN
-    TUI -.-> LHN
-    DP -.-> OB
-    CH -.-> LHN
-    GW -.-> RAG
-    TRAP -.-> GW
-    LOG -.-> LHN
-    EBPF -.-> LHN
-    HV -.-> GW
-    WP -.-> GIT
-    TAX -.-> FIS
-    RN -.-> VAG
-    LOFI -.-> PIPE
-    PIPE -.-> VOS
-    TTS -.-> PIPE
-    MCA -.-> VOS
-```
+<div align="center">
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/constellation.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/constellation.svg" /><img src="assets/dark/constellation.svg" alt="Constelação dos repositórios públicos por frente" width="100%" /></picture>
+
+</div>
 
 ---
 
@@ -1066,14 +997,14 @@ flowchart TB
 
 | Se você quer ver… | Comece por | Por quê |
 |---|---|---|
-| **Performance e microestrutura** | [Order Book](https://github.com/SrSatriano/ultra-low-latency-order-book-engine) → [AVX-512 Pricing](https://github.com/SrSatriano/avx512-options-pricing-engine) | C++20 sem dependências, benchmarks e CI |
-| **Um sistema completo** | [LHN Sovereign V90](https://github.com/SrSatriano/LHN-V90-IA) → [LHN Android](https://github.com/SrSatriano/lhn-android-apps) | back-end, painel, risco, IA e app móvel |
-| **IA local e privacidade** | [Second Mind Vault](https://github.com/SrSatriano/local-rag-second-mind-vault) → [infergw](https://github.com/SrSatriano/distributed-ai-inference-cluster) | RAG com citações e gateway OpenAI-compatível |
-| **Produto para o Brasil** | [Fiscal OCR](https://github.com/SrSatriano/fiscal-data-ocr-engine) → [Tax-Loss B3](https://github.com/SrSatriano/tax-loss-harvesting-engine) | NF-e, DANFE e imposto de renda na B3 |
-| **Ferramentas do dia a dia** | [Vagas Alerta](https://github.com/SrSatriano/vagas-alerta) → [RotaNorte](https://github.com/SrSatriano/rotanorte) | coleta, deduplicação, notas e alertas no Telegram |
-| **Criação de conteúdo** | [VideoOS](https://github.com/SrSatriano/videoos) → [Channel Analytics](https://github.com/SrSatriano/multi-channel-analytics-dashboard) | edição em massa e métricas de canais |
-| **Rust e sistemas** | [logroute](https://github.com/SrSatriano/high-compression-log-router) → [Terminal TUI](https://github.com/SrSatriano/unified-trading-super-terminal) | Zstd, CLI, Ratatui e testes |
-| **Web3** | [Identity Vault ZK](https://github.com/SrSatriano/identity-vault-zk-proofs) → [Honeypot Analyzer](https://github.com/SrSatriano/honeypot-rugpull-analyzer) | provas Groth16 e análise de contratos |
+| ⚡ **Performance e microestrutura** | [Order Book](https://github.com/SrSatriano/ultra-low-latency-order-book-engine) → [AVX-512 Pricing](https://github.com/SrSatriano/avx512-options-pricing-engine) | C++20 sem dependências, benchmarks e CI |
+| 🛰️ **Um sistema completo** | [LHN Sovereign V90](https://github.com/SrSatriano/LHN-V90-IA) → [LHN Android](https://github.com/SrSatriano/lhn-android-apps) | back-end, painel, risco, IA e app móvel |
+| 🧠 **IA local e privacidade** | [Second Mind Vault](https://github.com/SrSatriano/local-rag-second-mind-vault) → [infergw](https://github.com/SrSatriano/distributed-ai-inference-cluster) | RAG com citações e gateway OpenAI-compatível |
+| 🇧🇷 **Produto para o Brasil** | [Fiscal OCR](https://github.com/SrSatriano/fiscal-data-ocr-engine) → [Tax-Loss B3](https://github.com/SrSatriano/tax-loss-harvesting-engine) | NF-e, DANFE e imposto de renda na B3 |
+| 🔔 **Ferramentas do dia a dia** | [Vagas Alerta](https://github.com/SrSatriano/vagas-alerta) → [RotaNorte](https://github.com/SrSatriano/rotanorte) | coleta, deduplicação, notas e alertas no Telegram |
+| 🎬 **Criação de conteúdo** | [VideoOS](https://github.com/SrSatriano/videoos) → [Channel Analytics](https://github.com/SrSatriano/multi-channel-analytics-dashboard) | edição em massa e métricas de canais |
+| 🦀 **Rust e sistemas** | [logroute](https://github.com/SrSatriano/high-compression-log-router) → [Terminal TUI](https://github.com/SrSatriano/unified-trading-super-terminal) | Zstd, CLI, Ratatui e testes |
+| ⛓️ **Web3** | [Identity Vault ZK](https://github.com/SrSatriano/identity-vault-zk-proofs) → [Honeypot Analyzer](https://github.com/SrSatriano/honeypot-rugpull-analyzer) | provas Groth16 e análise de contratos |
 
 <details>
 <summary><b>💡 Como rodar qualquer projeto</b></summary>
@@ -1092,18 +1023,13 @@ Projetos com selo **CI** rodam os testes a cada push; clique no selo para ver a 
 
 </details>
 
----
-
 <a id="indice"></a>
 
-## 📇 Índice A–Z
-
 <details>
-<summary><b>Ver a lista completa em formato de tabela</b></summary>
+<summary><b>📇 Índice A–Z: todos os 43 projetos em uma tabela</b></summary>
 
 <br/>
 
-<!-- INDEX:START -->
 | Projeto | Frente | Linguagem | O que é | Links |
 |---|---|:---:|---|---|
 | [LHN Sovereign V90](https://github.com/SrSatriano/LHN-V90-IA) | 📈 Quant & trading | Python | Meu terminal quantitativo local para cripto | [código](https://github.com/SrSatriano/LHN-V90-IA) |
@@ -1149,7 +1075,6 @@ Projetos com selo **CI** rodam os testes a cada push; clique no selo para ver a 
 | [PersonalAI](https://github.com/SrSatriano/PersonalAI) | 🌱 Origens | Python | Chatbot pessoal com GPT-2 | [código](https://github.com/SrSatriano/PersonalAI) |
 | [Calculadora de Notas](https://github.com/SrSatriano/calculadora-de-notas) | 🌱 Origens | Java | Calculadora de média ponderada para o semestre, com até seis notas e pesos, em duas versões | [código](https://github.com/SrSatriano/calculadora-de-notas) |
 | [Python Senac Rio On](https://github.com/SrSatriano/Python_Senac_RIo_On) | 🌱 Origens | Python | Exercícios e códigos das aulas do curso de Python do Senac Rio, organizados por aula | [código](https://github.com/SrSatriano/Python_Senac_RIo_On) |
-<!-- INDEX:END -->
 
 </details>
 
@@ -1159,87 +1084,64 @@ Projetos com selo **CI** rodam os testes a cada push; clique no selo para ver a 
 
 ## 🧰 Stack
 
-### Linguagens e core
+<div align="center">
 
-<p>
+**Linguagens e core**
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=python,rust,cpp,typescript,go,kotlin,java,javascript,solidity,bash&perline=10&theme=light" />
   <img src="https://skillicons.dev/icons?i=python,rust,cpp,typescript,go,kotlin,java,javascript,solidity,bash&perline=10" alt="Python, Rust, C++, TypeScript, Go, Kotlin, Java, JavaScript, Solidity e Bash" />
-</p>
+</picture>
 
-<p>
-  <img src="https://img.shields.io/badge/C%2B%2B20-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++20" />
-  <img src="https://img.shields.io/badge/AVX--512-512BD4?style=flat-square&logo=intel&logoColor=white" alt="AVX-512" />
-  <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
-  <img src="https://img.shields.io/badge/MQL5-0ea5e9?style=flat-square" alt="MQL5" />
-</p>
+<br/><br/>
 
-### Web, APIs, mobile e produto
+**Web, APIs, mobile e dados**
 
-<p>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=fastapi,nextjs,react,vite,tailwind,nodejs,androidstudio,postgres,sqlite,redis&perline=10&theme=light" />
   <img src="https://skillicons.dev/icons?i=fastapi,nextjs,react,vite,tailwind,nodejs,androidstudio,postgres,sqlite,redis&perline=10" alt="FastAPI, Next.js, React, Vite, Tailwind, Node.js, Android, PostgreSQL, SQLite e Redis" />
-</p>
+</picture>
 
-<p>
-  <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose" />
-  <img src="https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PySide6" />
-  <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
-  <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI" />
-  <img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square" alt="WebSocket" />
-  <img src="https://img.shields.io/badge/Recharts-22c55e?style=flat-square" alt="Recharts" />
-  <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron" />
-</p>
+<br/><br/>
 
-### IA, dados e mídia
+**IA e infraestrutura**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn&perline=4" alt="TensorFlow, PyTorch e scikit-learn" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,docker,ansible,linux,githubactions,nginx,grafana,prometheus&perline=10&theme=light" />
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,docker,ansible,linux,githubactions,nginx,grafana,prometheus&perline=10" alt="TensorFlow, PyTorch, scikit-learn, Docker, Ansible, Linux, GitHub Actions, Nginx, Grafana e Prometheus" />
+</picture>
 
-<p>
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
-  <img src="https://img.shields.io/badge/vLLM-30A2FF?style=flat-square" alt="vLLM" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
-  <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras" />
-  <img src="https://img.shields.io/badge/Whisper-412991?style=flat-square" alt="Whisper" />
-  <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
-  <img src="https://img.shields.io/badge/RAG-offline-22c55e?style=flat-square" alt="RAG offline" />
-  <img src="https://img.shields.io/badge/OCR-fiscal_BR-f59e0b?style=flat-square" alt="OCR fiscal brasileiro" />
-</p>
+<br/><br/>
 
-### Infra, DevOps e sistemas
+<img src="https://img.shields.io/badge/C%2B%2B20-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++20" />
+<img src="https://img.shields.io/badge/AVX--512-512BD4?style=flat-square&logo=intel&logoColor=white" alt="AVX-512" />
+<img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+<img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose" />
+<img src="https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="PySide6" />
+<img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
+<img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron" />
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+<img src="https://img.shields.io/badge/vLLM-30A2FF?style=flat-square" alt="vLLM" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+<img src="https://img.shields.io/badge/Whisper-412991?style=flat-square" alt="Whisper" />
+<img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
+<img src="https://img.shields.io/badge/eBPF-000000?style=flat-square" alt="eBPF" />
+<img src="https://img.shields.io/badge/QEMU%2FKVM-FF6600?style=flat-square&logo=qemu&logoColor=white" alt="QEMU/KVM" />
+<img src="https://img.shields.io/badge/Zstd-5A5A5A?style=flat-square" alt="Zstd" />
+<img src="https://img.shields.io/badge/libp2p-000000?style=flat-square" alt="libp2p" />
+<img src="https://img.shields.io/badge/Bybit_V5-F7A600?style=flat-square" alt="Bybit V5" />
+<img src="https://img.shields.io/badge/MetaTrader_5-0B6BB4?style=flat-square" alt="MetaTrader 5" />
+<img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" alt="Solidity" />
+<img src="https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logo=hardhat&logoColor=black" alt="Hardhat" />
+<img src="https://img.shields.io/badge/Circom-ZK-6d28d9?style=flat-square" alt="Circom, ZK" />
+<img src="https://img.shields.io/badge/Hyperledger_Fabric-2F2F72?style=flat-square&logo=hyperledger&logoColor=white" alt="Hyperledger Fabric" />
 
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,ansible,linux,git,github,githubactions,nginx,kubernetes,grafana,prometheus&perline=10" alt="Docker, Ansible, Linux, Git, GitHub, GitHub Actions, Nginx, Kubernetes, Grafana e Prometheus" />
-</p>
+</div>
 
-<p>
-  <img src="https://img.shields.io/badge/eBPF-000000?style=flat-square" alt="eBPF" />
-  <img src="https://img.shields.io/badge/QEMU%2FKVM-FF6600?style=flat-square&logo=qemu&logoColor=white" alt="QEMU/KVM" />
-  <img src="https://img.shields.io/badge/Zstd-5A5A5A?style=flat-square" alt="Zstd" />
-  <img src="https://img.shields.io/badge/GitOps-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="GitOps" />
-  <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery" />
-  <img src="https://img.shields.io/badge/libp2p-000000?style=flat-square" alt="libp2p" />
-</p>
+<details>
+<summary><b>🧪 Como eu construo</b></summary>
 
-### Mercado e Web3
-
-<p>
-  <img src="https://img.shields.io/badge/Bybit_V5-F7A600?style=flat-square" alt="Bybit V5" />
-  <img src="https://img.shields.io/badge/MetaTrader_5-0B6BB4?style=flat-square" alt="MetaTrader 5" />
-  <img src="https://img.shields.io/badge/B3-IR_mensal-0f172a?style=flat-square" alt="B3, IR mensal" />
-  <img src="https://img.shields.io/badge/Risk_Engine-b91c1c?style=flat-square" alt="Motor de risco" />
-  <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" alt="Solidity" />
-  <img src="https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logo=hardhat&logoColor=black" alt="Hardhat" />
-  <img src="https://img.shields.io/badge/Circom-ZK-6d28d9?style=flat-square" alt="Circom, ZK" />
-  <img src="https://img.shields.io/badge/Hyperledger_Fabric-2F2F72?style=flat-square&logo=hyperledger&logoColor=white" alt="Hyperledger Fabric" />
-</p>
-
----
-
-<a id="como-eu-construo"></a>
-
-## 🧪 Como eu construo
-
-Eu construo como quem vai operar o sistema depois.
+<br/>
 
 | Camada | Preferência técnica |
 |---|---|
@@ -1250,6 +1152,8 @@ Eu construo como quem vai operar o sistema depois.
 | **IA** | modelos open source, RAG offline, avaliação contra baseline e nada de promessa que o modelo não cumpre |
 | **Operação** | logs úteis, health checks, Docker Compose, CI no GitHub Actions e README em português |
 
+</details>
+
 ---
 
 <a id="atividade"></a>
@@ -1258,9 +1162,18 @@ Eu construo como quem vai operar o sistema depois.
 
 <div align="center">
 
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrSatriano&theme=github_dark" alt="Estatísticas detalhadas do perfil GitHub" />
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SrSatriano&theme=github_dark" alt="Linguagens por repositório" />
-<img height="180" src="https://streak-stats.demolab.com/?user=SrSatriano&theme=tokyonight&hide_border=true&background=0f172a&ring=22c55e&fire=38bdf8&currStreakLabel=38bdf8" alt="Sequência de contribuições no GitHub" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrSatriano&theme=default" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrSatriano&theme=github_dark" alt="Estatísticas detalhadas do perfil GitHub" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SrSatriano&theme=default" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SrSatriano&theme=github_dark" alt="Linguagens por repositório" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=SrSatriano&theme=default&hide_border=true" />
+  <img height="180" src="https://streak-stats.demolab.com/?user=SrSatriano&theme=tokyonight&hide_border=true&background=0f172a&ring=22c55e&fire=38bdf8&currStreakLabel=38bdf8" alt="Sequência de contribuições no GitHub" />
+</picture>
 
 </div>
 
@@ -1273,36 +1186,12 @@ Eu construo como quem vai operar o sistema depois.
 <div align="center">
 
 <table>
-  <tr>
-    <td align="center">🌐</td>
-    <td><strong>Portfólio</strong></td>
-    <td><a href="https://srsatriano.github.io/portfolio-matheus-satriano/">srsatriano.github.io/portfolio-matheus-satriano</a></td>
-  </tr>
-  <tr>
-    <td align="center">🎬</td>
-    <td><strong>Satriano Studio</strong></td>
-    <td><a href="https://srsatriano.github.io/satriano-studio/">srsatriano.github.io/satriano-studio</a></td>
-  </tr>
-  <tr>
-    <td align="center">🐙</td>
-    <td><strong>GitHub</strong></td>
-    <td><a href="https://github.com/SrSatriano">github.com/SrSatriano</a></td>
-  </tr>
-  <tr>
-    <td align="center">💼</td>
-    <td><strong>LinkedIn</strong></td>
-    <td><a href="https://www.linkedin.com/in/matheus-rodrigues-satriano">linkedin.com/in/matheus-rodrigues-satriano</a></td>
-  </tr>
-  <tr>
-    <td align="center">🧑‍💻</td>
-    <td><strong>g.dev</strong></td>
-    <td><a href="https://g.dev/satriano">g.dev/satriano</a></td>
-  </tr>
-  <tr>
-    <td align="center">✉️</td>
-    <td><strong>E-mail</strong></td>
-    <td><a href="mailto:matheussatriano@hotmail.com">matheussatriano@hotmail.com</a></td>
-  </tr>
+  <tr><td align="center">🌐</td><td><strong>Portfólio</strong></td><td><a href="https://srsatriano.github.io/portfolio-matheus-satriano/">srsatriano.github.io/portfolio-matheus-satriano</a></td></tr>
+  <tr><td align="center">🎬</td><td><strong>Satriano Studio</strong></td><td><a href="https://srsatriano.github.io/satriano-studio/">srsatriano.github.io/satriano-studio</a></td></tr>
+  <tr><td align="center">🐙</td><td><strong>GitHub</strong></td><td><a href="https://github.com/SrSatriano">github.com/SrSatriano</a></td></tr>
+  <tr><td align="center">💼</td><td><strong>LinkedIn</strong></td><td><a href="https://www.linkedin.com/in/matheus-rodrigues-satriano">linkedin.com/in/matheus-rodrigues-satriano</a></td></tr>
+  <tr><td align="center">🧑‍💻</td><td><strong>g.dev</strong></td><td><a href="https://g.dev/satriano">g.dev/satriano</a></td></tr>
+  <tr><td align="center">✉️</td><td><strong>E-mail</strong></td><td><a href="mailto:matheussatriano@hotmail.com">matheussatriano@hotmail.com</a></td></tr>
 </table>
 
 <br/>
@@ -1313,12 +1202,14 @@ Eu construo como quem vai operar o sistema depois.
 
 **Aberto a desafios técnicos, projetos open source, back-end, sistemas quant, IA local e boas conversas sobre latência.**
 
-<sub>Os visuais desta página são gerados por <a href="scripts/build_profile.py"><code>scripts/build_profile.py</code></a> a partir de <a href="data/projects.json"><code>data/projects.json</code></a>.</sub>
+<sub>Atualizado em 19 nov 2026 · visuais gerados por <a href="scripts/build_profile.py"><code>scripts/build_profile.py</code></a> a partir de <a href="data/projects.json"><code>data/projects.json</code></a> · tema claro e escuro automáticos</sub>
 
 <br/><br/>
 
 <a href="#topo">⬆ voltar ao topo</a>
 
-</div>
+<br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:134e4a,100:050816&height=120&section=footer&animation=twinkling" width="100%" alt="" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/footer.svg" /><img src="assets/dark/footer.svg" alt="" width="100%" /></picture>
+
+</div>
