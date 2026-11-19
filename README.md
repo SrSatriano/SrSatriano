@@ -8,17 +8,21 @@
 <br/><br/>
 
 <a href="https://srsatriano.github.io/portfolio-matheus-satriano/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-online-0891b2?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfólio online" /></a>
-<a href="https://github.com/SrSatriano?tab=repositories"><img src="https://img.shields.io/badge/Reposit%C3%B3rios-43_p%C3%BAblicos-181717?style=for-the-badge&logo=github" alt="Repositórios no GitHub" /></a>
+<a href="https://github.com/SrSatriano?tab=repositories"><img src="https://img.shields.io/badge/Reposit%C3%B3rios-45_p%C3%BAblicos-181717?style=for-the-badge&logo=github" alt="Repositórios no GitHub" /></a>
 <a href="https://www.linkedin.com/in/matheus-rodrigues-satriano"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:matheussatriano@hotmail.com"><img src="https://img.shields.io/badge/E--mail-contato-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/repos%20p%C3%BAblicos-43-22c55e?style=flat-square" alt="repos públicos: 43" />
+<a href="#cortalive"><img src="https://img.shields.io/badge/%F0%9F%94%A5_Novo-CortaLive%3A_cortes_verticais_com_IA-db2777?style=for-the-badge" alt="Novo: CortaLive, cortes verticais com IA" /></a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/repos%20p%C3%BAblicos-45-22c55e?style=flat-square" alt="repos públicos: 45" />
 <img src="https://img.shields.io/badge/frentes-7-38bdf8?style=flat-square" alt="frentes: 7" />
 <img src="https://img.shields.io/badge/linguagens-11-a78bfa?style=flat-square" alt="linguagens: 11" />
 <img src="https://img.shields.io/badge/CI%20no%20GitHub%20Actions-16-2dd4bf?style=flat-square" alt="CI no GitHub Actions: 16" />
-<img src="https://img.shields.io/badge/licen%C3%A7a%20MIT-31-f59e0b?style=flat-square" alt="licença MIT: 31" />
+<img src="https://img.shields.io/badge/licen%C3%A7a%20MIT-32-f59e0b?style=flat-square" alt="licença MIT: 32" />
 <img src="https://img.shields.io/badge/docs-pt--BR-64748b?style=flat-square" alt="docs: pt-BR" />
 
 <br/><br/>
@@ -29,22 +33,58 @@
 
 <br/>
 
+<a id="cortalive"></a>
+
+## 🔥 Novo: CortaLive
+
+<div align="center">
+
+<a href="https://github.com/SrSatriano/CortaLive-Basico"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cortalive.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cortalive.svg" /><img src="assets/dark/cortalive.svg" alt="CortaLive: vídeos e lives viram cortes verticais com legenda e IA" width="100%" /></picture></a>
+
+<br/><br/>
+
+<a href="https://github.com/SrSatriano/CortaLive-Basico/releases/latest"><img src="https://img.shields.io/badge/Baixar_o_B%C3%A1sico-gr%C3%A1tis-16a34a?style=for-the-badge&logo=windows&logoColor=white" alt="Baixar o CortaLive Básico, grátis" /></a>
+<a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="https://img.shields.io/badge/Conhecer_o_Pro-at%C3%A9_4K-d97706?style=for-the-badge&logo=githubpages&logoColor=white" alt="Conhecer o CortaLive Pro" /></a>
+<a href="https://github.com/SrSatriano/CortaLive-Basico"><img src="https://img.shields.io/badge/C%C3%B3digo-CortaLive--Basico-181717?style=for-the-badge&logo=github" alt="Código do CortaLive Básico" /></a>
+<a href="https://github.com/SrSatriano/CortaLive-Pro/releases/latest"><img src="https://img.shields.io/badge/Instaladores-CortaLive--Pro-db2777?style=for-the-badge&logo=github" alt="Instaladores do CortaLive Pro" /></a>
+
+</div>
+
+**Você entrega um vídeo ou a pasta de uma live gravada; o CortaLive devolve cortes verticais prontos para postar.** Ele encontra os momentos fortes pelos picos de áudio, transcreve no seu PC com Whisper (o áudio não sai da máquina), deixa a IA escolher e dar nota aos melhores trechos e monta o corte 1080x1920: webcam em cima e jogo embaixo, legenda palavra a palavra, título de gancho e crédito ao criador. Para cada corte saem o `.mp4`, a capa `.jpg` e um `_POST.txt` com título, legenda e hashtags para copiar e colar.
+
+| | 🟢 [Básico](https://github.com/SrSatriano/CortaLive-Basico) (grátis, MIT) | 🟠 [Pro](https://srsatriano.github.io/CortaLive-Basico/) (licença) |
+|---|:---:|:---:|
+| Corta vídeo ou live gravada que você já tem | ✅ | ✅ |
+| IA escolhe os momentos e escreve título, legenda e hashtags | ✅ | ✅ |
+| Legenda palavra a palavra, capa e texto do post | ✅ | ✅ |
+| Resolução do corte | 1080x1920 | até 4K (2160x3840) |
+| Usa o **chat ao vivo** para achar os melhores momentos | | ✅ |
+| **Grava lives sozinho** (Twitch, YouTube, Kick) | | ✅ |
+| **Publica e agenda** no TikTok, Shorts e Reels | | ✅ |
+| Painel com agenda, métricas das contas e análise | | ✅ |
+| Suporte | Issues | e-mail |
+
+<sub>Windows 10/11 · Python 3.11+ · ffmpeg (o instalador oferece instalar) · não precisa de placa de vídeo · IA com a sua chave: Gemini, Claude, OpenAI ou Vertex AI.</sub>
+
+<br/>
+
 <div align="center">
 
 ### 🧭 Navegue pelas frentes
 
 <a href="#frente-quant"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/quant.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/quant.svg" /><img src="assets/dark/nav/quant.svg" alt="Quant, trading e mercado: 8 projetos" width="24%" /></picture></a>
 <a href="#frente-ai"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/ai.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/ai.svg" /><img src="assets/dark/nav/ai.svg" alt="IA local, LLMs e avaliação: 6 projetos" width="24%" /></picture></a>
-<a href="#frente-media"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/media.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/media.svg" /><img src="assets/dark/nav/media.svg" alt="Vídeo, áudio e criadores: 7 projetos" width="24%" /></picture></a>
+<a href="#frente-media"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/media.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/media.svg" /><img src="assets/dark/nav/media.svg" alt="Vídeo, áudio e criadores: 9 projetos" width="24%" /></picture></a>
 <a href="#frente-product"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/product.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/product.svg" /><img src="assets/dark/nav/product.svg" alt="Produto, finanças BR e carreira: 6 projetos" width="24%" /></picture></a>
 <a href="#frente-web3"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/web3.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/web3.svg" /><img src="assets/dark/nav/web3.svg" alt="Web3, identidade e segurança on-chain: 6 projetos" width="24%" /></picture></a>
 <a href="#frente-infra"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/infra.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/infra.svg" /><img src="assets/dark/nav/infra.svg" alt="Infraestrutura, sistemas e observabilidade: 5 projetos" width="24%" /></picture></a>
 <a href="#frente-origins"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/origins.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/origins.svg" /><img src="assets/dark/nav/origins.svg" alt="Origens, estudos e sites: 5 projetos" width="24%" /></picture></a>
-<a href="#indice"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/indice.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/indice.svg" /><img src="assets/dark/nav/indice.svg" alt="Índice A–Z: 43 projetos" width="24%" /></picture></a>
+<a href="#indice"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/nav/indice.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/nav/indice.svg" /><img src="assets/dark/nav/indice.svg" alt="Índice A–Z: 45 projetos" width="24%" /></picture></a>
 
 <br/>
 
 <sub>
+<a href="#cortalive">🔥 CortaLive</a> ·
 <a href="#quem-sou">👋 Quem sou</a> ·
 <a href="#em-numeros">📊 Em números</a> ·
 <a href="#lhn-sovereign-v90">🛰️ LHN V90</a> ·
@@ -161,6 +201,7 @@ Os projetos que eu mostraria primeiro. Cada card abre o repositório.
 <div align="center">
 
 <table>
+<tr><td width="50%"><a href="https://github.com/SrSatriano/CortaLive-Basico"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/CortaLive-Basico.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/CortaLive-Basico.svg" /><img src="assets/dark/cards/CortaLive-Basico.svg" alt="CortaLive Básico: Transforma um vídeo ou uma live gravada em cortes verticais para TikTok, Shorts e Reels: acha os picos de áudio, transcreve no PC com Whisper e a IA escolhe e dá nota aos melhores momentos." width="100%" /></picture></a></td><td width="50%"><a href="https://github.com/SrSatriano/CortaLive-Pro"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/CortaLive-Pro.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/CortaLive-Pro.svg" /><img src="assets/dark/cards/CortaLive-Pro.svg" alt="CortaLive Pro: A versão completa do CortaLive (código fechado; aqui ficam os instaladores): grava lives sozinho, usa o chat ao vivo para achar momentos, corta em até 4K e publica nas redes." width="100%" /></picture></a></td></tr>
 <tr><td width="50%"><a href="https://github.com/SrSatriano/lhn-android-apps"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/lhn-android-apps.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/lhn-android-apps.svg" /><img src="assets/dark/cards/lhn-android-apps.svg" alt="LHN Android Apps: Dois apps Android nativos do ecossistema LHN: LHN Finanças (carteira offline-first com simuladores) e LHN Mirror (painel remoto do terminal LHN na rede local)." width="100%" /></picture></a></td><td width="50%"><a href="https://github.com/SrSatriano/ultra-low-latency-order-book-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/ultra-low-latency-order-book-engine.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/ultra-low-latency-order-book-engine.svg" /><img src="assets/dark/cards/ultra-low-latency-order-book-engine.svg" alt="Order Book Engine: Motor de matching em C++20 com prioridade preço-tempo, cinco tipos de ordem, replay de sessões em CSV e benchmark de latência por operação. Só usa a biblioteca padrão." width="100%" /></picture></a></td></tr>
 <tr><td width="50%"><a href="https://github.com/SrSatriano/avx512-options-pricing-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/avx512-options-pricing-engine.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/avx512-options-pricing-engine.svg" /><img src="assets/dark/cards/avx512-options-pricing-engine.svg" alt="AVX-512 Options Pricing: Precificação de opções europeias em C++20: Black-Scholes-Merton com gregas e volatilidade implícita, kernel AVX-512 que precifica 8 opções por instrução e Monte Carlo multi-thread." width="100%" /></picture></a></td><td width="50%"><a href="https://github.com/SrSatriano/local-rag-second-mind-vault"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/local-rag-second-mind-vault.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/local-rag-second-mind-vault.svg" /><img src="assets/dark/cards/local-rag-second-mind-vault.svg" alt="Second Mind Vault: Pergunte aos seus documentos sem mandar nada para a nuvem. Indexa Markdown, texto, HTML e PDF num único SQLite, busca com BM25 + vetores e responde citando os trechos usados." width="100%" /></picture></a></td></tr>
 <tr><td width="50%"><a href="https://github.com/SrSatriano/distributed-ai-inference-cluster"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/distributed-ai-inference-cluster.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/distributed-ai-inference-cluster.svg" /><img src="assets/dark/cards/distributed-ai-inference-cluster.svg" alt="infergw: Inference Gateway: Junta várias máquinas com LLMs (PC com GPU, notebook, servidor vLLM) atrás de um único endereço compatível com a API da OpenAI e manda cada pedido para o worker certo." width="100%" /></picture></a></td><td width="50%"><a href="https://github.com/SrSatriano/videoos"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/videoos.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/videoos.svg" /><img src="assets/dark/cards/videoos.svg" alt="VideoOS: Editor local-first de vídeos curtos verticais: importa, aplica templates em lote, revisa renders FFmpeg e gera pacotes de publicação para Reels, TikTok e Shorts." width="100%" /></picture></a></td></tr>
@@ -176,10 +217,10 @@ Os projetos que eu mostraria primeiro. Cada card abre o repositório.
 
 ## 🗂️ Catálogo completo
 
-Todos os 43 repositórios públicos, agrupados por frente. À esquerda, o card (clique para abrir); à direita, os destaques técnicos, a stack, o status do CI e os links úteis.
+Todos os 45 repositórios públicos, agrupados por frente. À esquerda, o card (clique para abrir); à direita, os destaques técnicos, a stack, o status do CI e os links úteis.
 
 > [!NOTE]
-> **Selos nos cards:** `★ DESTAQUE` bom ponto de partida · `CI` testes no GitHub Actions · `ONLINE` tem site publicado · `MIT` / `POLYFORM NC` licença.
+> **Selos nos cards:** `NOVO` lançado agora · `★ DESTAQUE` bom ponto de partida · `CI` testes no GitHub Actions · `ONLINE` tem site publicado · `MIT` / `POLYFORM NC` licença.
 
 <a id="frente-quant"></a>
 
@@ -437,13 +478,45 @@ Todos os 43 repositórios públicos, agrupados por frente. À esquerda, o card (
 
 <a id="frente-media"></a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/sections/media.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/sections/media.svg" /><img src="assets/dark/sections/media.svg" alt="Vídeo, áudio e criadores: 7 projetos" width="100%" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/sections/media.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/sections/media.svg" /><img src="assets/dark/sections/media.svg" alt="Vídeo, áudio e criadores: 9 projetos" width="100%" /></picture>
 
 <details open>
-<summary><b>🎬 Vídeo, áudio e criadores: ver os 7 projetos</b></summary>
+<summary><b>🎬 Vídeo, áudio e criadores: ver os 9 projetos</b></summary>
 <br/>
 
 <table>
+<tr>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/CortaLive-Basico"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/CortaLive-Basico.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/CortaLive-Basico.svg" /><img src="assets/dark/cards/CortaLive-Basico.svg" alt="CortaLive Básico: Transforma um vídeo ou uma live gravada em cortes verticais para TikTok, Shorts e Reels: acha os picos de áudio, transcreve no PC com Whisper e a IA escolhe e dá nota aos melhores momentos." width="100%" /></picture></a></td>
+<td valign="top">
+
+<h4><a href="https://github.com/SrSatriano/CortaLive-Basico">CortaLive Básico</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-475569?style=flat-square" alt="Licença MIT" /> 
+<ul>
+<li>Corte 1080x1920 com webcam em cima e jogo embaixo, legenda palavra a palavra e capa</li>
+<li>Texto do post pronto, com título de gancho, hashtags e crédito ao criador</li>
+<li>Roda no Windows, sem placa de vídeo, com a sua chave (Gemini, Claude, OpenAI ou Vertex)</li>
+</ul>
+<sub><b>Stack:</b> <code>Python</code> <code>FFmpeg</code> <code>Whisper</code> <code>Gemini</code> <code>Claude</code></sub><br/>
+<sub><a href="https://github.com/SrSatriano/CortaLive-Basico">📂 Código</a> · <a href="https://github.com/SrSatriano/CortaLive-Basico#readme">📖 README</a> · <a href="https://github.com/SrSatriano/CortaLive-Basico/releases/latest">⬇️ Baixar</a> · <a href="https://srsatriano.github.io/CortaLive-Basico/">🌐 Site</a> · <a href="https://github.com/SrSatriano/CortaLive-Basico/commits">🕒 Commits</a> · <a href="https://github.com/SrSatriano/CortaLive-Basico/issues">💬 Issues</a></sub>
+
+</td>
+</tr>
+<tr>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/CortaLive-Pro"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/CortaLive-Pro.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/CortaLive-Pro.svg" /><img src="assets/dark/cards/CortaLive-Pro.svg" alt="CortaLive Pro: A versão completa do CortaLive (código fechado; aqui ficam os instaladores): grava lives sozinho, usa o chat ao vivo para achar momentos, corta em até 4K e publica nas redes." width="100%" /></picture></a></td>
+<td valign="top">
+
+<h4><a href="https://github.com/SrSatriano/CortaLive-Pro">CortaLive Pro</a></h4>
+<img src="https://img.shields.io/badge/licen%C3%A7a-Comercial-475569?style=flat-square" alt="Licença Comercial" /> 
+<ul>
+<li>Grava lives da Twitch, YouTube e Kick automaticamente</li>
+<li>Publica e agenda no TikTok, YouTube Shorts e Instagram Reels</li>
+<li>Painel com agenda, métricas das contas e análise; ativação por licença</li>
+</ul>
+<sub><b>Stack:</b> <code>Windows</code> <code>4K</code> <code>Twitch</code> <code>YouTube</code> <code>Kick</code></sub><br/>
+<sub><a href="https://github.com/SrSatriano/CortaLive-Pro">📂 Código</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro#readme">📖 README</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro/releases/latest">⬇️ Baixar</a> · <a href="https://srsatriano.github.io/CortaLive-Basico/">🌐 Site</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro/commits">🕒 Commits</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro/issues">💬 Issues</a></sub>
+
+</td>
+</tr>
 <tr>
 <td width="48%" valign="top"><a href="https://github.com/SrSatriano/videoos"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/videoos.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/videoos.svg" /><img src="assets/dark/cards/videoos.svg" alt="VideoOS: Editor local-first de vídeos curtos verticais: importa, aplica templates em lote, revisa renders FFmpeg e gera pacotes de publicação para Reels, TikTok e Shorts." width="100%" /></picture></a></td>
 <td valign="top">
@@ -552,7 +625,7 @@ Todos os 43 repositórios públicos, agrupados por frente. À esquerda, o card (
 <li>HTML + CSS sem dependências</li>
 </ul>
 <sub><b>Stack:</b> <code>HTML</code> <code>CSS</code> <code>GitHub Pages</code></sub><br/>
-<sub><a href="https://github.com/SrSatriano/satriano-studio">📂 Código</a> · <a href="https://github.com/SrSatriano/satriano-studio#readme">📖 README</a> · <a href="https://srsatriano.github.io/satriano-studio/">🌐 Online</a> · <a href="https://github.com/SrSatriano/satriano-studio/commits">🕒 Commits</a> · <a href="https://github.com/SrSatriano/satriano-studio/issues">💬 Issues</a></sub>
+<sub><a href="https://github.com/SrSatriano/satriano-studio">📂 Código</a> · <a href="https://github.com/SrSatriano/satriano-studio#readme">📖 README</a> · <a href="https://srsatriano.github.io/satriano-studio/">🌐 Site</a> · <a href="https://github.com/SrSatriano/satriano-studio/commits">🕒 Commits</a> · <a href="https://github.com/SrSatriano/satriano-studio/issues">💬 Issues</a></sub>
 
 </td>
 </tr>
@@ -900,7 +973,7 @@ Todos os 43 repositórios públicos, agrupados por frente. À esquerda, o card (
 <li>Publicado no GitHub Pages</li>
 </ul>
 <sub><b>Stack:</b> <code>Next.js</code> <code>TypeScript</code> <code>GitHub Pages</code></sub><br/>
-<sub><a href="https://github.com/SrSatriano/portfolio-matheus-satriano">📂 Código</a> · <a href="https://github.com/SrSatriano/portfolio-matheus-satriano#readme">📖 README</a> · <a href="https://srsatriano.github.io/portfolio-matheus-satriano/">🌐 Online</a> · <a href="https://github.com/SrSatriano/portfolio-matheus-satriano/commits">🕒 Commits</a> · <a href="https://github.com/SrSatriano/portfolio-matheus-satriano/issues">💬 Issues</a></sub>
+<sub><a href="https://github.com/SrSatriano/portfolio-matheus-satriano">📂 Código</a> · <a href="https://github.com/SrSatriano/portfolio-matheus-satriano#readme">📖 README</a> · <a href="https://srsatriano.github.io/portfolio-matheus-satriano/">🌐 Site</a> · <a href="https://github.com/SrSatriano/portfolio-matheus-satriano/commits">🕒 Commits</a> · <a href="https://github.com/SrSatriano/portfolio-matheus-satriano/issues">💬 Issues</a></sub>
 
 </td>
 </tr>
@@ -1002,6 +1075,7 @@ Cada frente orbita o LHN: os módulos isolam um problema (latência, risco, infe
 | 🧠 **IA local e privacidade** | [Second Mind Vault](https://github.com/SrSatriano/local-rag-second-mind-vault) → [infergw](https://github.com/SrSatriano/distributed-ai-inference-cluster) | RAG com citações e gateway OpenAI-compatível |
 | 🇧🇷 **Produto para o Brasil** | [Fiscal OCR](https://github.com/SrSatriano/fiscal-data-ocr-engine) → [Tax-Loss B3](https://github.com/SrSatriano/tax-loss-harvesting-engine) | NF-e, DANFE e imposto de renda na B3 |
 | 🔔 **Ferramentas do dia a dia** | [Vagas Alerta](https://github.com/SrSatriano/vagas-alerta) → [RotaNorte](https://github.com/SrSatriano/rotanorte) | coleta, deduplicação, notas e alertas no Telegram |
+| ✂️ **Cortes para criadores** | [CortaLive Básico](https://github.com/SrSatriano/CortaLive-Basico) → [CortaLive Pro](https://srsatriano.github.io/CortaLive-Basico/) | live gravada vira corte vertical com legenda e IA |
 | 🎬 **Criação de conteúdo** | [VideoOS](https://github.com/SrSatriano/videoos) → [Channel Analytics](https://github.com/SrSatriano/multi-channel-analytics-dashboard) | edição em massa e métricas de canais |
 | 🦀 **Rust e sistemas** | [logroute](https://github.com/SrSatriano/high-compression-log-router) → [Terminal TUI](https://github.com/SrSatriano/unified-trading-super-terminal) | Zstd, CLI, Ratatui e testes |
 | ⛓️ **Web3** | [Identity Vault ZK](https://github.com/SrSatriano/identity-vault-zk-proofs) → [Honeypot Analyzer](https://github.com/SrSatriano/honeypot-rugpull-analyzer) | provas Groth16 e análise de contratos |
@@ -1026,7 +1100,7 @@ Projetos com selo **CI** rodam os testes a cada push; clique no selo para ver a 
 <a id="indice"></a>
 
 <details>
-<summary><b>📇 Índice A–Z: todos os 43 projetos em uma tabela</b></summary>
+<summary><b>📇 Índice A–Z: todos os 45 projetos em uma tabela</b></summary>
 
 <br/>
 
@@ -1046,6 +1120,8 @@ Projetos com selo **CI** rodam os testes a cada push; clique no selo para ver a 
 | [Hallucination Trap](https://github.com/SrSatriano/cognitive-bias-hallucination-trap) | 🧠 IA local | Python | Suíte de testes adversariais para LLMs | [código](https://github.com/SrSatriano/cognitive-bias-hallucination-trap) |
 | [Voice Cloning TTS Gateway](https://github.com/SrSatriano/voice-cloning-tts-api-gateway) | 🧠 IA local | Python | API self-hosted de síntese e clonagem de voz | [código](https://github.com/SrSatriano/voice-cloning-tts-api-gateway) |
 | [Viral Trend Predictor](https://github.com/SrSatriano/viral-trend-sentiment-predictor) | 🧠 IA local | Python | Cruza volume, sentimento e histórico para achar tendências cedo | [código](https://github.com/SrSatriano/viral-trend-sentiment-predictor) |
+| [CortaLive Básico](https://github.com/SrSatriano/CortaLive-Basico) | 🎬 Vídeo & criadores | Python | 🔥 **Novo.** Transforma um vídeo ou uma live gravada em cortes verticais para TikTok, Shorts e Reels | [código](https://github.com/SrSatriano/CortaLive-Basico) · [🌐](https://srsatriano.github.io/CortaLive-Basico/) |
+| [CortaLive Pro](https://github.com/SrSatriano/CortaLive-Pro) | 🎬 Vídeo & criadores | Instalador | 🔥 **Novo.** A versão completa do CortaLive (código fechado; aqui ficam os instaladores) | [código](https://github.com/SrSatriano/CortaLive-Pro) · [🌐](https://srsatriano.github.io/CortaLive-Basico/) |
 | [VideoOS](https://github.com/SrSatriano/videoos) | 🎬 Vídeo & criadores | Python | Editor local-first de vídeos curtos verticais | [código](https://github.com/SrSatriano/videoos) · ✅ CI |
 | [Multi-Channel Analytics](https://github.com/SrSatriano/multi-channel-analytics-dashboard) | 🎬 Vídeo & criadores | TypeScript | Painel para quem tem mais de um canal no YouTube | [código](https://github.com/SrSatriano/multi-channel-analytics-dashboard) · ✅ CI |
 | [OmniForge Studio](https://github.com/SrSatriano/omniforge-studio) | 🎬 Vídeo & criadores | Python | Estúdio desktop para Windows que produz livros para Amazon KDP (PDF de impressão, capa, lombada,… | [código](https://github.com/SrSatriano/omniforge-studio) · ✅ CI |

@@ -13,6 +13,10 @@
 
 <br/><br/>
 
+<a href="#cortalive"><img src="https://img.shields.io/badge/%F0%9F%94%A5_Novo-CortaLive%3A_cortes_verticais_com_IA-db2777?style=for-the-badge" alt="Novo: CortaLive, cortes verticais com IA" /></a>
+
+<br/><br/>
+
 {{STATS}}
 
 <br/><br/>
@@ -20,6 +24,41 @@
 {{pic:terminal.svg|Terminal: LHN Sovereign V90; C++, Rust, Python, TypeScript, Go, Kotlin; se o problema não precisa sair da máquina, ele roda local}}
 
 </div>
+
+<br/>
+
+<a id="cortalive"></a>
+
+## 🔥 Novo: CortaLive
+
+<div align="center">
+
+<a href="https://github.com/SrSatriano/CortaLive-Basico">{{pic:cortalive.svg|CortaLive: vídeos e lives viram cortes verticais com legenda e IA}}</a>
+
+<br/><br/>
+
+<a href="https://github.com/SrSatriano/CortaLive-Basico/releases/latest"><img src="https://img.shields.io/badge/Baixar_o_B%C3%A1sico-gr%C3%A1tis-16a34a?style=for-the-badge&logo=windows&logoColor=white" alt="Baixar o CortaLive Básico, grátis" /></a>
+<a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="https://img.shields.io/badge/Conhecer_o_Pro-at%C3%A9_4K-d97706?style=for-the-badge&logo=githubpages&logoColor=white" alt="Conhecer o CortaLive Pro" /></a>
+<a href="https://github.com/SrSatriano/CortaLive-Basico"><img src="https://img.shields.io/badge/C%C3%B3digo-CortaLive--Basico-181717?style=for-the-badge&logo=github" alt="Código do CortaLive Básico" /></a>
+<a href="https://github.com/SrSatriano/CortaLive-Pro/releases/latest"><img src="https://img.shields.io/badge/Instaladores-CortaLive--Pro-db2777?style=for-the-badge&logo=github" alt="Instaladores do CortaLive Pro" /></a>
+
+</div>
+
+**Você entrega um vídeo ou a pasta de uma live gravada; o CortaLive devolve cortes verticais prontos para postar.** Ele encontra os momentos fortes pelos picos de áudio, transcreve no seu PC com Whisper (o áudio não sai da máquina), deixa a IA escolher e dar nota aos melhores trechos e monta o corte 1080x1920: webcam em cima e jogo embaixo, legenda palavra a palavra, título de gancho e crédito ao criador. Para cada corte saem o `.mp4`, a capa `.jpg` e um `_POST.txt` com título, legenda e hashtags para copiar e colar.
+
+| | 🟢 [Básico](https://github.com/SrSatriano/CortaLive-Basico) (grátis, MIT) | 🟠 [Pro](https://srsatriano.github.io/CortaLive-Basico/) (licença) |
+|---|:---:|:---:|
+| Corta vídeo ou live gravada que você já tem | ✅ | ✅ |
+| IA escolhe os momentos e escreve título, legenda e hashtags | ✅ | ✅ |
+| Legenda palavra a palavra, capa e texto do post | ✅ | ✅ |
+| Resolução do corte | 1080x1920 | até 4K (2160x3840) |
+| Usa o **chat ao vivo** para achar os melhores momentos | | ✅ |
+| **Grava lives sozinho** (Twitch, YouTube, Kick) | | ✅ |
+| **Publica e agenda** no TikTok, Shorts e Reels | | ✅ |
+| Painel com agenda, métricas das contas e análise | | ✅ |
+| Suporte | Issues | e-mail |
+
+<sub>Windows 10/11 · Python 3.11+ · ffmpeg (o instalador oferece instalar) · não precisa de placa de vídeo · IA com a sua chave: Gemini, Claude, OpenAI ou Vertex AI.</sub>
 
 <br/>
 
@@ -32,6 +71,7 @@
 <br/>
 
 <sub>
+<a href="#cortalive">🔥 CortaLive</a> ·
 <a href="#quem-sou">👋 Quem sou</a> ·
 <a href="#em-numeros">📊 Em números</a> ·
 <a href="#lhn-sovereign-v90">🛰️ LHN V90</a> ·
@@ -160,7 +200,7 @@ Os projetos que eu mostraria primeiro. Cada card abre o repositório.
 Todos os {{COUNT}} repositórios públicos, agrupados por frente. À esquerda, o card (clique para abrir); à direita, os destaques técnicos, a stack, o status do CI e os links úteis.
 
 > [!NOTE]
-> **Selos nos cards:** `★ DESTAQUE` bom ponto de partida · `CI` testes no GitHub Actions · `ONLINE` tem site publicado · `MIT` / `POLYFORM NC` licença.
+> **Selos nos cards:** `NOVO` lançado agora · `★ DESTAQUE` bom ponto de partida · `CI` testes no GitHub Actions · `ONLINE` tem site publicado · `MIT` / `POLYFORM NC` licença.
 
 {{CATALOG}}
 
@@ -191,6 +231,7 @@ Cada frente orbita o LHN: os módulos isolam um problema (latência, risco, infe
 | 🧠 **IA local e privacidade** | [Second Mind Vault](https://github.com/SrSatriano/local-rag-second-mind-vault) → [infergw](https://github.com/SrSatriano/distributed-ai-inference-cluster) | RAG com citações e gateway OpenAI-compatível |
 | 🇧🇷 **Produto para o Brasil** | [Fiscal OCR](https://github.com/SrSatriano/fiscal-data-ocr-engine) → [Tax-Loss B3](https://github.com/SrSatriano/tax-loss-harvesting-engine) | NF-e, DANFE e imposto de renda na B3 |
 | 🔔 **Ferramentas do dia a dia** | [Vagas Alerta](https://github.com/SrSatriano/vagas-alerta) → [RotaNorte](https://github.com/SrSatriano/rotanorte) | coleta, deduplicação, notas e alertas no Telegram |
+| ✂️ **Cortes para criadores** | [CortaLive Básico](https://github.com/SrSatriano/CortaLive-Basico) → [CortaLive Pro](https://srsatriano.github.io/CortaLive-Basico/) | live gravada vira corte vertical com legenda e IA |
 | 🎬 **Criação de conteúdo** | [VideoOS](https://github.com/SrSatriano/videoos) → [Channel Analytics](https://github.com/SrSatriano/multi-channel-analytics-dashboard) | edição em massa e métricas de canais |
 | 🦀 **Rust e sistemas** | [logroute](https://github.com/SrSatriano/high-compression-log-router) → [Terminal TUI](https://github.com/SrSatriano/unified-trading-super-terminal) | Zstd, CLI, Ratatui e testes |
 | ⛓️ **Web3** | [Identity Vault ZK](https://github.com/SrSatriano/identity-vault-zk-proofs) → [Honeypot Analyzer](https://github.com/SrSatriano/honeypot-rugpull-analyzer) | provas Groth16 e análise de contratos |

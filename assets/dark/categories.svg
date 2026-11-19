@@ -1,35 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-label="Projetos por frente: Quant, trading e mercado 8, IA local, LLMs e avaliação 6, Vídeo, áudio e criadores 7, Produto, finanças BR e carreira 6, Web3, identidade e segurança on-chain 6, Infraestrutura, sistemas e observabilidade 5, Origens, estudos e sites 5"><defs><linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#0f1b2d"/></linearGradient></defs><rect x="0.5" y="0.5" width="999" height="359" rx="16" fill="url(#pbg)" stroke="#1f2a44"/><rect x="24" y="22" width="38" height="38" rx="10" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.4"/><g transform="translate(33.0 31.0) scale(0.833)" fill="none" stroke="#38bdf8" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></g><text x="76" y="40" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700">Projetos por frente</text><text x="76" y="60" fill="#64748b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5">Cada repositório público aparece em uma frente principal</text><g transform="translate(30.0 98.0) scale(0.667)" fill="none" stroke="#38bdf8" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/><path d="M3 21h18"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-label="Projetos por frente: Quant, trading e mercado 8, IA local, LLMs e avaliação 6, Vídeo, áudio e criadores 9, Produto, finanças BR e carreira 6, Web3, identidade e segurança on-chain 6, Infraestrutura, sistemas e observabilidade 5, Origens, estudos e sites 5"><defs><linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#0f1b2d"/></linearGradient></defs><rect x="0.5" y="0.5" width="999" height="359" rx="16" fill="url(#pbg)" stroke="#1f2a44"/><rect x="24" y="22" width="38" height="38" rx="10" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.4"/><g transform="translate(33.0 31.0) scale(0.833)" fill="none" stroke="#38bdf8" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></g><text x="76" y="40" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700">Projetos por frente</text><text x="76" y="60" fill="#64748b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5">Cada repositório público aparece em uma frente principal</text><g transform="translate(30.0 98.0) scale(0.667)" fill="none" stroke="#38bdf8" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M14 8h6v6"/><path d="M3 21h18"/></g>
 <text x="56" y="111" fill="#e2e8f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">Quant, trading e mercado</text>
 <rect x="350" y="96" width="570" height="20" rx="10" fill="#111c30"/>
-<rect x="350" y="96" width="570.0" height="20" rx="10" fill="#38bdf8"/>
-<text x="930.0" y="111" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">8</text>
+<rect x="350" y="96" width="506.7" height="20" rx="10" fill="#38bdf8"/>
+<text x="866.7" y="111" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">8</text>
 <g transform="translate(30.0 134.0) scale(0.667)" fill="none" stroke="#a78bfa" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="2"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"/></g>
 <text x="56" y="147" fill="#e2e8f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">IA local, LLMs e avaliação</text>
 <rect x="350" y="132" width="570" height="20" rx="10" fill="#111c30"/>
-<rect x="350" y="132" width="427.5" height="20" rx="10" fill="#a78bfa"/>
-<text x="787.5" y="147" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">6</text>
+<rect x="350" y="132" width="380.0" height="20" rx="10" fill="#a78bfa"/>
+<text x="740.0" y="147" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">6</text>
 <g transform="translate(30.0 170.0) scale(0.667)" fill="none" stroke="#f472b6" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9l5 3-5 3z"/></g>
 <text x="56" y="183" fill="#e2e8f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">Vídeo, áudio e criadores</text>
 <rect x="350" y="168" width="570" height="20" rx="10" fill="#111c30"/>
-<rect x="350" y="168" width="498.8" height="20" rx="10" fill="#f472b6"/>
-<text x="858.8" y="183" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">7</text>
+<rect x="350" y="168" width="570.0" height="20" rx="10" fill="#f472b6"/>
+<text x="930.0" y="183" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">9</text>
 <g transform="translate(30.0 206.0) scale(0.667)" fill="none" stroke="#f59e0b" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/><path d="M3 13h18"/></g>
 <text x="56" y="219" fill="#e2e8f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">Produto, finanças BR e carreira</text>
 <rect x="350" y="204" width="570" height="20" rx="10" fill="#111c30"/>
-<rect x="350" y="204" width="427.5" height="20" rx="10" fill="#f59e0b"/>
-<text x="787.5" y="219" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">6</text>
+<rect x="350" y="204" width="380.0" height="20" rx="10" fill="#f59e0b"/>
+<text x="740.0" y="219" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">6</text>
 <g transform="translate(30.0 242.0) scale(0.667)" fill="none" stroke="#22c55e" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></g>
 <text x="56" y="255" fill="#e2e8f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">Web3, identidade e segurança on-chain</text>
 <rect x="350" y="240" width="570" height="20" rx="10" fill="#111c30"/>
-<rect x="350" y="240" width="427.5" height="20" rx="10" fill="#22c55e"/>
-<text x="787.5" y="255" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">6</text>
+<rect x="350" y="240" width="380.0" height="20" rx="10" fill="#22c55e"/>
+<text x="740.0" y="255" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">6</text>
 <g transform="translate(30.0 278.0) scale(0.667)" fill="none" stroke="#2dd4bf" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="7" rx="1.5"/><rect x="4" y="14" width="16" height="7" rx="1.5"/><path d="M8 6.5h.01M8 17.5h.01M12 6.5h4M12 17.5h4"/></g>
 <text x="56" y="291" fill="#e2e8f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">Infraestrutura, sistemas e observabilidade</text>
 <rect x="350" y="276" width="570" height="20" rx="10" fill="#111c30"/>
-<rect x="350" y="276" width="356.2" height="20" rx="10" fill="#2dd4bf"/>
-<text x="716.2" y="291" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">5</text>
+<rect x="350" y="276" width="316.7" height="20" rx="10" fill="#2dd4bf"/>
+<text x="676.7" y="291" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">5</text>
 <g transform="translate(30.0 314.0) scale(0.667)" fill="none" stroke="#94a3b8" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21v-9"/><path d="M12 12c0-4 3-7 8-7 0 4-3 7-8 7z"/><path d="M12 14c0-3-2-6-7-6 0 3 2 6 7 6z"/></g>
 <text x="56" y="327" fill="#e2e8f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5">Origens, estudos e sites</text>
 <rect x="350" y="312" width="570" height="20" rx="10" fill="#111c30"/>
-<rect x="350" y="312" width="356.2" height="20" rx="10" fill="#94a3b8"/>
-<text x="716.2" y="327" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">5</text></svg>
+<rect x="350" y="312" width="316.7" height="20" rx="10" fill="#94a3b8"/>
+<text x="676.7" y="327" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700">5</text></svg>
