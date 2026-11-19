@@ -43,28 +43,78 @@
 
 <br/><br/>
 
-<a href="https://github.com/SrSatriano/CortaLive-Basico/releases/latest"><img src="https://img.shields.io/badge/Baixar_o_B%C3%A1sico-gr%C3%A1tis-16a34a?style=for-the-badge&logo=windows&logoColor=white" alt="Baixar o CortaLive Básico, grátis" /></a>
-<a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="https://img.shields.io/badge/Conhecer_o_Pro-at%C3%A9_4K-d97706?style=for-the-badge&logo=githubpages&logoColor=white" alt="Conhecer o CortaLive Pro" /></a>
+<a href="https://github.com/SrSatriano/CortaLive-Basico/releases/latest"><img src="https://img.shields.io/badge/Baixar_o_B%C3%A1sico_1.0-gr%C3%A1tis-16a34a?style=for-the-badge&logo=windows&logoColor=white" alt="Baixar o CortaLive Básico 1.0, grátis" /></a>
+<a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="https://img.shields.io/badge/Comprar%20o%20Pro%20%C2%B7%20R%24%20147%20com%20cupom-d97706?style=for-the-badge&logo=githubpages&logoColor=white" alt="Comprar o Pro · R$ 147 com cupom" /></a>
 <a href="https://github.com/SrSatriano/CortaLive-Basico"><img src="https://img.shields.io/badge/C%C3%B3digo-CortaLive--Basico-181717?style=for-the-badge&logo=github" alt="Código do CortaLive Básico" /></a>
 <a href="https://github.com/SrSatriano/CortaLive-Pro/releases/latest"><img src="https://img.shields.io/badge/Instaladores-CortaLive--Pro-db2777?style=for-the-badge&logo=github" alt="Instaladores do CortaLive Pro" /></a>
 
 </div>
 
-**Você entrega um vídeo ou a pasta de uma live gravada; o CortaLive devolve cortes verticais prontos para postar.** Ele encontra os momentos fortes pelos picos de áudio, transcreve no seu PC com Whisper (o áudio não sai da máquina), deixa a IA escolher e dar nota aos melhores trechos e monta o corte 1080x1920: webcam em cima e jogo embaixo, legenda palavra a palavra, título de gancho e crédito ao criador. Para cada corte saem o `.mp4`, a capa `.jpg` e um `_POST.txt` com título, legenda e hashtags para copiar e colar.
+> [!TIP]
+> **Cupom `CORTA150`:** R$ 150 de desconto no Pro até 29/11 às 23:59 (Brasília). Sai por **R$ 147** à vista ou 12x de R$ 15,27 (preço cheio: R$ 297 ou 12x de R$ 30,68). No checkout, clique em “Aplicar cupom” e digite o código.
 
-| | 🟢 [Básico](https://github.com/SrSatriano/CortaLive-Basico) (grátis, MIT) | 🟠 [Pro](https://srsatriano.github.io/CortaLive-Basico/) (licença) |
+**Você escolhe os canais; o CortaLive Pro grava a live, acha o momento e posta o corte.** Ele cruza o volume do áudio com o movimento do chat para achar os picos, transcreve no seu PC com Whisper (o áudio não sai da máquina), deixa a IA dar nota de 0 a 10 e escrever título, legenda e hashtags, e corta em vertical com o rosto do streamer em cima, legenda palavra a palavra e crédito ao criador. Depois publica no TikTok, no YouTube Shorts e no Instagram Reels nos horários da sua grade. O **Básico**, grátis e de código aberto, faz a parte do corte com vídeos que você já gravou.
+
+<table>
+<tr>
+<td width="34%" align="center" valign="top">
+
+<a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="assets/cortalive/video-poster.jpg" alt="Vídeo de 50 segundos com as telas do CortaLive Pro" width="100%" /></a>
+
+<sub>▶ <a href="https://srsatriano.github.io/CortaLive-Basico/">Ver o vídeo de 50 s</a> · telas reais, dados de demonstração</sub>
+
+</td>
+<td valign="top">
+
+### 📡 Rodando de verdade
+
+Eu fiz o CortaLive para o meu canal de cortes de games, o **Afiado Games**. Desde **18/11/2026** quem posta lá é o próprio Pro, do meu PC. Dá para conferir antes de comprar:
+
+<a href="https://www.tiktok.com/@afiado.games"><img src="https://img.shields.io/badge/TikTok-@afiado.games-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok do Afiado Games" /></a>
+<a href="https://www.youtube.com/@AfiadoGames"><img src="https://img.shields.io/badge/YouTube_Shorts-@AfiadoGames-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube do Afiado Games" /></a>
+<a href="https://www.instagram.com/afiadogames/"><img src="https://img.shields.io/badge/Reels-@afiadogames-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram do Afiado Games" /></a>
+
+| Etapa | O que o Pro faz |
+|---|---|
+| 🎥 **grava** | cola o link do canal (Twitch, YouTube ou Kick) e ele grava em blocos de 5 min, junto com o chat; também procura lives de um jogo |
+| 🎯 **escolhe** | áudio + chat acham os picos; abaixo da nota mínima que você definiu, não vira corte |
+| ✂️ **corta** | vertical até 4K, com duração e resolução ajustáveis |
+| 📤 **posta** | grade de horários por rede; TikTok só recebe cortes acima de 1:10 e Shorts/Reels até 3 min; pausa geral ou por rede |
+| 📊 **acompanha** | painel com o que está gravando, fila, próximos posts, métricas e análise |
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%"><a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="assets/cortalive/visao-geral.webp" alt="CortaLive Pro: visão geral com cortes por dia e próximos posts" width="100%" /></a><br/><sub><b>Visão geral:</b> gravando agora, cortes do dia, fila e próximos posts</sub></td>
+<td width="50%"><a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="assets/cortalive/cortes.webp" alt="CortaLive Pro: cortes com a nota da IA" width="100%" /></a><br/><sub><b>Cortes:</b> cada corte com a nota da IA, título e status por rede</sub></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="assets/cortalive/ao-vivo.webp" alt="CortaLive Pro: lives sendo gravadas" width="100%" /></a><br/><sub><b>Ao vivo:</b> lives sendo gravadas, blocos e mensagens do chat</sub></td>
+<td width="50%"><a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="assets/cortalive/agenda.webp" alt="CortaLive Pro: agenda de publicação por rede" width="100%" /></a><br/><sub><b>Agenda:</b> horários por rede e os próximos 7 dias</sub></td>
+</tr>
+</table>
+
+<sub>Telas do programa com dados de demonstração no lugar dos canais reais.</sub>
+
+| | 🟢 [Básico](https://github.com/SrSatriano/CortaLive-Basico) | 🟠 [Pro](https://srsatriano.github.io/CortaLive-Basico/) |
 |---|:---:|:---:|
-| Corta vídeo ou live gravada que você já tem | ✅ | ✅ |
+| Corta vídeo ou live que você já gravou | ✅ | ✅ |
 | IA escolhe os momentos e escreve título, legenda e hashtags | ✅ | ✅ |
-| Legenda palavra a palavra, capa e texto do post | ✅ | ✅ |
+| Legenda palavra a palavra, capa e crédito ao criador | ✅ | ✅ |
 | Resolução do corte | 1080x1920 | até 4K (2160x3840) |
-| Usa o **chat ao vivo** para achar os melhores momentos | | ✅ |
+| Usa o **chat** para achar os picos | | ✅ |
 | **Grava lives sozinho** (Twitch, YouTube, Kick) | | ✅ |
-| **Publica e agenda** no TikTok, Shorts e Reels | | ✅ |
-| Painel com agenda, métricas das contas e análise | | ✅ |
+| **Publica** no TikTok, Shorts e Reels | | ✅ |
+| Agenda, pausa por rede, métricas e análise | | ✅ |
+| Código aberto | ✅ MIT | |
+| Licença | livre | vitalícia, até 2 PCs · reembolso em 7 dias |
+| Preço | **grátis** | ~~R$ 297~~ **R$ 147**<br/><sub>com o cupom <code>CORTA150</code> até 29/11</sub> |
 | Suporte | Issues | e-mail |
 
-<sub>Windows 10/11 · Python 3.11+ · ffmpeg (o instalador oferece instalar) · não precisa de placa de vídeo · IA com a sua chave: Gemini, Claude, OpenAI ou Vertex AI.</sub>
+<sub>Windows 10/11 (64 bits) · não precisa de placa de vídeo nem saber editar · IA opcional com a sua chave (Gemini, Vertex, Claude ou OpenAI); sem chave, ele escolhe só pelos picos · Pro: pagamento pela Cakto, ativação automática com o e-mail da compra · <a href="https://srsatriano.github.io/CortaLive-Basico/instalar-pro.html">guia de instalação</a></sub>
 
 <br/>
 
@@ -201,7 +251,7 @@ Os projetos que eu mostraria primeiro. Cada card abre o repositório.
 <div align="center">
 
 <table>
-<tr><td width="50%"><a href="https://github.com/SrSatriano/CortaLive-Basico"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/CortaLive-Basico.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/CortaLive-Basico.svg" /><img src="assets/dark/cards/CortaLive-Basico.svg" alt="CortaLive Básico: Transforma um vídeo ou uma live gravada em cortes verticais para TikTok, Shorts e Reels: acha os picos de áudio, transcreve no PC com Whisper e a IA escolhe e dá nota aos melhores momentos." width="100%" /></picture></a></td><td width="50%"><a href="https://github.com/SrSatriano/CortaLive-Pro"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/CortaLive-Pro.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/CortaLive-Pro.svg" /><img src="assets/dark/cards/CortaLive-Pro.svg" alt="CortaLive Pro: A versão completa do CortaLive (código fechado; aqui ficam os instaladores): grava lives sozinho, usa o chat ao vivo para achar momentos, corta em até 4K e publica nas redes." width="100%" /></picture></a></td></tr>
+<tr><td width="50%"><a href="https://github.com/SrSatriano/CortaLive-Basico"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/CortaLive-Basico.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/CortaLive-Basico.svg" /><img src="assets/dark/cards/CortaLive-Basico.svg" alt="CortaLive Básico: Versão 1.0.0, grátis e MIT: vídeos e lives gravadas viram cortes verticais para TikTok, Shorts e Reels, com picos de áudio, Whisper local e IA que dá nota aos melhores momentos." width="100%" /></picture></a></td><td width="50%"><a href="https://github.com/SrSatriano/CortaLive-Pro"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/CortaLive-Pro.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/CortaLive-Pro.svg" /><img src="assets/dark/cards/CortaLive-Pro.svg" alt="CortaLive Pro: A versão completa do CortaLive (instaladores; código fechado): grava lives sozinho, cruza áudio e chat para achar os picos, corta em até 4K e publica nas redes. Posta no canal Afiado Games desde 18/11." width="100%" /></picture></a></td></tr>
 <tr><td width="50%"><a href="https://github.com/SrSatriano/lhn-android-apps"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/lhn-android-apps.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/lhn-android-apps.svg" /><img src="assets/dark/cards/lhn-android-apps.svg" alt="LHN Android Apps: Dois apps Android nativos do ecossistema LHN: LHN Finanças (carteira offline-first com simuladores) e LHN Mirror (painel remoto do terminal LHN na rede local)." width="100%" /></picture></a></td><td width="50%"><a href="https://github.com/SrSatriano/ultra-low-latency-order-book-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/ultra-low-latency-order-book-engine.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/ultra-low-latency-order-book-engine.svg" /><img src="assets/dark/cards/ultra-low-latency-order-book-engine.svg" alt="Order Book Engine: Motor de matching em C++20 com prioridade preço-tempo, cinco tipos de ordem, replay de sessões em CSV e benchmark de latência por operação. Só usa a biblioteca padrão." width="100%" /></picture></a></td></tr>
 <tr><td width="50%"><a href="https://github.com/SrSatriano/avx512-options-pricing-engine"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/avx512-options-pricing-engine.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/avx512-options-pricing-engine.svg" /><img src="assets/dark/cards/avx512-options-pricing-engine.svg" alt="AVX-512 Options Pricing: Precificação de opções europeias em C++20: Black-Scholes-Merton com gregas e volatilidade implícita, kernel AVX-512 que precifica 8 opções por instrução e Monte Carlo multi-thread." width="100%" /></picture></a></td><td width="50%"><a href="https://github.com/SrSatriano/local-rag-second-mind-vault"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/local-rag-second-mind-vault.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/local-rag-second-mind-vault.svg" /><img src="assets/dark/cards/local-rag-second-mind-vault.svg" alt="Second Mind Vault: Pergunte aos seus documentos sem mandar nada para a nuvem. Indexa Markdown, texto, HTML e PDF num único SQLite, busca com BM25 + vetores e responde citando os trechos usados." width="100%" /></picture></a></td></tr>
 <tr><td width="50%"><a href="https://github.com/SrSatriano/distributed-ai-inference-cluster"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/distributed-ai-inference-cluster.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/distributed-ai-inference-cluster.svg" /><img src="assets/dark/cards/distributed-ai-inference-cluster.svg" alt="infergw: Inference Gateway: Junta várias máquinas com LLMs (PC com GPU, notebook, servidor vLLM) atrás de um único endereço compatível com a API da OpenAI e manda cada pedido para o worker certo." width="100%" /></picture></a></td><td width="50%"><a href="https://github.com/SrSatriano/videoos"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/videoos.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/videoos.svg" /><img src="assets/dark/cards/videoos.svg" alt="VideoOS: Editor local-first de vídeos curtos verticais: importa, aplica templates em lote, revisa renders FFmpeg e gera pacotes de publicação para Reels, TikTok e Shorts." width="100%" /></picture></a></td></tr>
@@ -486,7 +536,7 @@ Todos os 45 repositórios públicos, agrupados por frente. À esquerda, o card (
 
 <table>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/CortaLive-Basico"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/CortaLive-Basico.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/CortaLive-Basico.svg" /><img src="assets/dark/cards/CortaLive-Basico.svg" alt="CortaLive Básico: Transforma um vídeo ou uma live gravada em cortes verticais para TikTok, Shorts e Reels: acha os picos de áudio, transcreve no PC com Whisper e a IA escolhe e dá nota aos melhores momentos." width="100%" /></picture></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/CortaLive-Basico"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/CortaLive-Basico.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/CortaLive-Basico.svg" /><img src="assets/dark/cards/CortaLive-Basico.svg" alt="CortaLive Básico: Versão 1.0.0, grátis e MIT: vídeos e lives gravadas viram cortes verticais para TikTok, Shorts e Reels, com picos de áudio, Whisper local e IA que dá nota aos melhores momentos." width="100%" /></picture></a></td>
 <td valign="top">
 
 <h4><a href="https://github.com/SrSatriano/CortaLive-Basico">CortaLive Básico</a></h4>
@@ -502,15 +552,15 @@ Todos os 45 repositórios públicos, agrupados por frente. À esquerda, o card (
 </td>
 </tr>
 <tr>
-<td width="48%" valign="top"><a href="https://github.com/SrSatriano/CortaLive-Pro"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/CortaLive-Pro.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/CortaLive-Pro.svg" /><img src="assets/dark/cards/CortaLive-Pro.svg" alt="CortaLive Pro: A versão completa do CortaLive (código fechado; aqui ficam os instaladores): grava lives sozinho, usa o chat ao vivo para achar momentos, corta em até 4K e publica nas redes." width="100%" /></picture></a></td>
+<td width="48%" valign="top"><a href="https://github.com/SrSatriano/CortaLive-Pro"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/cards/CortaLive-Pro.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/cards/CortaLive-Pro.svg" /><img src="assets/dark/cards/CortaLive-Pro.svg" alt="CortaLive Pro: A versão completa do CortaLive (instaladores; código fechado): grava lives sozinho, cruza áudio e chat para achar os picos, corta em até 4K e publica nas redes. Posta no canal Afiado Games desde 18/11." width="100%" /></picture></a></td>
 <td valign="top">
 
 <h4><a href="https://github.com/SrSatriano/CortaLive-Pro">CortaLive Pro</a></h4>
 <img src="https://img.shields.io/badge/licen%C3%A7a-Comercial-475569?style=flat-square" alt="Licença Comercial" /> 
 <ul>
-<li>Grava lives da Twitch, YouTube e Kick automaticamente</li>
-<li>Publica e agenda no TikTok, YouTube Shorts e Instagram Reels</li>
-<li>Painel com agenda, métricas das contas e análise; ativação por licença</li>
+<li>Grava Twitch, YouTube e Kick em blocos de 5 min, junto com o chat</li>
+<li>Publica por grade de horários no TikTok, Shorts e Reels, com pausa por rede</li>
+<li>R$ 297 em pagamento único: licença vitalícia para 2 PCs, reembolso em 7 dias</li>
 </ul>
 <sub><b>Stack:</b> <code>Windows</code> <code>4K</code> <code>Twitch</code> <code>YouTube</code> <code>Kick</code></sub><br/>
 <sub><a href="https://github.com/SrSatriano/CortaLive-Pro">📂 Código</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro#readme">📖 README</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro/releases/latest">⬇️ Baixar</a> · <a href="https://srsatriano.github.io/CortaLive-Basico/">🌐 Site</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro/commits">🕒 Commits</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro/issues">💬 Issues</a></sub>
@@ -1120,8 +1170,8 @@ Projetos com selo **CI** rodam os testes a cada push; clique no selo para ver a 
 | [Hallucination Trap](https://github.com/SrSatriano/cognitive-bias-hallucination-trap) | 🧠 IA local | Python | Suíte de testes adversariais para LLMs | [código](https://github.com/SrSatriano/cognitive-bias-hallucination-trap) |
 | [Voice Cloning TTS Gateway](https://github.com/SrSatriano/voice-cloning-tts-api-gateway) | 🧠 IA local | Python | API self-hosted de síntese e clonagem de voz | [código](https://github.com/SrSatriano/voice-cloning-tts-api-gateway) |
 | [Viral Trend Predictor](https://github.com/SrSatriano/viral-trend-sentiment-predictor) | 🧠 IA local | Python | Cruza volume, sentimento e histórico para achar tendências cedo | [código](https://github.com/SrSatriano/viral-trend-sentiment-predictor) |
-| [CortaLive Básico](https://github.com/SrSatriano/CortaLive-Basico) | 🎬 Vídeo & criadores | Python | 🔥 **Novo.** Transforma um vídeo ou uma live gravada em cortes verticais para TikTok, Shorts e Reels | [código](https://github.com/SrSatriano/CortaLive-Basico) · [🌐](https://srsatriano.github.io/CortaLive-Basico/) |
-| [CortaLive Pro](https://github.com/SrSatriano/CortaLive-Pro) | 🎬 Vídeo & criadores | Instalador | 🔥 **Novo.** A versão completa do CortaLive (código fechado; aqui ficam os instaladores) | [código](https://github.com/SrSatriano/CortaLive-Pro) · [🌐](https://srsatriano.github.io/CortaLive-Basico/) |
+| [CortaLive Básico](https://github.com/SrSatriano/CortaLive-Basico) | 🎬 Vídeo & criadores | Python | 🔥 **Novo.** Versão 1.0.0, grátis e MIT | [código](https://github.com/SrSatriano/CortaLive-Basico) · [🌐](https://srsatriano.github.io/CortaLive-Basico/) |
+| [CortaLive Pro](https://github.com/SrSatriano/CortaLive-Pro) | 🎬 Vídeo & criadores | Instalador | 🔥 **Novo.** A versão completa do CortaLive (instaladores; código fechado) | [código](https://github.com/SrSatriano/CortaLive-Pro) · [🌐](https://srsatriano.github.io/CortaLive-Basico/) |
 | [VideoOS](https://github.com/SrSatriano/videoos) | 🎬 Vídeo & criadores | Python | Editor local-first de vídeos curtos verticais | [código](https://github.com/SrSatriano/videoos) · ✅ CI |
 | [Multi-Channel Analytics](https://github.com/SrSatriano/multi-channel-analytics-dashboard) | 🎬 Vídeo & criadores | TypeScript | Painel para quem tem mais de um canal no YouTube | [código](https://github.com/SrSatriano/multi-channel-analytics-dashboard) · ✅ CI |
 | [OmniForge Studio](https://github.com/SrSatriano/omniforge-studio) | 🎬 Vídeo & criadores | Python | Estúdio desktop para Windows que produz livros para Amazon KDP (PDF de impressão, capa, lombada,… | [código](https://github.com/SrSatriano/omniforge-studio) · ✅ CI |

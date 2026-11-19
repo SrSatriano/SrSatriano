@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="460" height="200" viewBox="0 0 460 200" role="img" aria-label="CortaLive Básico: Transforma um vídeo ou uma live gravada em cortes verticais para TikTok, Shorts e Reels: acha os picos de áudio, transcreve no PC com Whisper e a IA escolhe e dá nota aos melhores momentos.">
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="200" viewBox="0 0 460 200" role="img" aria-label="CortaLive Básico: Versão 1.0.0, grátis e MIT: vídeos e lives gravadas viram cortes verticais para TikTok, Shorts e Reels, com picos de áudio, Whisper local e IA que dá nota aos melhores momentos.">
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f4f7fb"/></linearGradient>
 <radialGradient id="glow" cx="1" cy="0" r="0.9"><stop offset="0" stop-color="#db2777" stop-opacity="0.14"/><stop offset="1" stop-color="#db2777" stop-opacity="0"/></radialGradient>
@@ -18,9 +18,9 @@
 <rect x="302.0" y="21" width="35.5" height="19" rx="9.5" fill="#475569" fill-opacity="0.13" stroke="#475569" stroke-opacity="0.55"/><text x="319.8" y="34" text-anchor="middle" fill="#475569" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="700">MIT</text>
 <text x="22" y="74" fill="#0f172a" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700">CortaLive Básico</text>
 <text x="22" y="93" fill="#64748b" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="11.5">SrSatriano/CortaLive-Basico</text>
-<text x="22" y="117" fill="#334155" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5">Transforma um vídeo ou uma live gravada em cortes verticais para</text>
-<text x="22" y="134" fill="#334155" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5">TikTok, Shorts e Reels: acha os picos de áudio, transcreve no PC com</text>
-<text x="22" y="151" fill="#334155" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5">Whisper e a IA escolhe e dá nota aos melhores momentos.</text>
+<text x="22" y="117" fill="#334155" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5">Versão 1.0.0, grátis e MIT: vídeos e lives gravadas viram cortes</text>
+<text x="22" y="134" fill="#334155" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5">verticais para TikTok, Shorts e Reels, com picos de áudio, Whisper</text>
+<text x="22" y="151" fill="#334155" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5">local e IA que dá nota aos melhores momentos.</text>
 <line x1="20" y1="156" x2="440" y2="156" stroke="#d0d7de"/>
 <circle cx="28" cy="178" r="5.5" fill="#3572A5"/>
 <text x="39" y="182" fill="#1e293b" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600">Python</text>
