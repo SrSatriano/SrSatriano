@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="200" viewBox="0 0 460 200" role="img" aria-label="Cross-Border Ledger: Ledger permissionado para faturas internacionais: canais privados, chaincode de registro e políticas de endosso entre organizações.">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#0f1b2d"/></linearGradient>
+<radialGradient id="glow" cx="1" cy="0" r="0.9"><stop offset="0" stop-color="#22c55e" stop-opacity="0.22"/><stop offset="1" stop-color="#22c55e" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#22c55e" fill-opacity="0.35"/></pattern>
+<linearGradient id="fd" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.9"/><stop offset="0.6" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="m"><rect width="460" height="200" fill="url(#fd)"/></mask>
+</defs>
+<rect x="0.5" y="0.5" width="459" height="199" rx="14" fill="url(#bg)" stroke="#1f2a44"/>
+<rect x="0.5" y="0.5" width="459" height="199" rx="14" fill="url(#glow)"/>
+<rect x="260" y="1" width="199" height="198" rx="14" fill="url(#dots)" mask="url(#m)"/>
+<rect x="0" y="20" width="4" height="160" rx="2" fill="#22c55e"/>
+<rect x="20" y="16" width="30" height="30" rx="8" fill="#22c55e" fill-opacity="0.14" stroke="#22c55e" stroke-opacity="0.45"/>
+<g transform="translate(26.5 22.5) scale(0.708)" fill="none" stroke="#22c55e" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></g>
+<text x="60" y="36" fill="#22c55e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">WEB3</text>
+<rect x="406.5" y="21" width="35.5" height="19" rx="9.5" fill="#94a3b8" fill-opacity="0.13" stroke="#94a3b8" stroke-opacity="0.55"/><text x="424.2" y="34" text-anchor="middle" fill="#94a3b8" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="700">MIT</text>
+<text x="22" y="74" fill="#f8fafc" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="700">Cross-Border Ledger</text>
+<text x="22" y="93" fill="#64748b" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace" font-size="11.5">SrSatriano/cross-border-ledger-fabric</text>
+<text x="22" y="117" fill="#cbd5e1" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5">Ledger permissionado para faturas internacionais: canais privados,</text>
+<text x="22" y="134" fill="#cbd5e1" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5">chaincode de registro e políticas de endosso entre organizações.</text>
+<line x1="20" y1="156" x2="440" y2="156" stroke="#1f2a44"/>
+<circle cx="28" cy="178" r="5.5" fill="#00ADD8"/>
+<text x="39" y="182" fill="#e2e8f0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600">Go</text>
+<rect x="67.9" y="167" width="109.2" height="20" rx="6" fill="#1e293b" stroke="#334155"/><text x="122.5" y="181" text-anchor="middle" fill="#94a3b8" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="10.5">Hyperledger Fabric</text>
+<rect x="183.1" y="167" width="48.5" height="20" rx="6" fill="#1e293b" stroke="#334155"/><text x="207.4" y="181" text-anchor="middle" fill="#94a3b8" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="10.5">Docker</text>
+</svg>
