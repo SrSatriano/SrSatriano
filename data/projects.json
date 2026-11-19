@@ -364,6 +364,57 @@
       ]
     },
     {
+      "name": "CortaLive-Basico",
+      "cat": "media",
+      "lang": "Python",
+      "featured": true,
+      "new": true,
+      "license": "MIT",
+      "created": "2026-11-19",
+      "demo": "https://srsatriano.github.io/CortaLive-Basico/",
+      "download": "https://github.com/SrSatriano/CortaLive-Basico/releases/latest",
+      "title": "CortaLive Básico",
+      "summary": "Transforma um vídeo ou uma live gravada em cortes verticais para TikTok, Shorts e Reels: acha os picos de áudio, transcreve no PC com Whisper e a IA escolhe e dá nota aos melhores momentos.",
+      "highlights": [
+        "Corte 1080x1920 com webcam em cima e jogo embaixo, legenda palavra a palavra e capa",
+        "Texto do post pronto, com título de gancho, hashtags e crédito ao criador",
+        "Roda no Windows, sem placa de vídeo, com a sua chave (Gemini, Claude, OpenAI ou Vertex)"
+      ],
+      "stack": [
+        "Python",
+        "FFmpeg",
+        "Whisper",
+        "Gemini",
+        "Claude"
+      ]
+    },
+    {
+      "name": "CortaLive-Pro",
+      "cat": "media",
+      "lang": "Instalador",
+      "no_lang": true,
+      "featured": true,
+      "new": true,
+      "license": "Comercial",
+      "created": "2026-11-19",
+      "demo": "https://srsatriano.github.io/CortaLive-Basico/",
+      "download": "https://github.com/SrSatriano/CortaLive-Pro/releases/latest",
+      "title": "CortaLive Pro",
+      "summary": "A versão completa do CortaLive (código fechado; aqui ficam os instaladores): grava lives sozinho, usa o chat ao vivo para achar momentos, corta em até 4K e publica nas redes.",
+      "highlights": [
+        "Grava lives da Twitch, YouTube e Kick automaticamente",
+        "Publica e agenda no TikTok, YouTube Shorts e Instagram Reels",
+        "Painel com agenda, métricas das contas e análise; ativação por licença"
+      ],
+      "stack": [
+        "Windows",
+        "4K",
+        "Twitch",
+        "YouTube",
+        "Kick"
+      ]
+    },
+    {
       "name": "videoos",
       "cat": "media",
       "lang": "Python",

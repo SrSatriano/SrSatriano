@@ -9,7 +9,7 @@ Entradas:
     templates/README.md      texto do README com marcadores {{...}}
 
 Saídas (cada SVG existe em assets/dark/ e assets/light/):
-    banner.svg  terminal.svg  overview.svg  categories.svg  languages.svg  timeline.svg
+    banner.svg  terminal.svg  cortalive.svg  overview.svg  categories.svg  languages.svg  timeline.svg
     lhn-architecture.svg  constellation.svg  footer.svg
     nav/<id>.svg  sections/<id>.svg  cards/<repo>.svg
     README.md (gerado a partir do template; não edite à mão)
@@ -55,7 +55,7 @@ MILESTONES = {
     "2026-04": "LHN Sovereign V90 público",
     "2026-05": "Módulos open source + portfólio",
     "2026-10": "Site do Satriano Studio",
-    "2026-11": "Ferramentas de produto e apps",
+    "2026-11": "CortaLive, ferramentas de produto e apps",
 }
 
 THEMES = {
@@ -85,6 +85,12 @@ ICONS = {
     "server": '<rect x="4" y="3" width="16" height="7" rx="1.5"/><rect x="4" y="14" width="16" height="7" rx="1.5"/><path d="M8 6.5h.01M8 17.5h.01M12 6.5h4M12 17.5h4"/>',
     "sprout": '<path d="M12 21v-9"/><path d="M12 12c0-4 3-7 8-7 0 4-3 7-8 7z"/><path d="M12 14c0-3-2-6-7-6 0 3 2 6 7 6z"/>',
     "list": '<path d="M8 6h13M8 12h13M8 18h13"/><path d="M3.5 6h.01M3.5 12h.01M3.5 18h.01"/>',
+    "film": '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/>',
+    "wave": '<path d="M3 12h1.5M7 8v8M11 4v16M15 9v6M19 11v2"/>',
+    "captions": '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 13h4M13 13h4M7 16h10"/>',
+    "spark": '<path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 16.5l.6 1.7 1.7.6-1.7.6-.6 1.7-.6-1.7-1.7-.6 1.7-.6z"/>',
+    "phone": '<rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/>',
+    "scissors": '<circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M8.1 8.1L20 20M8.1 15.9L20 4"/>',
     "star": '<path d="M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.3 6.5 20.2l1-6.2L3 9.6l6.2-.9z"/>',
 }
 
@@ -250,17 +256,20 @@ def banner_svg(t: dict, n_public: int, n_langs: int) -> str:
 
 
 def terminal_svg(t: dict) -> str:
-    W, H = 1000, 236
+    W = 1000
     green, blue, amber = "#4ade80", "#7dd3fc", "#fbbf24"
     lines = [
         ("$ ", "cat foco.txt", amber, "#e2e8f0"),
         ("› ", "LHN Sovereign V90 · terminal quant local com IA e risco", blue, "#e2e8f0"),
         ("› ", "C++ · Rust · Python · TypeScript · Go · Kotlin", blue, "#e2e8f0"),
         ("› ", "baixa latência · RAG offline · fiscal BR · Web3 · apps Android", blue, "#e2e8f0"),
+        ("$ ", "cortalive cortar live.mp4", amber, "#e2e8f0"),
+        ("› ", "10 cortes verticais prontos · legenda, capa e texto do post", "#f472b6", "#e2e8f0"),
         ("$ ", "echo $PRINCIPIO", amber, "#e2e8f0"),
         ("› ", "Se o problema não precisa sair da máquina, ele roda local.", green, "#f8fafc"),
     ]
-    total = 16.0
+    total = 20.0
+    H = 60 + len(lines) * 29 + 34
     out = [svg_open(W, H, "Terminal: " + " / ".join(l[1] for l in lines)),
            f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="{t["term"]}" stroke="{t["stroke"]}"/>',
            f'<path d="M0.5 14.5a14 14 0 0 1 14-14h{W-29}a14 14 0 0 1 14 14v19.5h-{W-1}z" fill="{t["term_bar"]}"/>',
@@ -338,7 +347,9 @@ def card_svg(t: dict, p: dict, theme: str) -> str:
            f'<text x="60" y="36" fill="{color}" font-family="{SANS}" font-size="11" font-weight="700" '
            f'letter-spacing="1.2">{x(cat["short"].upper())}</text>']
     pills = []
-    if p.get("featured"):
+    if p.get("new"):
+        pills.append(("NOVO", "#ef4444" if theme == "dark" else "#dc2626"))
+    if p.get("featured") and not p.get("new"):
         pills.append(("★ DESTAQUE", "#f59e0b"))
     if p.get("ci"):
         pills.append(("CI", t["accent2"]))
@@ -527,6 +538,125 @@ def flow(x1, y1, x2, y2, c, dash=True, dur=1.2) -> str:
             f'<circle cx="{x2}" cy="{y2}" r="3.5" fill="{c}"/>')
 
 
+def cortalive_svg(t: dict, theme: str) -> str:
+    """Arte de destaque do CortaLive: fluxo de corte + celular com o corte vertical."""
+    W, H = 1000, 430
+    dark = theme == "dark"
+    pink = "#f472b6" if dark else "#db2777"
+    amber = "#fbbf24" if dark else "#d97706"
+    red = "#ef4444" if dark else "#dc2626"
+    bg0, bg1, bg2 = ("#12091a", "#1a0f24", "#2a1020") if dark else ("#fff7fb", "#fdf2f8", "#ffedd5")
+    out = [svg_open(W, H, "CortaLive: transforma vídeos e lives em cortes verticais com legenda e IA. "
+                          "Fluxo: vídeo ou live, picos de áudio, transcrição local com Whisper, IA dá nota de 0 a 10, "
+                          "corte vertical 1080x1920. Básico grátis e MIT; Pro grava lives e publica sozinho."),
+           f'''<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{bg0}"/><stop offset="0.6" stop-color="{bg1}"/><stop offset="1" stop-color="{bg2}"/></linearGradient>
+  <linearGradient id="tt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{pink}"/><stop offset="1" stop-color="{amber}"/></linearGradient>
+  <radialGradient id="halo" cx="0.8" cy="0.5" r="0.45"><stop offset="0" stop-color="{pink}" stop-opacity="{0.35 if dark else 0.25}"/><stop offset="1" stop-color="{pink}" stop-opacity="0"/></radialGradient>
+  <linearGradient id="game" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e3a8a"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+  <linearGradient id="cam" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#334155"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+  <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="{pink}" fill-opacity="0.22"/></pattern>
+  <clipPath id="clip"><rect width="{W}" height="{H}" rx="20"/></clipPath>
+  <clipPath id="scr"><rect x="702" y="44" width="212" height="352" rx="22"/></clipPath>
+</defs>''',
+           '<g clip-path="url(#clip)">',
+           f'<rect width="{W}" height="{H}" fill="url(#bg)"/><rect width="{W}" height="{H}" fill="url(#dots)" opacity="0.6"/>',
+           f'<rect width="{W}" height="{H}" fill="url(#halo)"/>']
+    # selo e título
+    out.append(f'<rect x="40" y="34" width="176" height="28" rx="14" fill="{red}" fill-opacity="0.14" stroke="{red}" '
+               f'stroke-opacity="0.6"/><circle cx="56" cy="48" r="4.5" fill="{red}"><animate attributeName="opacity" '
+               f'values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>'
+               f'<text x="68" y="53" fill="{red}" font-family="{SANS}" font-size="12.5" font-weight="800" '
+               f'letter-spacing="1.5">NOVO · {MONTHS[10].upper()} 2026</text>')
+    out.append(icon("scissors", 62, 104, 34, pink, 2.2))
+    out.append(f'<text x="90" y="118" fill="url(#tt)" font-family="{SANS}" font-size="50" font-weight="900">CortaLive</text>')
+    out.append(f'<text x="40" y="156" fill="{t["text"]}" font-family="{SANS}" font-size="19" font-weight="600">'
+               f'Vídeos e lives viram cortes verticais com legenda e IA.</text>')
+    out.append(f'<text x="40" y="180" fill="{t["muted"]}" font-family="{SANS}" font-size="13.5">'
+               f'Prontos para TikTok, YouTube Shorts e Instagram Reels · roda no seu PC</text>')
+    # fluxo em 5 passos
+    steps = [("film", "Vídeo ou", "live gravada"), ("wave", "Picos de", "áudio"), ("captions", "Whisper", "no seu PC"),
+             ("spark", "IA dá nota", "de 0 a 10"), ("phone", "Corte 9:16", "1080×1920")]
+    bw, gap, sx, sy = 92, 15, 40, 206
+    for i, (ic, l1, l2) in enumerate(steps):
+        bx = sx + i * (bw + gap)
+        out.append(f'<rect x="{bx}" y="{sy}" width="{bw}" height="98" rx="14" fill="{t["panel"]}" fill-opacity="0.8" '
+                   f'stroke="{pink}" stroke-opacity="0.45"/>')
+        out.append(f'<circle cx="{bx + bw/2}" cy="{sy + 30}" r="18" fill="{pink}" fill-opacity="0.14"/>'
+                   + icon(ic, bx + bw / 2, sy + 30, 20, pink))
+        out.append(f'<text x="{bx + bw/2}" y="{sy + 68}" text-anchor="middle" fill="{t["text"]}" font-family="{SANS}" '
+                   f'font-size="12" font-weight="700">{x(l1)}</text><text x="{bx + bw/2}" y="{sy + 84}" '
+                   f'text-anchor="middle" fill="{t["muted"]}" font-family="{SANS}" font-size="11">{x(l2)}</text>')
+        out.append(f'<text x="{bx + 10}" y="{sy + 17}" fill="{pink}" font-family="{MONO}" font-size="10" '
+                   f'font-weight="700" opacity="0.8">0{i+1}</text>')
+        if i < len(steps) - 1:
+            ax = bx + bw + gap / 2
+            out.append(f'<path d="M{ax-3} {sy+44} l5 5 -5 5" fill="none" stroke="{pink}" stroke-width="2" '
+                       f'stroke-linecap="round" stroke-linejoin="round"><animate attributeName="opacity" '
+                       f'values="0.3;1;0.3" dur="1.5s" begin="{i*0.3}s" repeatCount="indefinite"/></path>')
+    # planos
+    plans = [("Básico", "grátis · código aberto (MIT)", "corta vídeos e lives que você já tem", t["accent2"]),
+             ("Pro", "licença · até 4K", "grava lives, lê o chat e publica sozinho", amber)]
+    for i, (name, tag, desc, c) in enumerate(plans):
+        px = 40 + i * 268
+        out.append(f'<rect x="{px}" y="324" width="256" height="70" rx="14" fill="{t["panel"]}" fill-opacity="0.85" '
+                   f'stroke="{c}" stroke-opacity="0.6"/><rect x="{px}" y="324" width="5" height="70" rx="2.5" fill="{c}"/>'
+                   f'<text x="{px+20}" y="350" fill="{c}" font-family="{SANS}" font-size="16" font-weight="800">{name}</text>'
+                   f'<text x="{px+20 + text_width(name, 16, True) + 10:.0f}" y="350" fill="{t["muted"]}" '
+                   f'font-family="{SANS}" font-size="11.5">{x(tag)}</text>'
+                   f'<text x="{px+20}" y="374" fill="{t["body"]}" font-family="{SANS}" font-size="12.5">{x(desc)}</text>')
+    # celular
+    out.append(f'<rect x="692" y="34" width="232" height="372" rx="32" fill="#0b0b10" stroke="{pink}" '
+               f'stroke-opacity="0.55" stroke-width="2"/>')
+    out.append('<g clip-path="url(#scr)">')
+    # webcam
+    out.append('<rect x="702" y="44" width="212" height="150" fill="url(#cam)"/>'
+               '<circle cx="808" cy="112" r="26" fill="#94a3b8"/><ellipse cx="808" cy="186" rx="52" ry="38" fill="#94a3b8"/>'
+               '<circle cx="799" cy="108" r="3" fill="#0f172a"/><circle cx="817" cy="108" r="3" fill="#0f172a"/>'
+               '<ellipse cx="808" cy="124" rx="7" ry="5" fill="#0f172a"><animate attributeName="ry" values="5;8;5" '
+               'dur="1.2s" repeatCount="indefinite"/></ellipse>')
+    # jogo
+    out.append('<rect x="702" y="194" width="212" height="202" fill="url(#game)"/>'
+               '<polygon points="702,330 750,280 790,312 840,262 914,326 914,396 702,396" fill="#312e81" opacity="0.9"/>'
+               '<polygon points="702,360 770,322 830,352 880,330 914,346 914,396 702,396" fill="#1e1b4b"/>'
+               f'<circle cx="850" cy="300" r="16" fill="{amber}" opacity="0.9"><animate attributeName="r" values="10;24;10" '
+               f'dur="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.95;0.2;0.95" dur="1.6s" '
+               f'repeatCount="indefinite"/></circle>')
+    # título de gancho
+    out.append('<rect x="716" y="58" width="184" height="26" rx="6" fill="#000" fill-opacity="0.55"/>'
+               f'<text x="808" y="76" text-anchor="middle" fill="#fff" font-family="{SANS}" font-size="12.5" '
+               f'font-weight="900" letter-spacing="0.5">ELE NÃO ACREDITOU</text>')
+    # legenda palavra a palavra
+    words = [("QUE", 731), ("JOGADA", 791), ("INSANA", 866)]
+    for i, (w_, wx) in enumerate(words):
+        vals = ";".join("#fde047" if j == i else "#ffffff" for j in range(3)) + ";" + ("#fde047" if i == 0 else "#ffffff")
+        out.append(f'<text x="{wx}" y="236" text-anchor="middle" fill="#ffffff" stroke="#000" stroke-width="3" '
+                   f'paint-order="stroke" font-family="{SANS}" font-size="15" font-weight="900">{w_}'
+                   f'<animate attributeName="fill" values="{vals}" dur="2.4s" calcMode="discrete" '
+                   f'repeatCount="indefinite"/></text>')
+    # reações
+    out.append(f'<path d="M896 300c-4-5-12-1-9 5l9 8 9-8c3-6-5-10-9-5z" fill="{red}"><animateTransform '
+               f'attributeName="transform" type="translate" values="0 10;0 -40" dur="2.2s" repeatCount="indefinite"/>'
+               f'<animate attributeName="opacity" values="1;0" dur="2.2s" repeatCount="indefinite"/></path>')
+    # barra de progresso
+    out.append('<rect x="716" y="380" width="184" height="4" rx="2" fill="#ffffff" fill-opacity="0.25"/>'
+               f'<rect x="716" y="380" width="120" height="4" rx="2" fill="{pink}"><animate attributeName="width" '
+               f'values="0;184" dur="6s" repeatCount="indefinite"/></rect>')
+    out.append('</g>')
+    out.append('<rect x="776" y="38" width="64" height="10" rx="5" fill="#0b0b10"/>')
+    # etiquetas ao lado do celular
+    for i, (lbl, c) in enumerate([("9:16", pink), ("legenda", amber), ("capa + post", t["accent"])]):
+        ty = 120 + i * 48
+        w_ = text_width(lbl, 11.5, True) + 22
+        out.append(f'<rect x="{678 - w_:.0f}" y="{ty}" width="{w_:.0f}" height="26" rx="13" fill="{t["panel"]}" '
+                   f'stroke="{c}" stroke-opacity="0.7"/><text x="{678 - w_/2:.0f}" y="{ty+17}" text-anchor="middle" '
+                   f'fill="{c}" font-family="{SANS}" font-size="11.5" font-weight="700">{x(lbl)}</text>')
+    out.append('</g>')
+    out.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="20" fill="none" stroke="{pink}" stroke-opacity="0.45"/>')
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 def lhn_svg(t: dict, theme: str) -> str:
     W, H = 1000, 400
     q = ccolor(CATS["quant"], theme)
@@ -664,8 +794,10 @@ def shield(label: str, message: str | None, color: str, style: str = "flat-squar
 def repo_links(p: dict) -> str:
     url = f"{GH}/{p['name']}"
     links = [f'<a href="{url}">📂 Código</a>', f'<a href="{url}#readme">📖 README</a>']
+    if p.get("download"):
+        links.append(f'<a href="{p["download"]}">⬇️ Baixar</a>')
     if p.get("demo"):
-        links.append(f'<a href="{p["demo"]}">🌐 Online</a>')
+        links.append(f'<a href="{p["demo"]}">🌐 Site</a>')
     links += [f'<a href="{url}/commits">🕒 Commits</a>', f'<a href="{url}/issues">💬 Issues</a>']
     return " · ".join(links)
 
@@ -702,6 +834,7 @@ def catalog_md() -> str:
 
 def featured_md() -> str:
     feats = [p for p in PROJECTS if p.get("featured") and p["name"] != "LHN-V90-IA"]
+    feats.sort(key=lambda p: not p.get("new"))
     rows = []
     for i in range(0, len(feats), 2):
         cells = "".join(f'<td width="50%"><a href="{GH}/{p["name"]}">'
@@ -725,6 +858,8 @@ def index_md() -> str:
             if len(first) > 110:
                 first = first[:107].rsplit(" ", 1)[0] + "…"
             ci = " · ✅ CI" if p.get("ci") else ""
+            if p.get("new"):
+                first = "🔥 **Novo.** " + first
             demo = f" · [🌐]({p['demo']})" if p.get("demo") else ""
             lines.append(f"| [{p['title']}]({GH}/{p['name']}) | {cat['emoji']} {cat['short']} | {p['lang']} | "
                          f"{first} | [código]({GH}/{p['name']}){demo}{ci} |")
@@ -762,7 +897,7 @@ def main() -> None:
         assert p["cat"] in CATS, f"frente desconhecida em {p['name']}"
 
     n = len(PROJECTS)
-    langs = Counter(p["lang"] for p in PROJECTS)
+    langs = Counter(p["lang"] for p in PROJECTS if not p.get("no_lang"))
     n_ci = sum(1 for p in PROJECTS if p.get("ci"))
     n_mit = sum(1 for p in PROJECTS if p.get("license") == "MIT")
 
@@ -788,6 +923,7 @@ def main() -> None:
                                       150, "chip"),
             "timeline.svg": timeline_svg(t, theme),
             "lhn-architecture.svg": lhn_svg(t, theme),
+            "cortalive.svg": cortalive_svg(t, theme),
             "constellation.svg": constellation_svg(t, theme),
         }
         for p in PROJECTS:
