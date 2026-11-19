@@ -374,7 +374,7 @@
       "demo": "https://srsatriano.github.io/CortaLive-Basico/",
       "download": "https://github.com/SrSatriano/CortaLive-Basico/releases/latest",
       "title": "CortaLive Básico",
-      "summary": "Transforma um vídeo ou uma live gravada em cortes verticais para TikTok, Shorts e Reels: acha os picos de áudio, transcreve no PC com Whisper e a IA escolhe e dá nota aos melhores momentos.",
+      "summary": "Versão 1.0.0, grátis e MIT: vídeos e lives gravadas viram cortes verticais para TikTok, Shorts e Reels, com picos de áudio, Whisper local e IA que dá nota aos melhores momentos.",
       "highlights": [
         "Corte 1080x1920 com webcam em cima e jogo embaixo, legenda palavra a palavra e capa",
         "Texto do post pronto, com título de gancho, hashtags e crédito ao criador",
@@ -400,11 +400,11 @@
       "demo": "https://srsatriano.github.io/CortaLive-Basico/",
       "download": "https://github.com/SrSatriano/CortaLive-Pro/releases/latest",
       "title": "CortaLive Pro",
-      "summary": "A versão completa do CortaLive (código fechado; aqui ficam os instaladores): grava lives sozinho, usa o chat ao vivo para achar momentos, corta em até 4K e publica nas redes.",
+      "summary": "A versão completa do CortaLive (instaladores; código fechado): grava lives sozinho, cruza áudio e chat para achar os picos, corta em até 4K e publica nas redes. Posta no canal Afiado Games desde 18/11.",
       "highlights": [
-        "Grava lives da Twitch, YouTube e Kick automaticamente",
-        "Publica e agenda no TikTok, YouTube Shorts e Instagram Reels",
-        "Painel com agenda, métricas das contas e análise; ativação por licença"
+        "Grava Twitch, YouTube e Kick em blocos de 5 min, junto com o chat",
+        "Publica por grade de horários no TikTok, Shorts e Reels, com pausa por rede",
+        "R$ 297 em pagamento único: licença vitalícia para 2 PCs, reembolso em 7 dias"
       ],
       "stack": [
         "Windows",
@@ -976,5 +976,25 @@
         "Python"
       ]
     }
-  ]
+  ],
+  "cortalive": {
+    "site": "https://srsatriano.github.io/CortaLive-Basico/",
+    "price": "R$ 297",
+    "installments": "12x de R$ 30,68",
+    "promo": {
+      "code": "CORTA150",
+      "discount": "R$ 150",
+      "price": "R$ 147",
+      "installments": "12x de R$ 15,27",
+      "until": "2026-11-29",
+      "until_label": "29/11 às 23:59 (Brasília)"
+    },
+    "live_since": "18/11/2026",
+    "showcase": {
+      "name": "Afiado Games",
+      "tiktok": "https://www.tiktok.com/@afiado.games",
+      "youtube": "https://www.youtube.com/@AfiadoGames",
+      "instagram": "https://www.instagram.com/afiadogames/"
+    }
+  }
 }

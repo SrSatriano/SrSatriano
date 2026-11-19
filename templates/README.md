@@ -37,28 +37,76 @@
 
 <br/><br/>
 
-<a href="https://github.com/SrSatriano/CortaLive-Basico/releases/latest"><img src="https://img.shields.io/badge/Baixar_o_B%C3%A1sico-gr%C3%A1tis-16a34a?style=for-the-badge&logo=windows&logoColor=white" alt="Baixar o CortaLive Básico, grátis" /></a>
-<a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="https://img.shields.io/badge/Conhecer_o_Pro-at%C3%A9_4K-d97706?style=for-the-badge&logo=githubpages&logoColor=white" alt="Conhecer o CortaLive Pro" /></a>
+<a href="https://github.com/SrSatriano/CortaLive-Basico/releases/latest"><img src="https://img.shields.io/badge/Baixar_o_B%C3%A1sico_1.0-gr%C3%A1tis-16a34a?style=for-the-badge&logo=windows&logoColor=white" alt="Baixar o CortaLive Básico 1.0, grátis" /></a>
+{{CL_BUY_BADGE}}
 <a href="https://github.com/SrSatriano/CortaLive-Basico"><img src="https://img.shields.io/badge/C%C3%B3digo-CortaLive--Basico-181717?style=for-the-badge&logo=github" alt="Código do CortaLive Básico" /></a>
 <a href="https://github.com/SrSatriano/CortaLive-Pro/releases/latest"><img src="https://img.shields.io/badge/Instaladores-CortaLive--Pro-db2777?style=for-the-badge&logo=github" alt="Instaladores do CortaLive Pro" /></a>
 
 </div>
 
-**Você entrega um vídeo ou a pasta de uma live gravada; o CortaLive devolve cortes verticais prontos para postar.** Ele encontra os momentos fortes pelos picos de áudio, transcreve no seu PC com Whisper (o áudio não sai da máquina), deixa a IA escolher e dar nota aos melhores trechos e monta o corte 1080x1920: webcam em cima e jogo embaixo, legenda palavra a palavra, título de gancho e crédito ao criador. Para cada corte saem o `.mp4`, a capa `.jpg` e um `_POST.txt` com título, legenda e hashtags para copiar e colar.
+{{CL_PROMO}}
+**Você escolhe os canais; o CortaLive Pro grava a live, acha o momento e posta o corte.** Ele cruza o volume do áudio com o movimento do chat para achar os picos, transcreve no seu PC com Whisper (o áudio não sai da máquina), deixa a IA dar nota de 0 a 10 e escrever título, legenda e hashtags, e corta em vertical com o rosto do streamer em cima, legenda palavra a palavra e crédito ao criador. Depois publica no TikTok, no YouTube Shorts e no Instagram Reels nos horários da sua grade. O **Básico**, grátis e de código aberto, faz a parte do corte com vídeos que você já gravou.
 
-| | 🟢 [Básico](https://github.com/SrSatriano/CortaLive-Basico) (grátis, MIT) | 🟠 [Pro](https://srsatriano.github.io/CortaLive-Basico/) (licença) |
+<table>
+<tr>
+<td width="34%" align="center" valign="top">
+
+<a href="{{CL_SITE}}"><img src="assets/cortalive/video-poster.jpg" alt="Vídeo de 50 segundos com as telas do CortaLive Pro" width="100%" /></a>
+
+<sub>▶ <a href="{{CL_SITE}}">Ver o vídeo de 50 s</a> · telas reais, dados de demonstração</sub>
+
+</td>
+<td valign="top">
+
+### 📡 Rodando de verdade
+
+Eu fiz o CortaLive para o meu canal de cortes de games, o **{{CL_SHOWCASE}}**. Desde **{{CL_SINCE}}** quem posta lá é o próprio Pro, do meu PC. Dá para conferir antes de comprar:
+
+<a href="{{CL_TIKTOK}}"><img src="https://img.shields.io/badge/TikTok-@afiado.games-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok do Afiado Games" /></a>
+<a href="{{CL_YOUTUBE}}"><img src="https://img.shields.io/badge/YouTube_Shorts-@AfiadoGames-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube do Afiado Games" /></a>
+<a href="{{CL_INSTAGRAM}}"><img src="https://img.shields.io/badge/Reels-@afiadogames-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram do Afiado Games" /></a>
+
+| Etapa | O que o Pro faz |
+|---|---|
+| 🎥 **grava** | cola o link do canal (Twitch, YouTube ou Kick) e ele grava em blocos de 5 min, junto com o chat; também procura lives de um jogo |
+| 🎯 **escolhe** | áudio + chat acham os picos; abaixo da nota mínima que você definiu, não vira corte |
+| ✂️ **corta** | vertical até 4K, com duração e resolução ajustáveis |
+| 📤 **posta** | grade de horários por rede; TikTok só recebe cortes acima de 1:10 e Shorts/Reels até 3 min; pausa geral ou por rede |
+| 📊 **acompanha** | painel com o que está gravando, fila, próximos posts, métricas e análise |
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%"><a href="{{CL_SITE}}"><img src="assets/cortalive/visao-geral.webp" alt="CortaLive Pro: visão geral com cortes por dia e próximos posts" width="100%" /></a><br/><sub><b>Visão geral:</b> gravando agora, cortes do dia, fila e próximos posts</sub></td>
+<td width="50%"><a href="{{CL_SITE}}"><img src="assets/cortalive/cortes.webp" alt="CortaLive Pro: cortes com a nota da IA" width="100%" /></a><br/><sub><b>Cortes:</b> cada corte com a nota da IA, título e status por rede</sub></td>
+</tr>
+<tr>
+<td width="50%"><a href="{{CL_SITE}}"><img src="assets/cortalive/ao-vivo.webp" alt="CortaLive Pro: lives sendo gravadas" width="100%" /></a><br/><sub><b>Ao vivo:</b> lives sendo gravadas, blocos e mensagens do chat</sub></td>
+<td width="50%"><a href="{{CL_SITE}}"><img src="assets/cortalive/agenda.webp" alt="CortaLive Pro: agenda de publicação por rede" width="100%" /></a><br/><sub><b>Agenda:</b> horários por rede e os próximos 7 dias</sub></td>
+</tr>
+</table>
+
+<sub>Telas do programa com dados de demonstração no lugar dos canais reais.</sub>
+
+| | 🟢 [Básico](https://github.com/SrSatriano/CortaLive-Basico) | 🟠 [Pro]({{CL_SITE}}) |
 |---|:---:|:---:|
-| Corta vídeo ou live gravada que você já tem | ✅ | ✅ |
+| Corta vídeo ou live que você já gravou | ✅ | ✅ |
 | IA escolhe os momentos e escreve título, legenda e hashtags | ✅ | ✅ |
-| Legenda palavra a palavra, capa e texto do post | ✅ | ✅ |
+| Legenda palavra a palavra, capa e crédito ao criador | ✅ | ✅ |
 | Resolução do corte | 1080x1920 | até 4K (2160x3840) |
-| Usa o **chat ao vivo** para achar os melhores momentos | | ✅ |
+| Usa o **chat** para achar os picos | | ✅ |
 | **Grava lives sozinho** (Twitch, YouTube, Kick) | | ✅ |
-| **Publica e agenda** no TikTok, Shorts e Reels | | ✅ |
-| Painel com agenda, métricas das contas e análise | | ✅ |
+| **Publica** no TikTok, Shorts e Reels | | ✅ |
+| Agenda, pausa por rede, métricas e análise | | ✅ |
+| Código aberto | ✅ MIT | |
+| Licença | livre | vitalícia, até 2 PCs · reembolso em 7 dias |
+| Preço | **grátis** | {{CL_PRICE_CELL}} |
 | Suporte | Issues | e-mail |
 
-<sub>Windows 10/11 · Python 3.11+ · ffmpeg (o instalador oferece instalar) · não precisa de placa de vídeo · IA com a sua chave: Gemini, Claude, OpenAI ou Vertex AI.</sub>
+<sub>Windows 10/11 (64 bits) · não precisa de placa de vídeo nem saber editar · IA opcional com a sua chave (Gemini, Vertex, Claude ou OpenAI); sem chave, ele escolhe só pelos picos · Pro: pagamento pela Cakto, ativação automática com o e-mail da compra · <a href="{{CL_SITE}}instalar-pro.html">guia de instalação</a></sub>
 
 <br/>
 

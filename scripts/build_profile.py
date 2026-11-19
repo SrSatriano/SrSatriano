@@ -596,7 +596,7 @@ def cortalive_svg(t: dict, theme: str) -> str:
                        f'values="0.3;1;0.3" dur="1.5s" begin="{i*0.3}s" repeatCount="indefinite"/></path>')
     # planos
     plans = [("Básico", "grátis · código aberto (MIT)", "corta vídeos e lives que você já tem", t["accent2"]),
-             ("Pro", "licença · até 4K", "grava lives, lê o chat e publica sozinho", amber)]
+             ("Pro", f'{DATA["cortalive"]["price"]} · até 4K', "grava lives, lê o chat e publica sozinho", amber)]
     for i, (name, tag, desc, c) in enumerate(plans):
         px = 40 + i * 268
         out.append(f'<rect x="{px}" y="324" width="256" height="70" rx="14" fill="{t["panel"]}" fill-opacity="0.85" '
@@ -873,6 +873,44 @@ def stats_md(n: int, n_langs: int, n_ci: int, n_mit: int) -> str:
     return "\n".join(f'<img src="{shield(l, m, c)}" alt="{x(l)}: {x(m)}" />' for l, m, c in items)
 
 
+def promo_active(today: date | None = None) -> dict | None:
+    """Cupom do CortaLive, só enquanto estiver no prazo."""
+    promo = DATA.get("cortalive", {}).get("promo")
+    if not promo:
+        return None
+    return promo if (today or date.today()) <= date.fromisoformat(promo["until"]) else None
+
+
+def cortalive_blocks() -> dict[str, str]:
+    cl = DATA["cortalive"]
+    promo = promo_active()
+    sc = cl["showcase"]
+    price_cell = f'{cl["price"]}<br/><sub>pagamento único</sub>'
+    promo_md = ""
+    buy_label = f'Comprar o Pro · {cl["price"]}'
+    if promo:
+        d, m = promo["until"][8:10], promo["until"][5:7]
+        price_cell = (f'~~{cl["price"]}~~ **{promo["price"]}**<br/><sub>com o cupom <code>{promo["code"]}</code> '
+                      f'até {d}/{m}</sub>')
+        promo_md = (f'> [!TIP]\n> **Cupom `{promo["code"]}`:** {promo["discount"]} de desconto no Pro até '
+                    f'{promo["until_label"]}. Sai por **{promo["price"]}** à vista ou {promo["installments"]} '
+                    f'(preço cheio: {cl["price"]} ou {cl["installments"]}). No checkout, clique em '
+                    f'“Aplicar cupom” e digite o código.\n')
+        buy_label = f'Comprar o Pro · {promo["price"]} com cupom'
+    return {
+        "CL_PRICE_CELL": price_cell,
+        "CL_PROMO": promo_md,
+        "CL_BUY_BADGE": (f'<a href="{cl["site"]}"><img src="{shield(buy_label, None, "#d97706", "for-the-badge")}'
+                         f'&logo=githubpages&logoColor=white" alt="{x(buy_label)}" /></a>'),
+        "CL_SITE": cl["site"],
+        "CL_SINCE": cl["live_since"],
+        "CL_SHOWCASE": sc["name"],
+        "CL_TIKTOK": sc["tiktok"],
+        "CL_YOUTUBE": sc["youtube"],
+        "CL_INSTAGRAM": sc["instagram"],
+    }
+
+
 def render_readme(blocks: dict[str, str]) -> str:
     tpl = (ROOT / "templates" / "README.md").read_text(encoding="utf-8")
 
@@ -948,6 +986,7 @@ def main() -> None:
         "INDEX": index_md(),
         "COUNT": str(n),
         "UPDATED": fmt_date(DATA["updated"]),
+        **cortalive_blocks(),
     })
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
     print(f"ok: {n} projetos, {len(langs)} linguagens, {n_ci} com CI, {n_mit} MIT, temas: {', '.join(THEMES)}")
