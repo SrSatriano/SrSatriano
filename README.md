@@ -7,6 +7,7 @@
 
 <br/><br/>
 
+<a href="https://lhnnexus.com/pt"><img src="https://img.shields.io/badge/LHN_Nexus-lhnnexus.com-0d9488?style=for-the-badge&logo=vercel&logoColor=white" alt="LHN Nexus em lhnnexus.com" /></a>
 <a href="https://srsatriano.github.io/portfolio-matheus-satriano/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-online-0891b2?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfólio online" /></a>
 <a href="https://github.com/SrSatriano?tab=repositories"><img src="https://img.shields.io/badge/Reposit%C3%B3rios-45_p%C3%BAblicos-181717?style=for-the-badge&logo=github" alt="Repositórios no GitHub" /></a>
 <a href="https://www.linkedin.com/in/matheus-rodrigues-satriano"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -14,7 +15,8 @@
 
 <br/><br/>
 
-<a href="#cortalive"><img src="https://img.shields.io/badge/%F0%9F%94%A5_Novo-CortaLive%3A_cortes_verticais_com_IA-db2777?style=for-the-badge" alt="Novo: CortaLive, cortes verticais com IA" /></a>
+<a href="#lhn-nexus"><img src="https://img.shields.io/badge/Em_destaque-Ecossistema_LHN_Nexus-0d9488?style=for-the-badge" alt="Em destaque: ecossistema LHN Nexus" /></a>
+<a href="#cortalive"><img src="https://img.shields.io/badge/Lan%C3%A7amento-CortaLive_Pro-db2777?style=for-the-badge" alt="Lançamento: CortaLive Pro" /></a>
 
 <br/><br/>
 
@@ -33,9 +35,75 @@
 
 <br/>
 
+<a id="sobre"></a>
+
+## 👋 Sobre mim
+
+Sou **Matheus Rodrigues Satriano**, graduando em **Ciência da Computação** e desenvolvedor de software com foco em sistemas que exigem **controle, desempenho e clareza operacional**.
+
+Minha base é back-end, mas atuo em toda a stack quando isso melhora o produto: APIs, painéis web, motores de execução, apps Android, infraestrutura local, automação, telemetria e modelos de IA executados perto dos dados. Hoje conduzo o **ecossistema LHN Nexus** e o **CortaLive Pro**, e mantenho mais de 40 projetos abertos para estudo.
+
+| Área | Como isso vira código | Onde ver |
+|---|---|---|
+| ⚡ **Baixa latência** | C++20, Rust, SIMD/AVX-512, estruturas de dados e benchmarks | [Order Book](https://github.com/SrSatriano/ultra-low-latency-order-book-engine) · [AVX-512 Pricing](https://github.com/SrSatriano/avx512-options-pricing-engine) |
+| 🧠 **IA local** | RAG offline, Ollama, gateway de inferência e avaliação de LLMs | [Second Mind Vault](https://github.com/SrSatriano/local-rag-second-mind-vault) · [infergw](https://github.com/SrSatriano/distributed-ai-inference-cluster) |
+| 📈 **Mercado financeiro** | order book, precificação, risco, SMC, imposto na B3 e painéis operacionais | [LHN V90](https://github.com/SrSatriano/LHN-V90-IA) · [SMC Scanner](https://github.com/SrSatriano/smc-liquidity-scanner) |
+| 🌐 **Produto web** | Next.js, React, TypeScript, CSP e headers de segurança, i18n e deploy na Vercel | [lhnnexus.com](https://lhnnexus.com/pt) · [Portfólio](https://github.com/SrSatriano/portfolio-matheus-satriano) |
+| 🛠️ **Infraestrutura própria** | Docker, Ansible, eBPF, GitOps e logs comprimidos, sem dependência obrigatória de nuvem | [logroute](https://github.com/SrSatriano/high-compression-log-router) · [eBPF Tracer](https://github.com/SrSatriano/ebpf-latency-tracer-financial) |
+| 🇧🇷 **Soluções para o Brasil** | NF-e, IR na B3, vagas e finanças pessoais, com documentação e testes | [Fiscal OCR](https://github.com/SrSatriano/fiscal-data-ocr-engine) · [Vagas Alerta](https://github.com/SrSatriano/vagas-alerta) |
+
+> [!TIP]
+> **Princípio de engenharia:** se o problema não precisa sair da máquina, ele deve rodar localmente. A nuvem entra por necessidade técnica, não por hábito.
+
+---
+
+<a id="lhn-nexus"></a>
+
+## 🌐 Ecossistema LHN Nexus
+
+<div align="center">
+
+<a href="https://lhnnexus.com/pt"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/lhn-nexus.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/light/lhn-nexus.svg" /><img src="assets/dark/lhn-nexus.svg" alt="Ecossistema LHN Nexus: LHN Holding, LHN Finance, Nexus CRM e CortaLive Pro" width="100%" /></picture></a>
+
+<br/><br/>
+
+<a href="https://lhnnexus.com/pt"><img src="https://img.shields.io/badge/Visitar-lhnnexus.com-0d9488?style=for-the-badge&logo=vercel&logoColor=white" alt="Visitar lhnnexus.com" /></a>
+<a href="https://lhnnexus.com/pt/finance"><img src="https://img.shields.io/badge/LHN-Finance-0284c7?style=for-the-badge" alt="LHN Finance" /></a>
+<a href="https://lhnnexus.com/pt/nexus"><img src="https://img.shields.io/badge/Nexus-CRM-7c3aed?style=for-the-badge" alt="Nexus CRM" /></a>
+<a href="https://lhnnexus.com/pt/cortalive"><img src="https://img.shields.io/badge/CortaLive-Pro-db2777?style=for-the-badge" alt="CortaLive Pro" /></a>
+
+</div>
+
+O **LHN Nexus** é o portal que reúne as frentes de produto do grupo LHN em uma única experiência, publicada em **[lhnnexus.com](https://lhnnexus.com/pt)**. O lançamento oficial está marcado para **15 de fevereiro de 2027, às 00h (horário de Brasília)**; até lá, o site funciona como vitrine pública em modo seguro.
+
+| Frente | O que entrega | Status |
+|---|---|---|
+| 🏛️ **[LHN Holding](https://lhnnexus.com/pt)** | visão institucional do grupo, pilares e governança das frentes | vitrine publicada |
+| 📊 **[LHN Finance](https://lhnnexus.com/pt/finance)** | mesa analítica com simuladores de alocação, dividendos e risco, além de portal de notícias | demonstração com dados ilustrativos |
+| 🤝 **[Nexus CRM](https://lhnnexus.com/pt/nexus)** | pipeline comercial com automação e arquitetura multiagente | demonstração · liberação no lançamento |
+| ✂️ **[CortaLive Pro](https://lhnnexus.com/pt/cortalive)** | gravação de lives, cortes verticais com IA e publicação agendada | **à venda** · [detalhes abaixo](#cortalive) |
+
+<details>
+<summary><b>🔒 Engenharia por trás do site</b></summary>
+
+<br/>
+
+| Camada | Escolha |
+|---|---|
+| **Front-end** | Next.js 15 (App Router), React 19, TypeScript e Tailwind CSS |
+| **Experiência** | WebGL (three.js e cobe), GSAP e Framer Motion, respeitando `prefers-reduced-motion` |
+| **Idiomas** | nove idiomas no cliente, com português como base |
+| **Segurança** | CSP e headers restritivos; modo vitrine *fail-closed*, em que as ferramentas só abrem com liberação explícita no servidor |
+| **Back-ends** | FastAPI + SQLite com autenticação própria, fora do deploy público até o lançamento |
+| **Entrega** | Vercel, com typecheck, lint, build e testes de regressão de segurança antes de cada publicação |
+
+</details>
+
+---
+
 <a id="cortalive"></a>
 
-## 🔥 Novo: CortaLive
+## ✂️ CortaLive Pro
 
 <div align="center">
 
@@ -44,7 +112,7 @@
 <br/><br/>
 
 <a href="https://github.com/SrSatriano/CortaLive-Basico/releases/latest"><img src="https://img.shields.io/badge/Baixar_o_B%C3%A1sico_1.0-gr%C3%A1tis-16a34a?style=for-the-badge&logo=windows&logoColor=white" alt="Baixar o CortaLive Básico 1.0, grátis" /></a>
-<a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="https://img.shields.io/badge/Comprar%20o%20Pro%20%C2%B7%20R%24%20147%20com%20cupom-d97706?style=for-the-badge&logo=githubpages&logoColor=white" alt="Comprar o Pro · R$ 147 com cupom" /></a>
+<a href="https://lhnnexus.com/pt/cortalive"><img src="https://img.shields.io/badge/Comprar%20o%20Pro%20%C2%B7%20R%24%20147%20com%20cupom-d97706?style=for-the-badge" alt="Comprar o Pro · R$ 147 com cupom" /></a>
 <a href="https://github.com/SrSatriano/CortaLive-Basico"><img src="https://img.shields.io/badge/C%C3%B3digo-CortaLive--Basico-181717?style=for-the-badge&logo=github" alt="Código do CortaLive Básico" /></a>
 <a href="https://github.com/SrSatriano/CortaLive-Pro/releases/latest"><img src="https://img.shields.io/badge/Instaladores-CortaLive--Pro-db2777?style=for-the-badge&logo=github" alt="Instaladores do CortaLive Pro" /></a>
 
@@ -53,22 +121,22 @@
 > [!TIP]
 > **Cupom `CORTA150`:** R$ 150 de desconto no Pro até 29/11 às 23:59 (Brasília). Sai por **R$ 147** à vista ou 12x de R$ 15,27 (preço cheio: R$ 297 ou 12x de R$ 30,68). No checkout, clique em “Aplicar cupom” e digite o código.
 
-**Você escolhe os canais; o CortaLive Pro grava a live, acha o momento e posta o corte.** Ele cruza o volume do áudio com o movimento do chat para achar os picos, transcreve no seu PC com Whisper (o áudio não sai da máquina), deixa a IA dar nota de 0 a 10 e escrever título, legenda e hashtags, e corta em vertical com o rosto do streamer em cima, legenda palavra a palavra e crédito ao criador. Depois publica no TikTok, no YouTube Shorts e no Instagram Reels nos horários da sua grade. O **Básico**, grátis e de código aberto, faz a parte do corte com vídeos que você já gravou.
+**Você escolhe os canais; o CortaLive Pro grava a live, identifica os melhores momentos e publica o corte.** Ele cruza o volume do áudio com o movimento do chat para achar os picos, transcreve no seu PC com Whisper (o áudio não sai da máquina), deixa a IA dar nota de 0 a 10 e escrever título, legenda e hashtags, e corta em vertical com o rosto do streamer em cima, legenda palavra a palavra e crédito ao criador. Depois publica no TikTok, no YouTube Shorts e no Instagram Reels nos horários da sua grade. O **Básico**, grátis e de código aberto, faz a parte do corte com vídeos que você já gravou.
 
 <table>
 <tr>
 <td width="34%" align="center" valign="top">
 
-<a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="assets/cortalive/video-poster.jpg" alt="Vídeo de 50 segundos com as telas do CortaLive Pro" width="100%" /></a>
+<a href="https://lhnnexus.com/pt/cortalive"><img src="assets/cortalive/video-poster.jpg" alt="Vídeo de 50 segundos com as telas do CortaLive Pro" width="100%" /></a>
 
-<sub>▶ <a href="https://srsatriano.github.io/CortaLive-Basico/">Ver o vídeo de 50 s</a> · telas reais, dados de demonstração</sub>
+<sub>▶ <a href="https://lhnnexus.com/pt/cortalive">Ver o vídeo de 50 s</a> · telas reais, dados de demonstração</sub>
 
 </td>
 <td valign="top">
 
-### 📡 Rodando de verdade
+### 📡 Em produção
 
-Eu fiz o CortaLive para o meu canal de cortes de games, o **Afiado Games**. Desde **18/11/2026** quem posta lá é o próprio Pro, do meu PC. Dá para conferir antes de comprar:
+O CortaLive nasceu para o meu canal de cortes de games, o **Afiado Games**. Desde **18/11/2026**, as publicações do canal são feitas pelo próprio Pro, rodando no meu PC. Os resultados podem ser conferidos publicamente:
 
 <a href="https://www.tiktok.com/@afiado.games"><img src="https://img.shields.io/badge/TikTok-@afiado.games-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok do Afiado Games" /></a>
 <a href="https://www.youtube.com/@AfiadoGames"><img src="https://img.shields.io/badge/YouTube_Shorts-@AfiadoGames-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube do Afiado Games" /></a>
@@ -88,18 +156,18 @@ Eu fiz o CortaLive para o meu canal de cortes de games, o **Afiado Games**. Desd
 
 <table>
 <tr>
-<td width="50%"><a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="assets/cortalive/visao-geral.webp" alt="CortaLive Pro: visão geral com cortes por dia e próximos posts" width="100%" /></a><br/><sub><b>Visão geral:</b> gravando agora, cortes do dia, fila e próximos posts</sub></td>
-<td width="50%"><a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="assets/cortalive/cortes.webp" alt="CortaLive Pro: cortes com a nota da IA" width="100%" /></a><br/><sub><b>Cortes:</b> cada corte com a nota da IA, título e status por rede</sub></td>
+<td width="50%"><a href="https://lhnnexus.com/pt/cortalive"><img src="assets/cortalive/visao-geral.webp" alt="CortaLive Pro: visão geral com cortes por dia e próximos posts" width="100%" /></a><br/><sub><b>Visão geral:</b> gravando agora, cortes do dia, fila e próximos posts</sub></td>
+<td width="50%"><a href="https://lhnnexus.com/pt/cortalive"><img src="assets/cortalive/cortes.webp" alt="CortaLive Pro: cortes com a nota da IA" width="100%" /></a><br/><sub><b>Cortes:</b> cada corte com a nota da IA, título e status por rede</sub></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="assets/cortalive/ao-vivo.webp" alt="CortaLive Pro: lives sendo gravadas" width="100%" /></a><br/><sub><b>Ao vivo:</b> lives sendo gravadas, blocos e mensagens do chat</sub></td>
-<td width="50%"><a href="https://srsatriano.github.io/CortaLive-Basico/"><img src="assets/cortalive/agenda.webp" alt="CortaLive Pro: agenda de publicação por rede" width="100%" /></a><br/><sub><b>Agenda:</b> horários por rede e os próximos 7 dias</sub></td>
+<td width="50%"><a href="https://lhnnexus.com/pt/cortalive"><img src="assets/cortalive/ao-vivo.webp" alt="CortaLive Pro: lives sendo gravadas" width="100%" /></a><br/><sub><b>Ao vivo:</b> lives sendo gravadas, blocos e mensagens do chat</sub></td>
+<td width="50%"><a href="https://lhnnexus.com/pt/cortalive"><img src="assets/cortalive/agenda.webp" alt="CortaLive Pro: agenda de publicação por rede" width="100%" /></a><br/><sub><b>Agenda:</b> horários por rede e os próximos 7 dias</sub></td>
 </tr>
 </table>
 
 <sub>Telas do programa com dados de demonstração no lugar dos canais reais.</sub>
 
-| | 🟢 [Básico](https://github.com/SrSatriano/CortaLive-Basico) | 🟠 [Pro](https://srsatriano.github.io/CortaLive-Basico/) |
+| | 🟢 [Básico](https://github.com/SrSatriano/CortaLive-Basico) | 🟠 [Pro](https://lhnnexus.com/pt/cortalive) |
 |---|:---:|:---:|
 | Corta vídeo ou live que você já gravou | ✅ | ✅ |
 | IA escolhe os momentos e escreve título, legenda e hashtags | ✅ | ✅ |
@@ -114,7 +182,7 @@ Eu fiz o CortaLive para o meu canal de cortes de games, o **Afiado Games**. Desd
 | Preço | **grátis** | ~~R$ 297~~ **R$ 147**<br/><sub>com o cupom <code>CORTA150</code> até 29/11</sub> |
 | Suporte | Issues | e-mail |
 
-<sub>Windows 10/11 (64 bits) · não precisa de placa de vídeo nem saber editar · IA opcional com a sua chave (Gemini, Vertex, Claude ou OpenAI); sem chave, ele escolhe só pelos picos · Pro: pagamento pela Cakto, ativação automática com o e-mail da compra · <a href="https://srsatriano.github.io/CortaLive-Basico/instalar-pro.html">guia de instalação</a></sub>
+<sub>Windows 10/11 (64 bits) · não precisa de placa de vídeo nem saber editar · IA opcional com a sua chave (Gemini, Vertex, Claude ou OpenAI); sem chave, ele escolhe só pelos picos · Pro: pagamento pela Cakto, ativação automática com o e-mail da compra · <a href="https://lhnnexus.com/pt/cortalive/instalar">guia de instalação</a></sub>
 
 <br/>
 
@@ -134,8 +202,9 @@ Eu fiz o CortaLive para o meu canal de cortes de games, o **Afiado Games**. Desd
 <br/>
 
 <sub>
-<a href="#cortalive">🔥 CortaLive</a> ·
-<a href="#quem-sou">👋 Quem sou</a> ·
+<a href="#sobre">👋 Sobre</a> ·
+<a href="#lhn-nexus">🌐 LHN Nexus</a> ·
+<a href="#cortalive">✂️ CortaLive Pro</a> ·
 <a href="#em-numeros">📊 Em números</a> ·
 <a href="#lhn-sovereign-v90">🛰️ LHN V90</a> ·
 <a href="#destaques">⭐ Destaques</a> ·
@@ -148,27 +217,6 @@ Eu fiz o CortaLive para o meu canal de cortes de games, o **Afiado Games**. Desd
 </sub>
 
 </div>
-
----
-
-<a id="quem-sou"></a>
-
-## 👋 Quem sou
-
-Sou **Matheus Rodrigues Satriano**, graduando em **Ciência da Computação** e desenvolvedor focado em sistemas que exigem **controle, desempenho e clareza operacional**.
-
-Meu centro de gravidade é back-end, mas eu atravesso a stack quando isso melhora o produto: APIs, painéis, motores de execução, apps Android, infraestrutura local, automação, telemetria e modelos de IA rodando perto dos dados.
-
-| Direção | Como isso vira código | Onde ver |
-|---|---|---|
-| ⚡ **Baixa latência** | C++20, Rust, SIMD/AVX-512, estruturas de dados e benchmarks | [Order Book](https://github.com/SrSatriano/ultra-low-latency-order-book-engine) · [AVX-512 Pricing](https://github.com/SrSatriano/avx512-options-pricing-engine) |
-| 🧠 **IA local** | RAG offline, Ollama, gateway de inferência, avaliação de LLMs | [Second Mind Vault](https://github.com/SrSatriano/local-rag-second-mind-vault) · [infergw](https://github.com/SrSatriano/distributed-ai-inference-cluster) |
-| 📈 **Mercado financeiro** | order book, pricing, risco, SMC, imposto na B3 e painéis operacionais | [LHN V90](https://github.com/SrSatriano/LHN-V90-IA) · [SMC Scanner](https://github.com/SrSatriano/smc-liquidity-scanner) |
-| 🛠️ **Infra soberana** | Docker, Ansible, eBPF, GitOps e logs comprimidos, sem depender de nuvem | [logroute](https://github.com/SrSatriano/high-compression-log-router) · [eBPF Tracer](https://github.com/SrSatriano/ebpf-latency-tracer-financial) |
-| 🇧🇷 **Produto real** | NF-e, IR na B3, vagas, finanças pessoais, com README e testes | [Fiscal OCR](https://github.com/SrSatriano/fiscal-data-ocr-engine) · [Vagas Alerta](https://github.com/SrSatriano/vagas-alerta) |
-
-> [!TIP]
-> **Princípio pessoal:** se o problema não precisa sair da máquina, ele deve conseguir rodar local. A nuvem entra por necessidade técnica, não por reflexo.
 
 ---
 
@@ -246,7 +294,7 @@ Ele combina **FastAPI**, **Next.js**, integração com **Bybit V5** (REST + WebS
 
 ## ⭐ Destaques
 
-Os projetos que eu mostraria primeiro. Cada card abre o repositório.
+Uma seleção dos projetos mais representativos do meu trabalho. Cada card abre o repositório correspondente.
 
 <div align="center">
 
@@ -547,7 +595,7 @@ Todos os 45 repositórios públicos, agrupados por frente. À esquerda, o card (
 <li>Roda no Windows, sem placa de vídeo, com a sua chave (Gemini, Claude, OpenAI ou Vertex)</li>
 </ul>
 <sub><b>Stack:</b> <code>Python</code> <code>FFmpeg</code> <code>Whisper</code> <code>Gemini</code> <code>Claude</code></sub><br/>
-<sub><a href="https://github.com/SrSatriano/CortaLive-Basico">📂 Código</a> · <a href="https://github.com/SrSatriano/CortaLive-Basico#readme">📖 README</a> · <a href="https://github.com/SrSatriano/CortaLive-Basico/releases/latest">⬇️ Baixar</a> · <a href="https://srsatriano.github.io/CortaLive-Basico/">🌐 Site</a> · <a href="https://github.com/SrSatriano/CortaLive-Basico/commits">🕒 Commits</a> · <a href="https://github.com/SrSatriano/CortaLive-Basico/issues">💬 Issues</a></sub>
+<sub><a href="https://github.com/SrSatriano/CortaLive-Basico">📂 Código</a> · <a href="https://github.com/SrSatriano/CortaLive-Basico#readme">📖 README</a> · <a href="https://github.com/SrSatriano/CortaLive-Basico/releases/latest">⬇️ Baixar</a> · <a href="https://lhnnexus.com/pt/cortalive">🌐 Site</a> · <a href="https://github.com/SrSatriano/CortaLive-Basico/commits">🕒 Commits</a> · <a href="https://github.com/SrSatriano/CortaLive-Basico/issues">💬 Issues</a></sub>
 
 </td>
 </tr>
@@ -563,7 +611,7 @@ Todos os 45 repositórios públicos, agrupados por frente. À esquerda, o card (
 <li>R$ 297 em pagamento único: licença vitalícia para 2 PCs, reembolso em 7 dias</li>
 </ul>
 <sub><b>Stack:</b> <code>Windows</code> <code>4K</code> <code>Twitch</code> <code>YouTube</code> <code>Kick</code></sub><br/>
-<sub><a href="https://github.com/SrSatriano/CortaLive-Pro">📂 Código</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro#readme">📖 README</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro/releases/latest">⬇️ Baixar</a> · <a href="https://srsatriano.github.io/CortaLive-Basico/">🌐 Site</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro/commits">🕒 Commits</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro/issues">💬 Issues</a></sub>
+<sub><a href="https://github.com/SrSatriano/CortaLive-Pro">📂 Código</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro#readme">📖 README</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro/releases/latest">⬇️ Baixar</a> · <a href="https://lhnnexus.com/pt/cortalive">🌐 Site</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro/commits">🕒 Commits</a> · <a href="https://github.com/SrSatriano/CortaLive-Pro/issues">💬 Issues</a></sub>
 
 </td>
 </tr>
@@ -1121,11 +1169,12 @@ Cada frente orbita o LHN: os módulos isolam um problema (latência, risco, infe
 | Se você quer ver… | Comece por | Por quê |
 |---|---|---|
 | ⚡ **Performance e microestrutura** | [Order Book](https://github.com/SrSatriano/ultra-low-latency-order-book-engine) → [AVX-512 Pricing](https://github.com/SrSatriano/avx512-options-pricing-engine) | C++20 sem dependências, benchmarks e CI |
+| 🌐 **Um produto web publicado** | [lhnnexus.com](https://lhnnexus.com/pt) → [Portfólio](https://github.com/SrSatriano/portfolio-matheus-satriano) | Next.js 15, i18n, CSP e deploy na Vercel |
 | 🛰️ **Um sistema completo** | [LHN Sovereign V90](https://github.com/SrSatriano/LHN-V90-IA) → [LHN Android](https://github.com/SrSatriano/lhn-android-apps) | back-end, painel, risco, IA e app móvel |
 | 🧠 **IA local e privacidade** | [Second Mind Vault](https://github.com/SrSatriano/local-rag-second-mind-vault) → [infergw](https://github.com/SrSatriano/distributed-ai-inference-cluster) | RAG com citações e gateway OpenAI-compatível |
 | 🇧🇷 **Produto para o Brasil** | [Fiscal OCR](https://github.com/SrSatriano/fiscal-data-ocr-engine) → [Tax-Loss B3](https://github.com/SrSatriano/tax-loss-harvesting-engine) | NF-e, DANFE e imposto de renda na B3 |
 | 🔔 **Ferramentas do dia a dia** | [Vagas Alerta](https://github.com/SrSatriano/vagas-alerta) → [RotaNorte](https://github.com/SrSatriano/rotanorte) | coleta, deduplicação, notas e alertas no Telegram |
-| ✂️ **Cortes para criadores** | [CortaLive Básico](https://github.com/SrSatriano/CortaLive-Basico) → [CortaLive Pro](https://srsatriano.github.io/CortaLive-Basico/) | live gravada vira corte vertical com legenda e IA |
+| ✂️ **Cortes para criadores** | [CortaLive Básico](https://github.com/SrSatriano/CortaLive-Basico) → [CortaLive Pro](https://lhnnexus.com/pt/cortalive) | live gravada vira corte vertical com legenda e IA |
 | 🎬 **Criação de conteúdo** | [VideoOS](https://github.com/SrSatriano/videoos) → [Channel Analytics](https://github.com/SrSatriano/multi-channel-analytics-dashboard) | edição em massa e métricas de canais |
 | 🦀 **Rust e sistemas** | [logroute](https://github.com/SrSatriano/high-compression-log-router) → [Terminal TUI](https://github.com/SrSatriano/unified-trading-super-terminal) | Zstd, CLI, Ratatui e testes |
 | ⛓️ **Web3** | [Identity Vault ZK](https://github.com/SrSatriano/identity-vault-zk-proofs) → [Honeypot Analyzer](https://github.com/SrSatriano/honeypot-rugpull-analyzer) | provas Groth16 e análise de contratos |
@@ -1170,8 +1219,8 @@ Projetos com selo **CI** rodam os testes a cada push; clique no selo para ver a 
 | [Hallucination Trap](https://github.com/SrSatriano/cognitive-bias-hallucination-trap) | 🧠 IA local | Python | Suíte de testes adversariais para LLMs | [código](https://github.com/SrSatriano/cognitive-bias-hallucination-trap) |
 | [Voice Cloning TTS Gateway](https://github.com/SrSatriano/voice-cloning-tts-api-gateway) | 🧠 IA local | Python | API self-hosted de síntese e clonagem de voz | [código](https://github.com/SrSatriano/voice-cloning-tts-api-gateway) |
 | [Viral Trend Predictor](https://github.com/SrSatriano/viral-trend-sentiment-predictor) | 🧠 IA local | Python | Cruza volume, sentimento e histórico para achar tendências cedo | [código](https://github.com/SrSatriano/viral-trend-sentiment-predictor) |
-| [CortaLive Básico](https://github.com/SrSatriano/CortaLive-Basico) | 🎬 Vídeo & criadores | Python | 🔥 **Novo.** Versão 1.0.0, grátis e MIT | [código](https://github.com/SrSatriano/CortaLive-Basico) · [🌐](https://srsatriano.github.io/CortaLive-Basico/) |
-| [CortaLive Pro](https://github.com/SrSatriano/CortaLive-Pro) | 🎬 Vídeo & criadores | Instalador | 🔥 **Novo.** A versão completa do CortaLive (instaladores; código fechado) | [código](https://github.com/SrSatriano/CortaLive-Pro) · [🌐](https://srsatriano.github.io/CortaLive-Basico/) |
+| [CortaLive Básico](https://github.com/SrSatriano/CortaLive-Basico) | 🎬 Vídeo & criadores | Python | 🔥 **Novo.** Versão 1.0.0, grátis e MIT | [código](https://github.com/SrSatriano/CortaLive-Basico) · [🌐](https://lhnnexus.com/pt/cortalive) |
+| [CortaLive Pro](https://github.com/SrSatriano/CortaLive-Pro) | 🎬 Vídeo & criadores | Instalador | 🔥 **Novo.** A versão completa do CortaLive (instaladores; código fechado) | [código](https://github.com/SrSatriano/CortaLive-Pro) · [🌐](https://lhnnexus.com/pt/cortalive) |
 | [VideoOS](https://github.com/SrSatriano/videoos) | 🎬 Vídeo & criadores | Python | Editor local-first de vídeos curtos verticais | [código](https://github.com/SrSatriano/videoos) · ✅ CI |
 | [Multi-Channel Analytics](https://github.com/SrSatriano/multi-channel-analytics-dashboard) | 🎬 Vídeo & criadores | TypeScript | Painel para quem tem mais de um canal no YouTube | [código](https://github.com/SrSatriano/multi-channel-analytics-dashboard) · ✅ CI |
 | [OmniForge Studio](https://github.com/SrSatriano/omniforge-studio) | 🎬 Vídeo & criadores | Python | Estúdio desktop para Windows que produz livros para Amazon KDP (PDF de impressão, capa, lombada,… | [código](https://github.com/SrSatriano/omniforge-studio) · ✅ CI |
@@ -1312,6 +1361,7 @@ Projetos com selo **CI** rodam os testes a cada push; clique no selo para ver a 
 <div align="center">
 
 <table>
+  <tr><td align="center">🛰️</td><td><strong>LHN Nexus</strong></td><td><a href="https://lhnnexus.com/pt">lhnnexus.com</a></td></tr>
   <tr><td align="center">🌐</td><td><strong>Portfólio</strong></td><td><a href="https://srsatriano.github.io/portfolio-matheus-satriano/">srsatriano.github.io/portfolio-matheus-satriano</a></td></tr>
   <tr><td align="center">🎬</td><td><strong>Satriano Studio</strong></td><td><a href="https://srsatriano.github.io/satriano-studio/">srsatriano.github.io/satriano-studio</a></td></tr>
   <tr><td align="center">🐙</td><td><strong>GitHub</strong></td><td><a href="https://github.com/SrSatriano">github.com/SrSatriano</a></td></tr>
@@ -1326,9 +1376,9 @@ Projetos com selo **CI** rodam os testes a cada push; clique no selo para ver a 
 
 <br/><br/>
 
-**Aberto a desafios técnicos, projetos open source, back-end, sistemas quant, IA local e boas conversas sobre latência.**
+**Disponível para oportunidades e parcerias em back-end, sistemas quantitativos, IA aplicada e produtos web, além de colaborações open source.**
 
-<sub>Atualizado em 19 nov 2026 · visuais gerados por <a href="scripts/build_profile.py"><code>scripts/build_profile.py</code></a> a partir de <a href="data/projects.json"><code>data/projects.json</code></a> · tema claro e escuro automáticos</sub>
+<sub>Atualizado em 22 nov 2026 · visuais gerados por <a href="scripts/build_profile.py"><code>scripts/build_profile.py</code></a> a partir de <a href="data/projects.json"><code>data/projects.json</code></a> · tema claro e escuro automáticos</sub>
 
 <br/><br/>
 
