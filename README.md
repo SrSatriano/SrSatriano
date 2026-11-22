@@ -209,7 +209,7 @@ O CortaLive nasceu para o meu canal de cortes de games, o **Afiado Games**. Desd
 <a href="#lhn-sovereign-v90">🛰️ LHN V90</a> ·
 <a href="#destaques">⭐ Destaques</a> ·
 <a href="#catalogo">🗂️ Catálogo</a> ·
-<a href="#ecossistema">🔗 Ecossistema</a> ·
+<a href="#ecossistema">🔗 Mapa dos projetos</a> ·
 <a href="#por-onde-comecar">🧑‍💻 Por onde começar</a> ·
 <a href="#stack">🧰 Stack</a> ·
 <a href="#atividade">📈 Atividade</a> ·
@@ -1150,7 +1150,7 @@ Todos os 45 repositórios públicos, agrupados por frente. À esquerda, o card (
 
 <a id="ecossistema"></a>
 
-## 🔗 Ecossistema
+## 🔗 Mapa dos projetos
 
 Cada frente orbita o LHN: os módulos isolam um problema (latência, risco, inferência, logs) para estudar e medir separado, e o que amadurece volta para o sistema principal.
 
