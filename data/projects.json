@@ -1,6 +1,6 @@
 {
   "owner": "SrSatriano",
-  "updated": "2026-11-19",
+  "updated": "2026-11-22",
   "categories": [
     {
       "id": "quant",
@@ -371,7 +371,7 @@
       "new": true,
       "license": "MIT",
       "created": "2026-11-19",
-      "demo": "https://srsatriano.github.io/CortaLive-Basico/",
+      "demo": "https://lhnnexus.com/pt/cortalive",
       "download": "https://github.com/SrSatriano/CortaLive-Basico/releases/latest",
       "title": "CortaLive Básico",
       "summary": "Versão 1.0.0, grátis e MIT: vídeos e lives gravadas viram cortes verticais para TikTok, Shorts e Reels, com picos de áudio, Whisper local e IA que dá nota aos melhores momentos.",
@@ -397,7 +397,7 @@
       "new": true,
       "license": "Comercial",
       "created": "2026-11-19",
-      "demo": "https://srsatriano.github.io/CortaLive-Basico/",
+      "demo": "https://lhnnexus.com/pt/cortalive",
       "download": "https://github.com/SrSatriano/CortaLive-Pro/releases/latest",
       "title": "CortaLive Pro",
       "summary": "A versão completa do CortaLive (instaladores; código fechado): grava lives sozinho, cruza áudio e chat para achar os picos, corta em até 4K e publica nas redes. Posta no canal Afiado Games desde 18/11.",
@@ -978,7 +978,8 @@
     }
   ],
   "cortalive": {
-    "site": "https://srsatriano.github.io/CortaLive-Basico/",
+    "site": "https://lhnnexus.com/pt/cortalive",
+    "install": "https://lhnnexus.com/pt/cortalive/instalar",
     "price": "R$ 297",
     "installments": "12x de R$ 30,68",
     "promo": {

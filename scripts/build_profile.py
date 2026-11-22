@@ -9,7 +9,7 @@ Entradas:
     templates/README.md      texto do README com marcadores {{...}}
 
 Saídas (cada SVG existe em assets/dark/ e assets/light/):
-    banner.svg  terminal.svg  cortalive.svg  overview.svg  categories.svg  languages.svg  timeline.svg
+    banner.svg  terminal.svg  cortalive.svg  lhn-nexus.svg  overview.svg  categories.svg  languages.svg  timeline.svg
     lhn-architecture.svg  constellation.svg  footer.svg
     nav/<id>.svg  sections/<id>.svg  cards/<repo>.svg
     README.md (gerado a partir do template; não edite à mão)
@@ -55,7 +55,7 @@ MILESTONES = {
     "2026-04": "LHN Sovereign V90 público",
     "2026-05": "Módulos open source + portfólio",
     "2026-10": "Site do Satriano Studio",
-    "2026-11": "CortaLive, ferramentas de produto e apps",
+    "2026-11": "CortaLive Pro e site lhnnexus.com",
 }
 
 THEMES = {
@@ -263,6 +263,8 @@ def terminal_svg(t: dict) -> str:
         ("› ", "LHN Sovereign V90 · terminal quant local com IA e risco", blue, "#e2e8f0"),
         ("› ", "C++ · Rust · Python · TypeScript · Go · Kotlin", blue, "#e2e8f0"),
         ("› ", "baixa latência · RAG offline · fiscal BR · Web3 · apps Android", blue, "#e2e8f0"),
+        ("$ ", "open https://lhnnexus.com", amber, "#e2e8f0"),
+        ("› ", "LHN Nexus · Holding · Finance · Nexus CRM · CortaLive Pro", "#c4b5fd", "#e2e8f0"),
         ("$ ", "cortalive cortar live.mp4", amber, "#e2e8f0"),
         ("› ", "10 cortes verticais prontos · legenda, capa e texto do post", "#f472b6", "#e2e8f0"),
         ("$ ", "echo $PRINCIPIO", amber, "#e2e8f0"),
@@ -698,6 +700,54 @@ def lhn_svg(t: dict, theme: str) -> str:
     return svg_open(W, H, label) + panel_bg(t, W, H) + "".join(body) + "</svg>"
 
 
+def nexus_svg(t: dict, theme: str) -> str:
+    """Ecossistema LHN Nexus: o site lhnnexus.com e as quatro frentes de produto."""
+    W, H = 1000, 420
+    dark = theme == "dark"
+    gold = "#fbbf24" if dark else "#b45309"
+    cyan = "#38bdf8" if dark else "#0284c7"
+    violet = "#a78bfa" if dark else "#7c3aed"
+    pink = "#f472b6" if dark else "#db2777"
+    hub = "#2dd4bf" if dark else "#0d9488"
+    body = [f'<defs><radialGradient id="nh" cx="0.5" cy="0.52" r="0.42"><stop offset="0" stop-color="{hub}" '
+            f'stop-opacity="{0.20 if dark else 0.12}"/><stop offset="1" stop-color="{hub}" stop-opacity="0"/>'
+            f'</radialGradient></defs><rect x="1" y="1" width="{W-2}" height="{H-2}" rx="16" fill="url(#nh)"/>']
+    body.append(f'<text x="30" y="42" fill="{t["text"]}" font-family="{SANS}" font-size="19" font-weight="700">'
+                f'Ecossistema LHN Nexus</text>'
+                f'<text x="30" y="64" fill="{t["faint"]}" font-family="{SANS}" font-size="12.5">'
+                f'Um portal, quatro frentes: institucional, mercado, CRM e criação de conteúdo.</text>')
+    # núcleo
+    body.append(f'<rect x="370" y="140" width="260" height="150" rx="18" fill="{t["panel"]}" stroke="{hub}" '
+                f'stroke-width="2"/><rect x="370" y="140" width="260" height="150" rx="18" fill="{hub}" fill-opacity="0.08"/>'
+                + icon("cube", 500, 176, 30, hub) +
+                f'<text x="500" y="218" text-anchor="middle" fill="{t["text"]}" font-family="{SANS}" font-size="21" '
+                f'font-weight="800">LHN Nexus</text>'
+                f'<text x="500" y="240" text-anchor="middle" fill="{hub}" font-family="{MONO}" font-size="13">lhnnexus.com</text>'
+                f'<text x="500" y="266" text-anchor="middle" fill="{t["muted"]}" font-family="{SANS}" font-size="11.5">'
+                f'Next.js 15 · React 19 · 9 idiomas</text>')
+    left = [("LHN Holding", "visão do grupo e governança", gold, "briefcase", 110),
+            ("LHN Finance", "mesa analítica e simuladores", cyan, "chart", 250)]
+    right = [("Nexus CRM", "pipeline e agentes comerciais", violet, "list", 110),
+             ("CortaLive Pro", "cortes verticais com IA", pink, "scissors", 250)]
+    for title, sub, col, ic, by in left:
+        body.append(box(t, 30, by, 240, 62, title, sub, col, ic))
+        body.append(flow(370, 215, 270, by + 31, col))
+    for title, sub, col, ic, by in right:
+        body.append(box(t, 730, by, 240, 62, title, sub, col, ic))
+        body.append(flow(630, 215, 730, by + 31, col))
+    # selo de lançamento
+    body.append(f'<rect x="330" y="322" width="340" height="30" rx="15" fill="{t["pill"]}" stroke="{hub}" stroke-opacity="0.6"/>'
+                f'<circle cx="350" cy="337" r="4.5" fill="{hub}"><animate attributeName="opacity" values="1;0.25;1" '
+                f'dur="2s" repeatCount="indefinite"/></circle>'
+                f'<text x="510" y="342" text-anchor="middle" fill="{t["text2"]}" font-family="{SANS}" font-size="12.5" '
+                f'font-weight="600">Lançamento oficial: 15 fev 2027 · 00h (Brasília)</text>')
+    body.append(f'<text x="30" y="{H-22}" fill="{t["faint"]}" font-family="{SANS}" font-size="11.5">'
+                f'Vitrine pública em modo seguro: dados de demonstração identificados e ferramentas liberadas no lançamento.</text>')
+    label = ("Ecossistema LHN Nexus: o portal lhnnexus.com reúne LHN Holding, LHN Finance, Nexus CRM e CortaLive Pro; "
+             "lançamento oficial em 15 de fevereiro de 2027")
+    return svg_open(W, H, label) + panel_bg(t, W, H) + "".join(body) + "</svg>"
+
+
 def short_title(p: dict) -> str:
     s = p["title"].split(":")[0]
     return s if len(s) <= 25 else s[:24] + "…"
@@ -782,6 +832,10 @@ def pic(path: str, alt: str, width: str = "100%") -> str:
             f'<img src="assets/dark/{path}" alt="{x(alt)}" width="{width}" /></picture>')
 
 
+def card_pic(p: dict) -> str:
+    return pic(f"cards/{p['name']}.svg", p["title"] + ": " + p["summary"])
+
+
 def _esc(s: str) -> str:
     return quote(s.replace("-", "--").replace("_", "__"), safe="")
 
@@ -826,7 +880,7 @@ def catalog_md() -> str:
         for p in items:
             parts.append(
                 f'<tr>\n<td width="48%" valign="top"><a href="{GH}/{p["name"]}">'
-                f'{pic(f"cards/{p["name"]}.svg", p["title"] + ": " + p["summary"])}</a></td>\n'
+                f'{card_pic(p)}</a></td>\n'
                 f'<td valign="top">\n\n{detail_cell(p)}\n\n</td>\n</tr>')
         parts.append('</table>\n\n</details>\n\n<p align="right"><a href="#topo">⬆ voltar ao topo</a></p>\n')
     return "\n".join(parts)
@@ -838,7 +892,7 @@ def featured_md() -> str:
     rows = []
     for i in range(0, len(feats), 2):
         cells = "".join(f'<td width="50%"><a href="{GH}/{p["name"]}">'
-                        f'{pic(f"cards/{p["name"]}.svg", p["title"] + ": " + p["summary"])}</a></td>'
+                        f'{card_pic(p)}</a></td>'
                         for p in feats[i:i + 2])
         rows.append(f"<tr>{cells}</tr>")
     return "<table>\n" + "\n".join(rows) + "\n</table>"
@@ -901,8 +955,9 @@ def cortalive_blocks() -> dict[str, str]:
         "CL_PRICE_CELL": price_cell,
         "CL_PROMO": promo_md,
         "CL_BUY_BADGE": (f'<a href="{cl["site"]}"><img src="{shield(buy_label, None, "#d97706", "for-the-badge")}'
-                         f'&logo=githubpages&logoColor=white" alt="{x(buy_label)}" /></a>'),
+                         f'" alt="{x(buy_label)}" /></a>'),
         "CL_SITE": cl["site"],
+        "CL_INSTALL": cl["install"],
         "CL_SINCE": cl["live_since"],
         "CL_SHOWCASE": sc["name"],
         "CL_TIKTOK": sc["tiktok"],
@@ -962,6 +1017,7 @@ def main() -> None:
             "timeline.svg": timeline_svg(t, theme),
             "lhn-architecture.svg": lhn_svg(t, theme),
             "cortalive.svg": cortalive_svg(t, theme),
+            "lhn-nexus.svg": nexus_svg(t, theme),
             "constellation.svg": constellation_svg(t, theme),
         }
         for p in PROJECTS:
